@@ -1,7 +1,5 @@
 What follows is a list of text-based file formats with command line tools for Linux for manipulating each.
 
-<!-- more -->
-
 ## CSV, TSV
 
 | Name | Programming language | Database engine | Features | Usage link | License |
@@ -40,3 +38,7 @@ Using jq with a format converter (like [mine](https://github.com/dbohdan/remarsh
 | [GNU Recutils](http://www.gnu.org/software/recutils/) | "[A] set of tools and libraries to access human-editable, plain text databases called recfiles." | Text-based, roughly "key: value" |
 | [SDB](https://github.com/radare/sdb) | "[A] simple string key/value database based on djb's cdb disk storage and supports JSON and arrays introspection." | Binary |
 | [sqlite3(1)](https://www.sqlite.org/cli.html) | "[A] simple command-line utility [...] that allows the user to manually enter and execute SQL statements against an SQLite database." | Binary |
+
+## License
+
+The contents of this repository is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
