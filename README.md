@@ -10,6 +10,7 @@ What follows is a list of text-based file formats with command line tools for ma
 * [Configuration files](#configuration-files)
 * [Bonus round: CLIs for single-file databases](#bonus-round-clis-for-single-file-databases)
 * [License](#license)
+* [Disclosure](#disclosure)
 
 # DSV
 
@@ -72,8 +73,6 @@ Using jq with a format converter like [Remarshal](https://github.com/dbohdan/rem
 | [GNU Recutils](http://www.gnu.org/software/recutils/) | "[A] set of tools and libraries to access human-editable, plain text databases called recfiles." | Text-based, roughly "key: value" |
 | [SDB](https://github.com/radare/sdb) | "[A] simple string key/value database based on djb's cdb disk storage and supports JSON and arrays introspection." | Binary |
 | [sqlite3(1)](https://www.sqlite.org/cli.html) | "[A] simple command-line utility [...] that allows the user to manually enter and execute SQL statements against an SQLite database." | Binary |
-
-<hr>
 
 # License
 
