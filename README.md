@@ -40,6 +40,9 @@ Awk is a POSIX-standard command line tool for processing this sort of data.
 
 * [xml2](http://www.ofb.net/~egnor/xml2/) — convert XML and HTML to and from flat, greppable lists of "path=value" statements.
 
+* [tq](https://github.com/plainas/tq) - retrieve content from HTML using CSS selectors. 
+
+
 See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
 # JSON
