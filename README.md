@@ -26,13 +26,13 @@ Awk is a POSIX-standard command line tool for processing this sort of data.
 
 | Name | Programming language and database engine | Features | Usage link | License |
 |------|------------------------------------------|----------|------------|---------|
+| [csvkit](https://github.com/wireservice/csvkit) | Python, SQLite 3 | Use header row for column names, custom input and output encoding, custom input field separator, custom output field separator, custom output formatting, CSV JOINs, Python module. Excel and JSON to CSV. CSV to JSON.  SQL queries for CSV. | [Usage](http://csvkit.readthedocs.io/en/0.9.1/index.html) | MIT |
 | [q](https://github.com/harelba/q) | Python, SQLite 3 | Use header row for column names, custom input and output encoding, gzipped input, custom input field separator (string literal), custom output field separator, custom output formatting, table JOINs, Python module. | [Usage](https://github.com/harelba/q/blob/master/doc/USAGE.markdown) | GNU GPL 3 |
 | [sqawk](https://github.com/tjunier/sqawk) | C, SQLite 3 | Use header row for column names, column name aliases, can skip lines until a regexp matches, custom input field separator (string literal, per-file), keep SQLite file, show generated SQL, table JOINs. | [Usage](https://github.com/tjunier/sqawk/blob/master/sqawk.1) | ? |
 | [Sqawk](https://github.com/dbohdan/sqawk) | Tcl, SQLite 3 | Use header row for column names, custom input field separator (regexp, per-file), custom input record delimiter (regexp, per-file), custom table names, custom output field separator, custom output record separator, merge selected columns into one, ASCII/Unicode table output, CSV input and output, JSON output, Tcl output, table JOINs. | [Usage](https://github.com/dbohdan/sqawk#options) | MIT |
 | [Squawk](https://github.com/samuel/squawk) | Python, custom SQL interpreter | Access log and CSV input, JSON and CSV output, Python code generation. | — | Three-clause BSD |
 | [termsql](https://github.com/tobimensch/termsql) | Python, SQLite 3 | Use header rows for column names, custom field separator (regexp), custom record separator (string literal), lines as columns, skip a given number of lines and the beginning and at the end, merge selected columns into one, HTML, CSV, SQL and Tcl output. | [Manual](http://tobimensch.github.io/termsql/) | MIT |
 | [textql](https://github.com/dinedal/textql) | Go, SQLite 3 | Use header rows for column names, keep SQLite file, custom input field separator (string literal). | [Usage](https://github.com/dinedal/textql#usage) | MIT |
-| [csvkit](https://github.com/wireservice/csvkit) | Python, SQLite 3 | Use header row for column names, custom input and output encoding, custom input field separator, custom output field separator, custom output formatting, CSV JOINs, Python module. Excel and JSON to CSV. CSV to JSON.  SQL queries for CSV. | [Usage](http://csvkit.readthedocs.io/en/0.9.1/index.html) | MIT |
 
 # XML, HTML
 
