@@ -77,8 +77,8 @@ Using jq with a format converter like [Remarshal](https://github.com/dbohdan/rem
 
 # License
 
-The contents of this wiki is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). By contributing to the wiki you release your contribution under this license.
+The contents of this document is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). By contributing you agree to release your contribution under this license.
 
 # Disclosure
 
-[Sqawk](https://github.com/dbohdan/sqawk), [Remarshal](https://github.com/dbohdan/remarshal) and [initool](https://github.com/dbohdan/initool) were written by the owner of this wiki.
+[Sqawk](https://github.com/dbohdan/sqawk), [Remarshal](https://github.com/dbohdan/remarshal) and [initool](https://github.com/dbohdan/initool) were written by the curator of this document.
