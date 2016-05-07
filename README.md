@@ -14,7 +14,7 @@ What follows is a list of text-based file formats with command line tools for ma
 
 # DSV
 
-Delimiter-separated values, including CSV, TSV, etc.
+Delimiter-separated values, including [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), [TSV](https://en.wikipedia.org/wiki/Tab-separated_values), etc.
 
 ## Awk
 
@@ -52,13 +52,13 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 
 # YAML, TOML
 
-Using jq with a format converter like [Remarshal](https://github.com/dbohdan/remarshal) appears to be the best option.
+Using [jq](#json) with a format converter like [Remarshal](https://github.com/dbohdan/remarshal) appears to be the best option.
 
 # INI
 
 | Name and link | Platform | License | Description |
 |---------------|----------|---------|-------------|
-| [IniFile](http://www.horstmuc.de/wbat32.htm#inifile) ([DOS version](http://www.horstmuc.de/div.htm#inifile)) | Windows (x86), MS-DOS | Closed-source freeware | Can set and remove properties in INI files. Can retrieve properties as a list of batch file `set` commands to set the corresponding variables. Changes files in place. |
+| [IniFile](http://www.horstmuc.de/wbat32.htm#inifile) ([DOS version](http://www.horstmuc.de/div.htm#inifile)) | Windows (x86, x86-64), MS-DOS | Closed-source freeware | Can set and remove properties in INI files. Can retrieve properties as a list of batch file `set` commands to set the corresponding variables. Changes files in place. |
 | [crudini](https://github.com/pixelb/crudini/) | Any with Python 2.x | GNU GPLv2 | Can set and remove properties in INI files. Can retrieve properties as shell script commands to set the corresponding variables. Can output updated INI data or change files in place. |
 | [initool](https://github.com/dbohdan/initool) | Windows, Linux, FreeBSD | MIT | Can set and remove properties in INI files and check for their existence. Outputs updated INI data. |
 
