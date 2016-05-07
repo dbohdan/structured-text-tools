@@ -40,6 +40,8 @@ Awk is a POSIX-standard command line tool for processing this sort of data.
 
 * [xml2](http://www.ofb.net/~egnor/xml2/) — convert XML and HTML to and from flat, greppable lists of "path=value" statements.
 
+* [Saxon](http://saxon.sourceforge.net/) — scrape XML and HTML data using [XPath](http://scraping.pro/xpath-review/).
+
 See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
 # JSON
