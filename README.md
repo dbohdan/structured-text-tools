@@ -66,6 +66,7 @@ Using [jq](#json) with a format converter like [Remarshal](https://github.com/db
 # Configuration files
 
 * [Augeas](http://augeas.net) — can extract data from and modify [a number of file formats](http://augeas.net/stock_lenses.html). However, not all format are equally well supported by Augeas and for some formats only a limited subset of all valid files can be parsed.
+* [Elektra](http://libelektra.org) — can manipulate [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins) with similar problems as Augeas for application-specific configuration files (it also uses the same lenses), but with better support for generic formats such as JSON or INI.
 
 # Bonus round: CLIs for single-file databases
 
