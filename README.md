@@ -22,11 +22,20 @@ Awk is a POSIX-standard command line tool for processing this sort of data.
 
 * http://www.thegeekstuff.com/2011/06/awk-nawk-gawk/
 
+## POSIX commands
+
+| Name and link | Description |
+|---------------|-------------|
+| `cut` | Select portions of each line of a file. Can work with delimiter-separated fields. See `man 1 cut` on your system ([GNU](http://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1)). |
+| `join` | A POSIX command. See `man 1 join` on your system ([GNU](http://linux.die.net/man/1/join), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=join&sektion=1)). |
+| `paste` |  See `man 1 paste` on your system ([GNU](http://linux.die.net/man/1/paste), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=paste&sektion=1)). |
+| `sort` | See `man 1 sort` on your system ([GNU](http://linux.die.net/man/1/sort), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=sort&sektion=1)). |
+| `uniq` | See `man 1 uniq` on your system ([GNU](http://linux.die.net/man/1/uniq), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=uniq&sektion=1)). |
+
 ## Other tools
 
 | Name and link | Description |
 |---------------|-------------|
-| `cut` | A POSIX command. See `man 1 cut` on your system ([GNU](http://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1)). |
 | [Miller](https://github.com/johnkerl/miller) | `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON. |
 | [tab](http://tkatchev.bitbucket.org/tab/) | A non-Turing-complete programming language for data processing. An alternative to Awk. |
 | [xsv](https://github.com/BurntSushi/xsv) | Index, slice, analyze, split and join CSV files. |
