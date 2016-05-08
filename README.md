@@ -50,10 +50,16 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [jshon](http://kmkeen.com/jshon/) | Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options. |
 | [json](https://github.com/trentm/json) | Similar to JQ, written in JS. |
 | [json2](https://github.com/vi/json2) | Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml-html). |
+| [validjson](http://github.com/martinlindhe/validjson) | Command line tool to validate or pretty-print JSON data. |
+
 
 # YAML, TOML
 
-Using [jq](#json) with a format converter like [Remarshal](https://github.com/dbohdan/remarshal) appears to be the best option.
+| Name and link | Description |
+|---------------|-------------|
+| [jq](#json)   | With a format converter like [Remarshal](https://github.com/dbohdan/remarshal) |
+| [validyaml](http://github.com/martinlindhe/validyaml) | Command line tool to  validate or pretty-print YAML data. |
+
 
 # INI
 
