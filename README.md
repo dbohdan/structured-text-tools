@@ -28,6 +28,7 @@ Awk is a POSIX-standard command line tool for processing this sort of data.
 |---------------|-------------|
 | `cut` | A POSIX command. See `man 1 cut` on your system ([GNU](http://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1)). |
 | [Miller](https://github.com/johnkerl/miller) | `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON. |
+| [tab](http://tkatchev.bitbucket.org/tab/) | A non-Turing-complete programming language for data processing. An alternative to Awk. |
 | [xsv](https://github.com/BurntSushi/xsv) | Index, slice, analyze, split and join CSV files. |
 
 ## SQL-based utilities
