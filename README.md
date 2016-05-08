@@ -84,6 +84,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 |---------------|-------------|
 | [jq](#json)   | With a format converter like [Remarshal](https://github.com/dbohdan/remarshal) |
 | [validyaml](http://github.com/martinlindhe/validyaml) | Command line tool to  validate or pretty-print YAML data. |
+| [shyaml](https://github.com/0k/shyaml) | Python Command line tool to enable read access to YAML files. Very handy if you want to get at YAML data from your shell scripts. | 
 
 
 # INI
