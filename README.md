@@ -42,6 +42,7 @@ Awk is a POSIX-standard command line tool for processing this sort of data.
 
 * [tq](https://github.com/plainas/tq) - retrieve content from HTML using CSS selectors. 
 
+* [Saxon](http://saxon.sourceforge.net/) — scrape XML and HTML data using [XPath](http://scraping.pro/xpath-review/). [Saxon documentation](http://www.saxonica.com/html/documentation/using-xsl/commandline.html)
 
 See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
