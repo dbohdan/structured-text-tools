@@ -24,6 +24,7 @@ Awk is a POSIX-standard command line tool for processing this sort of data.
 
 ## Other tools
 
+* `cut` — a POSIX command. See `man 1 cut` on your system ([GNU](http://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1)).
 * [Miller](https://github.com/johnkerl/miller) — sed, awk, cut, join and sort for name-indexed data such as CSV and tabular JSON.
 
 ## SQL-based utilities
