@@ -37,6 +37,7 @@ Awk is a POSIX-standard command line tool for processing this sort of data.
 # XML, HTML
 
 | Name and link | Description |
+|---------------|-------------|
 | [Saxon](http://saxon.sourceforge.net/) | Scrape XML and HTML data using [XPath](http://scraping.pro/xpath-review/). [Documentation](http://www.saxonica.com/html/documentation/using-xsl/commandline.html) |
 | [tq](https://github.com/plainas/tq) | Retrieve content from HTML using CSS selectors. |
 | [xml2](http://www.ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. |
