@@ -53,6 +53,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [jshon](http://kmkeen.com/jshon/) | Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options. |
 | [json](https://github.com/trentm/json) | Similar to JQ, written in JS. |
 | [json2](https://github.com/vi/json2) | Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml-html). |
+| [jsonaxe](https://github.com/davvid/jsonaxe) | A JSON processor, similar to JQ, with an expressive Python-based DSL |
 
 # YAML, TOML
 
