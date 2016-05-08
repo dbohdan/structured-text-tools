@@ -36,13 +36,11 @@ Awk is a POSIX-standard command line tool for processing this sort of data.
 
 # XML, HTML
 
-* [XMLStarlet](http://xmlstar.sourceforge.net/overview.php)
-
-* [xml2](http://www.ofb.net/~egnor/xml2/) — convert XML and HTML to and from flat, greppable lists of "path=value" statements.
-
-* [tq](https://github.com/plainas/tq) - retrieve content from HTML using CSS selectors. 
-
-* [Saxon](http://saxon.sourceforge.net/) — scrape XML and HTML data using [XPath](http://scraping.pro/xpath-review/). [Saxon documentation](http://www.saxonica.com/html/documentation/using-xsl/commandline.html)
+| Name and link | Description |
+| [Saxon](http://saxon.sourceforge.net/) | Scrape XML and HTML data using [XPath](http://scraping.pro/xpath-review/). [Documentation](http://www.saxonica.com/html/documentation/using-xsl/commandline.html) |
+| [tq](https://github.com/plainas/tq) | Retrieve content from HTML using CSS selectors. |
+| [xml2](http://www.ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. |
+| [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) | A set of command line tools to transform, query, validate and edit XML documents. |
 
 See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
