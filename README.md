@@ -38,6 +38,7 @@ Awk is a POSIX-standard command line tool for processing this sort of data.
 
 | Name and link | Description |
 |---------------|-------------|
+| [pup](https://github.com/EricChiang/pup) | A tool to filter HTML pages using CSS selectors inspired by [jq](#json). |
 | [Saxon](http://saxon.sourceforge.net/) | Scrape XML and HTML data using [XPath](http://scraping.pro/xpath-review/). [Documentation](http://www.saxonica.com/html/documentation/using-xsl/commandline.html) |
 | [tq](https://github.com/plainas/tq) | Retrieve content from HTML using CSS selectors. |
 | [xml2](http://www.ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. |
@@ -49,11 +50,13 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 
 | Name and link | Description |
 |---------------|-------------|
+| [jsonaxe](https://github.com/davvid/jsonaxe) | A JSON processor, similar to JQ, with an expressive Python-based DSL |
+| [jo](https://github.com/jpmens/jo) | Create JSON objects from the shell. |
 | [jq](http://stedolan.github.io/jq/manual/) | A command line tool that implements a functional [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) for creating and manipulating JSON. It can convert JSON to other formats. |
 | [jshon](http://kmkeen.com/jshon/) | Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options. |
 | [json](https://github.com/trentm/json) | Similar to JQ, written in JS. |
 | [json2](https://github.com/vi/json2) | Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml-html). |
-| [jsonaxe](https://github.com/davvid/jsonaxe) | A JSON processor, similar to JQ, with an expressive Python-based DSL |
+| [json-table](https://github.com/micha/json-table) | Transform JSON data structures into tables of columns and rows for processing in the shell. |
 | [validjson](http://github.com/martinlindhe/validjson) | Command line tool to validate or pretty-print JSON data. |
 
 # YAML, TOML
