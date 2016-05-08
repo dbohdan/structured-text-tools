@@ -22,6 +22,10 @@ Awk is a POSIX-standard command line tool for processing this sort of data.
 
 * http://www.thegeekstuff.com/2011/06/awk-nawk-gawk/
 
+## Other tools
+
+* [Miller](https://github.com/johnkerl/miller) — sed, awk, cut, join and sort for name-indexed data such as CSV and tabular JSON.
+
 ## SQL-based utilities
 
 | Name | Programming language and database engine | Features | Usage link | License |
