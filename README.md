@@ -20,7 +20,9 @@ Delimiter-separated values, including [CSV](https://en.wikipedia.org/wiki/Comma-
 
 Awk is a POSIX-standard command line tool for processing this sort of data.
 
-* http://www.thegeekstuff.com/2011/06/awk-nawk-gawk/
+* [Awk.info](http://awk.info/) is an extensive resource on Awk.
+* [AWK Vs NAWK Vs GAWK](http://www.thegeekstuff.com/2011/06/awk-nawk-gawk/)
+* If you can program, the FreeBSD [man page](http://www.freebsd.org/cgi/man.cgi?query=awk&sektion=1) for Awk is a great way to learn the language quickly.
 
 ## POSIX commands
 
