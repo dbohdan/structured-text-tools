@@ -18,11 +18,11 @@ Delimiter-separated values, including [CSV](https://en.wikipedia.org/wiki/Comma-
 
 ## Awk
 
-Awk is a POSIX-standard command line tool for processing this sort of data.
+Awk is a POSIX-standard command line tool and programming language for processing DSV data. A list of Awk links follows.
 
-* [Awk.info](http://awk.info/) is an extensive resource on Awk.
-* [AWK Vs NAWK Vs GAWK](http://www.thegeekstuff.com/2011/06/awk-nawk-gawk/)
-* If you can program, the FreeBSD [man page](http://www.freebsd.org/cgi/man.cgi?query=awk&sektion=1) for Awk is a great way to learn the language quickly.
+* [Awk.info](http://awk.info/) — an extensive resource on Awk.
+* [AWK Vs NAWK Vs GAWK](http://www.thegeekstuff.com/2011/06/awk-nawk-gawk/) — a comparison of implementations.
+* If you already know how to program in some language, the nawk [man page](http://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn Awk quickly. What you learn from it will apply to other implementations on other platforms. Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](http://www.gnu.org/software/gawk/manual/gawk.html).
 
 ## POSIX commands
 
