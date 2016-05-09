@@ -77,6 +77,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [json2](https://github.com/vi/json2) | Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml-html). |
 | [json-table](https://github.com/micha/json-table) | Transform JSON data structures into tables of columns and rows for processing in the shell. |
 | [validjson](http://github.com/martinlindhe/validjson) | Command line tool to validate or pretty-print JSON data. |
+| [json.tool](https://docs.python.org/2/library/json.html) | Python module that can be used to validate and format JSON data from command line. |
 
 # YAML, TOML
 
