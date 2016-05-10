@@ -22,7 +22,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 * [Awk.info](http://awk.info/) — an extensive resource on Awk.
 * [AWK Vs NAWK Vs GAWK](http://www.thegeekstuff.com/2011/06/awk-nawk-gawk/) — a comparison of implementations.
-* If you already know how to program in some language, the nawk [man page](http://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn Awk quickly. What you learn from it will apply to other implementations on other platforms. Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](http://www.gnu.org/software/gawk/manual/gawk.html).
+* If you already know how to program in some language, the nawk [man page](http://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn Awk quickly. What you learn from it will apply to other implementations on different platforms. Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](http://www.gnu.org/software/gawk/manual/gawk.html).
 
 ## POSIX commands
 
@@ -100,8 +100,8 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 
 # Configuration files
 
-* [Augeas](http://augeas.net) — can extract data from and modify [a number of file formats](http://augeas.net/stock_lenses.html). However, not all format are equally well supported by Augeas and for some formats only a limited subset of all valid files can be parsed.
-* [Elektra](http://libelektra.org) — can manipulate [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins) with similar problems as Augeas for application-specific configuration files (it also uses the same lenses), but with better support for generic formats such as JSON or INI.
+* [Augeas](http://augeas.net) — extract data from and modify [a number of file formats](http://augeas.net/stock_lenses.html). Note that not all formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed.
+* [Elektra](http://libelektra.org) — manipulate [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses) but has better support for generic formats such as JSON or INI.
 
 # Bonus round: CLIs for single-file databases
 
