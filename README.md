@@ -14,7 +14,7 @@ What follows is a list of text-based file formats with command line tools for ma
 
 # DSV
 
-Delimiter-separated values, including [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), [TSV](https://en.wikipedia.org/wiki/Tab-separated_values), etc.
+[Delimiter-separated values](https://en.wikipedia.org/wiki/Delimiter-separated_values), including [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), [TSV](https://en.wikipedia.org/wiki/Tab-separated_values), etc.
 
 ## Awk
 
