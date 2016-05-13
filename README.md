@@ -79,6 +79,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [json](https://github.com/trentm/json) | Similar to JQ, written in JS. |
 | [json-table](https://github.com/micha/json-table) | Transform JSON data structures into tables of columns and rows for processing in the shell. |
 | [json.tool](https://docs.python.org/2/library/json.html) | Python module that can be used to validate and format JSON data from command line. |
+| [lobar](https://github.com/sodiumjoe/lobar) | Command line tool that exposes the full power of lodash for interactive JSON exploration. |
 | [validjson](http://github.com/martinlindhe/validjson) | Command line tool to validate or pretty-print JSON data. |
 
 # YAML, TOML
