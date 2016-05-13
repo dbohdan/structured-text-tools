@@ -84,12 +84,13 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 
 # YAML, TOML
 
+With a format converter like Remarshal (below) you can use (JSON)[#json] tools to process YAML and TOML but beware that you don't lose data in the conversion ([example](https://github.com/dbohdan/remarshal/issues/2)).
+
 | Name and link | Description |
 |---------------|-------------|
-| [jq](#json) | With a format converter like [Remarshal](https://github.com/dbohdan/remarshal). |
-| [validyaml](http://github.com/martinlindhe/validyaml) | Command line tool to  validate or pretty-print YAML data. |
-| [shyaml](https://github.com/0k/shyaml) | Python Command line tool to enable read access to YAML files. Very handy if you want to get at YAML data from your shell scripts. | 
-
+| [Remarshal](https://github.com/dbohdan/remarshal). | Convert between YAML, TOML and JSON. Validate or pretty-print each of the three formats. |
+| [shyaml](https://github.com/0k/shyaml) | Read data from YAML files. Can output null-terminated strings for use in shell scripts. |
+| [validyaml](http://github.com/martinlindhe/validyaml) | Validate or pretty-print YAML data. |
 
 # INI
 
