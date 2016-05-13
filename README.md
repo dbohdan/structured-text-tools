@@ -28,10 +28,10 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 | Name and link | Description |
 |---------------|-------------|
-| `cut` | Select portions of each line of files. Can work with delimiter-separated fields. See `man 1 cut` on your system ([GNU](http://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1)). |
-| `join` | Join lines of two files on a common field. See `man 1 join` on your system ([GNU](http://linux.die.net/man/1/join), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=join&sektion=1)). |
-| `paste` | Combine lines in a text file. See `man 1 paste` on your system ([GNU](http://linux.die.net/man/1/paste), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=paste&sektion=1)). |
-| `sort` | Sort data by key fields. See `man 1 sort` on your system ([GNU](http://linux.die.net/man/1/sort), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=sort&sektion=1)). |
+| `cut` | Select portions of each line in a file or several. Can work with delimiter-separated fields. See `man 1 cut` on your system ([GNU](http://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1)). |
+| `join` | Join the lines of two files on a common field. See `man 1 join` on your system ([GNU](http://linux.die.net/man/1/join), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=join&sektion=1)). |
+| `paste` | Combine consecutive lines in a text file into one. See `man 1 paste` on your system ([GNU](http://linux.die.net/man/1/paste), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=paste&sektion=1)). |
+| `sort` | Sort lines by key fields. See `man 1 sort` on your system ([GNU](http://linux.die.net/man/1/sort), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=sort&sektion=1)). |
 | `uniq` | Find or remove repeated lines. See `man 1 uniq` on your system ([GNU](http://linux.die.net/man/1/uniq), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=uniq&sektion=1)). |
 
 ## Other tools
