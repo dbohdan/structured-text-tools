@@ -79,6 +79,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [json](https://github.com/trentm/json) | Similar to JQ but written in JavaScript. Can run arbitrary JavaScript on the JSON input. |
 | [json-table](https://github.com/micha/json-table) | Transform JSON data structures into tables of columns and rows for processing in the shell. |
 | [json.tool](https://docs.python.org/2/library/json.html) ([Python 3 docs](https://docs.python.org/3/library/json.html)) | Validate and format JSON data from the command line. This module is part of the standard library of Python 2/3 and so is likely available wherever Python is installed. |
+| [jsonwatch](https://github.com/dbohdan/jsonwatch) | Track changes in JSON data live from your command line. Works like `watch -d`. |
 | [lobar](https://github.com/sodiumjoe/lobar) | Explore JSON interactively or process it in batch with a wrapper for `lodash.chain()`. An alternative to jq with a JavaScript syntax. |
 | [validjson](http://github.com/martinlindhe/validjson) | Validate or pretty-print JSON data. |
 
@@ -119,4 +120,4 @@ The contents of this document is licensed under the [Creative Commons Attributio
 
 # Disclosure
 
-[Sqawk](https://github.com/dbohdan/sqawk), [Remarshal](https://github.com/dbohdan/remarshal) and [initool](https://github.com/dbohdan/initool) were written by the curator of this document.
+[Sqawk](https://github.com/dbohdan/sqawk), [jsonwatch](https://github.com/dbohdan/jsonwatch), [Remarshal](https://github.com/dbohdan/remarshal) and [initool](https://github.com/dbohdan/initool) were written by the curator of this document.
