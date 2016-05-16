@@ -59,11 +59,11 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 | Name and link | Description |
 |---------------|-------------|
-| [pup](https://github.com/EricChiang/pup) | A tool to filter HTML pages using CSS selectors inspired by [jq](#json). |
+| [pup](https://github.com/EricChiang/pup) | Filter HTML pages using CSS selectors. Inspired by [jq](#json). |
 | [Saxon](http://saxon.sourceforge.net/) | Scrape XML and HTML data using [XPath](http://scraping.pro/xpath-review/). [Documentation](http://www.saxonica.com/html/documentation/using-xsl/commandline.html). |
 | [tq](https://github.com/plainas/tq) | Retrieve content from HTML using CSS selectors. |
 | [xml2](http://www.ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. |
-| [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) | A set of command line tools to transform, query, validate and edit XML documents. |
+| [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) | Transform, query, validate and edit XML documents. |
 
 See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
@@ -78,8 +78,8 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [jsonaxe](https://github.com/davvid/jsonaxe) | A JSON processor similar to JQ with a Python-based DSL. |
 | [json](https://github.com/trentm/json) | Similar to JQ but written in JavaScript. Can run arbitrary JavaScript on the JSON input. |
 | [json-table](https://github.com/micha/json-table) | Transform JSON data structures into tables of columns and rows for processing in the shell. |
-| [json.tool](https://docs.python.org/2/library/json.html) ([Python 3 docs](https://docs.python.org/3/library/json.html)) | Validate and format JSON data from the command line. This module is part of the standard library of Python 2/3 and so is likely available wherever Python is installed. |
-| [jsonwatch](https://github.com/dbohdan/jsonwatch) | Track changes in JSON data live from your command line. Works like `watch -d`. |
+| [json.tool](https://docs.python.org/2/library/json.html) ([Python 3 docs](https://docs.python.org/3/library/json.html)) | Validate and pretty-print JSON data. This module is part of the standard library of Python 2/3 and so is likely available wherever Python is installed. |
+| [jsonwatch](https://github.com/dbohdan/jsonwatch) | Track changes in JSON data live from the command line. Works like `watch -d`. |
 | [lobar](https://github.com/sodiumjoe/lobar) | Explore JSON interactively or process it in batch with a wrapper for `lodash.chain()`. An alternative to jq with a JavaScript syntax. |
 | [validjson](http://github.com/martinlindhe/validjson) | Validate or pretty-print JSON data. |
 
@@ -97,9 +97,9 @@ With a format converter like Remarshal (below) you can use (JSON)[#json] tools t
 
 | Name and link | Platform | License | Description |
 |---------------|----------|---------|-------------|
-| [crudini](https://github.com/pixelb/crudini/) | Any with Python 2.x | GNU GPLv2 | Can set and remove properties in INI files. Can retrieve properties as shell script commands to set the corresponding variables. Can output updated INI data or change files in place. |
-| [IniFile](http://www.horstmuc.de/wbat32.htm#inifile) ([DOS version](http://www.horstmuc.de/div.htm#inifile)) | Windows (x86, x86-64), MS-DOS | Closed-source freeware | Can set and remove properties in INI files. Can retrieve properties as a list of batch file `set` commands to set the corresponding variables. Changes files in place. |
-| [initool](https://github.com/dbohdan/initool) | Windows, Linux, FreeBSD | MIT | Can set and remove properties in INI files and check for their existence. Outputs updated INI data. |
+| [crudini](https://github.com/pixelb/crudini/) | Any with Python 2.x | GNU GPLv2 | Set and remove properties in INI files. Retrieve properties as shell script commands to set the corresponding variables. Outputs updated INI data or changes files in place. |
+| [IniFile](http://www.horstmuc.de/wbat32.htm#inifile) ([DOS version](http://www.horstmuc.de/div.htm#inifile)) | Windows (x86, x86-64), MS-DOS | Closed-source freeware | Set and remove properties in INI files. Retrieve properties as a list of batch file `set` commands to set the corresponding variables. Changes files in place. |
+| [initool](https://github.com/dbohdan/initool) | Windows, Linux, FreeBSD | MIT | Set and remove properties in INI files and check for their existence. Outputs updated INI data. |
 
 # Configuration files
 
