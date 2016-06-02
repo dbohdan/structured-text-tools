@@ -62,6 +62,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [pup](https://github.com/EricChiang/pup) | Filter HTML pages using CSS selectors. Inspired by [jq](#json). |
 | [Saxon](http://saxon.sourceforge.net/) | Scrape XML and HTML data using [XPath](http://scraping.pro/xpath-review/). [Documentation](http://www.saxonica.com/html/documentation/using-xsl/commandline.html). |
 | [tq](https://github.com/plainas/tq) | Retrieve content from HTML using CSS selectors. |
+| [Xidel](http://videlibri.de/xidel.html) | Scrape or transform XML and HTML pages with XPath, XQuery 3 and CSS selectors. |
 | [xml2](http://www.ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. |
 | [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) | Transform, query, validate and edit XML documents. |
 
