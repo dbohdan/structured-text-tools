@@ -92,6 +92,7 @@ With a format converter like Remarshal (below) you can use (JSON)[#json] tools t
 |---------------|-------------|
 | [Remarshal](https://github.com/dbohdan/remarshal). | Convert between YAML, TOML and JSON. Validate or pretty-print each of the three formats. |
 | [shyaml](https://github.com/0k/shyaml) | Read data from YAML files. Can output null-terminated strings for use in shell scripts. |
+| [validtoml](http://github.com/martinlindhe/validtoml) | Validate TOML data. |
 | [validyaml](http://github.com/martinlindhe/validyaml) | Validate or pretty-print YAML data. |
 
 # INI
