@@ -72,6 +72,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 
 | Name and link | Description |
 |---------------|-------------|
+| [gron](https://github.com/tomnomnom/gron) | Convert JSON to and from flat, greppable lists of "path=value" statements. |
 | [jo](https://github.com/jpmens/jo) | Create JSON objects from the shell. |
 | [jq](http://stedolan.github.io/jq/manual/) | Create and manipulate JSON with a functional (as in "functional programming") [DSL](https://en.wikipedia.org/wiki/Domain-specific_language). Can convert JSON to other formats. |
 | [jshon](http://kmkeen.com/jshon/) | Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options. |
@@ -90,7 +91,7 @@ With a format converter like Remarshal (below) you can use (JSON)[#json] tools t
 
 | Name and link | Description |
 |---------------|-------------|
-| [Remarshal](https://github.com/dbohdan/remarshal). | Convert between YAML, TOML and JSON. Validate or pretty-print each of the three formats. |
+| [Remarshal](https://github.com/dbohdan/remarshal) | Convert between YAML, TOML and JSON. Validate or pretty-print each of the three formats. |
 | [shyaml](https://github.com/0k/shyaml) | Read data from YAML files. Can output null-terminated strings for use in shell scripts. |
 | [validtoml](http://github.com/martinlindhe/validtoml) | Validate TOML data. |
 | [validyaml](http://github.com/martinlindhe/validyaml) | Validate or pretty-print YAML data. |
