@@ -106,8 +106,10 @@ With a format converter like Remarshal (below) you can use (JSON)[#json] tools t
 
 # Configuration files
 
-* [Augeas](http://augeas.net) — extract data from and modify [a number of file formats](http://augeas.net/stock_lenses.html). Note that not all formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed.
-* [Elektra](http://libelektra.org) — manipulate [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses) but has better support for generic formats such as JSON or INI.
+| Name | Description |
+|------|-------------|
+| [Augeas](http://augeas.net) | Extract data from and modify [a number of file formats](http://augeas.net/stock_lenses.html). Note that not all formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed. |
+| [Elektra](http://libelektra.org) | Manipulate [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses) but has better support for generic formats such as JSON or INI. |
 
 # Bonus round: CLIs for single-file databases
 
