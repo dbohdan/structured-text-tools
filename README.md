@@ -26,8 +26,8 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 ## POSIX commands
 
-| Name and link | Description |
-|---------------|-------------|
+| Name | Description |
+|------|-------------|
 | `cut` | Select portions of each line in a file or several. Can work with delimiter-separated fields. See `man 1 cut` on your system ([GNU](http://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1)). |
 | `join` | Join the lines of two files on a common field. See `man 1 join` on your system ([GNU](http://linux.die.net/man/1/join), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=join&sektion=1)). |
 | `paste` | Combine consecutive lines in a text file into one. See `man 1 paste` on your system ([GNU](http://linux.die.net/man/1/paste), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=paste&sektion=1)). |
@@ -45,8 +45,8 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 ## SQL-based utilities
 
-| Name | Programming language and database engine | Features | Usage link | License |
-|------|------------------------------------------|----------|------------|---------|
+| Name and link | Programming language and database engine | Features | Usage link | License |
+|---------------|------------------------------------------|----------|------------|---------|
 | [csvkit](https://github.com/wireservice/csvkit) | Python, SQLite 3 | Use header row for column names, custom input and output encoding, custom input field separator, custom output field separator, custom output formatting, CSV JOINs, Python module. Excel and JSON to CSV. CSV to JSON.  SQL queries for CSV. | [Usage](http://csvkit.readthedocs.io/en/latest/) | MIT |
 | [q](https://github.com/harelba/q) | Python, SQLite 3 | Use header row for column names, custom input and output encoding, gzipped input, custom input field separator (string literal), custom output field separator, custom output formatting, table JOINs, Python module. | [Usage](https://github.com/harelba/q/blob/master/doc/USAGE.markdown) | GNU GPL 3 |
 | [Sqawk](https://github.com/dbohdan/sqawk) | Tcl, SQLite 3 | Use header row for column names, custom input field separator (regexp, per-file), custom input record delimiter (regexp, per-file), custom table names, custom output field separator, custom output record separator, merge selected columns into one, ASCII/Unicode table output, CSV input and output, JSON output, Tcl output, table JOINs. | [Usage](https://github.com/dbohdan/sqawk#options) | MIT |
@@ -106,15 +106,15 @@ With a format converter like Remarshal (below) you can use (JSON)[#json] tools t
 
 # Configuration files
 
-| Name | Description |
-|------|-------------|
+| Name and link | Description |
+|---------------|-------------|
 | [Augeas](http://augeas.net) | Extract data from and modify [a number of file formats](http://augeas.net/stock_lenses.html). Note that not all formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed. |
 | [Elektra](http://libelektra.org) | Manipulate [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses) but has better support for generic formats such as JSON or INI. |
 
 # Bonus round: CLIs for single-file databases
 
-| Name | Description | File format |
-|------|-------------|-------------|
+| Name and link | Description | File format |
+|---------------|-------------|-------------|
 | [GNU Recutils](http://www.gnu.org/software/recutils/) | "[A] set of tools and libraries to access human-editable, plain text databases called recfiles." | Text-based, roughly "key: value" |
 | [SDB](https://github.com/radare/sdb) | "[A] simple string key/value database based on djb's cdb disk storage and supports JSON and arrays introspection." | Binary |
 | [sqlite3(1)](https://www.sqlite.org/cli.html) | "[A] simple command-line utility [...] that allows the user to manually enter and execute SQL statements against an SQLite database." | Binary |
