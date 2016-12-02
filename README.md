@@ -77,8 +77,8 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [jq](http://stedolan.github.io/jq/manual/) | Create and manipulate JSON with a functional (as in "functional programming") [DSL](https://en.wikipedia.org/wiki/Domain-specific_language). Can convert JSON to other formats. |
 | [jshon](http://kmkeen.com/jshon/) | Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options. |
 | [json2](https://github.com/vi/json2) | Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml-html). |
-| [jsonaxe](https://github.com/davvid/jsonaxe) | A JSON processor similar to JQ with a Python-based DSL. |
-| [json](https://github.com/trentm/json) | Similar to JQ but written in JavaScript. Can run arbitrary JavaScript on the JSON input. |
+| [jsonaxe](https://github.com/davvid/jsonaxe) | A JSON processor similar to jq with a Python-based DSL. |
+| [json](https://github.com/trentm/json) | Similar to jq but written in JavaScript. Can run arbitrary JavaScript on the JSON input. |
 | [json-table](https://github.com/micha/json-table) | Transform JSON data structures into tables of columns and rows for processing in the shell. |
 | [json.tool](https://docs.python.org/2/library/json.html) ([Python 3 docs](https://docs.python.org/3/library/json.html)) | Validate and pretty-print JSON data. This module is part of the standard library of Python 2/3 and so is likely available wherever Python is installed. |
 | [jsonwatch](https://github.com/dbohdan/jsonwatch) | Track changes in JSON data live from the command line. Works like `watch -d`. |
