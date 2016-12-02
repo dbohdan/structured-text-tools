@@ -83,6 +83,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [json.tool](https://docs.python.org/2/library/json.html) ([Python 3 docs](https://docs.python.org/3/library/json.html)) | Validate and pretty-print JSON data. This module is part of the standard library of Python 2/3 and so is likely available wherever Python is installed. |
 | [jsonwatch](https://github.com/dbohdan/jsonwatch) | Track changes in JSON data live from the command line. Works like `watch -d`. |
 | [lobar](https://github.com/sodiumjoe/lobar) | Explore JSON interactively or process it in batch with a wrapper for `lodash.chain()`. An alternative to jq with a JavaScript syntax. |
+| [rq](https://github.com/dflemstr/rq) | Similar to jq. DSL inspired by Rust, C and JavaScript. Supports JSON, YAML and TOML as well as binary formats like Apache Avro and MessagePack. |
 | [validjson](http://github.com/martinlindhe/validjson) | Validate or pretty-print JSON data. |
 
 # YAML, TOML
@@ -92,6 +93,7 @@ With a format converter like Remarshal (below) you can use (JSON)[#json] tools t
 | Name and link | Description |
 |---------------|-------------|
 | [Remarshal](https://github.com/dbohdan/remarshal) | Convert between YAML, TOML and JSON. Validate or pretty-print each of the three formats. |
+| [rq](https://github.com/dflemstr/rq) | See the [JSON section](#json). |
 | [shyaml](https://github.com/0k/shyaml) | Read data from YAML files. Can output null-terminated strings for use in shell scripts. |
 | [validtoml](http://github.com/martinlindhe/validtoml) | Validate TOML data. |
 | [validyaml](http://github.com/martinlindhe/validyaml) | Validate or pretty-print YAML data. |
