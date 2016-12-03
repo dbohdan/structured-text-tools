@@ -1,6 +1,8 @@
+# Structured text tools
+
 What follows is a list of text-based file formats with command line tools for manipulating each (with a focus on Linux).
 
-# Table of contents
+## Table of contents
 
 * [DSV](#dsv)
 * [XML, HTML](#xml-html)
@@ -12,7 +14,7 @@ What follows is a list of text-based file formats with command line tools for ma
 * [License](#license)
 * [Disclosure](#disclosure)
 
-# DSV
+## DSV
 
 [Delimiter-separated values](https://en.wikipedia.org/wiki/Delimiter-separated_values), including [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), [TSV](https://en.wikipedia.org/wiki/Tab-separated_values), etc.
 
@@ -55,7 +57,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [termsql](https://github.com/tobimensch/termsql) | Python, SQLite 3 | Use header rows for column names, custom field separator (regexp), custom record separator (string literal), lines as columns, skip a given number of lines and the beginning and at the end, merge selected columns into one, HTML, CSV, SQL and Tcl output. | [Manual](http://tobimensch.github.io/termsql/) | MIT |
 | [textql](https://github.com/dinedal/textql) | Go, SQLite 3 | Use header rows for column names, keep SQLite file, custom input field separator (string literal). | [Usage](https://github.com/dinedal/textql#usage) | MIT |
 
-# XML, HTML
+## XML, HTML
 
 | Name and link | Description |
 |---------------|-------------|
@@ -68,7 +70,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
-# JSON
+## JSON
 
 | Name and link | Description |
 |---------------|-------------|
@@ -86,7 +88,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [rq](https://github.com/dflemstr/rq) | Similar to jq. DSL inspired by Rust, C and JavaScript. Supports JSON, YAML and TOML as well as binary formats like Apache Avro and MessagePack. |
 | [validjson](http://github.com/martinlindhe/validjson) | Validate or pretty-print JSON data. |
 
-# YAML, TOML
+## YAML, TOML
 
 With a format converter like Remarshal (below) you can use (JSON)[#json] tools to process YAML and TOML but beware that you don't lose data in the conversion ([example](https://github.com/dbohdan/remarshal/issues/2)).
 
@@ -98,7 +100,7 @@ With a format converter like Remarshal (below) you can use (JSON)[#json] tools t
 | [validtoml](http://github.com/martinlindhe/validtoml) | Validate TOML data. |
 | [validyaml](http://github.com/martinlindhe/validyaml) | Validate or pretty-print YAML data. |
 
-# INI
+## INI
 
 | Name and link | Platform | License | Description |
 |---------------|----------|---------|-------------|
@@ -106,14 +108,14 @@ With a format converter like Remarshal (below) you can use (JSON)[#json] tools t
 | [IniFile](http://www.horstmuc.de/wbat32.htm#inifile) ([DOS version](http://www.horstmuc.de/div.htm#inifile)) | Windows (x86, x86-64), MS-DOS | Closed-source freeware | Set and remove properties in INI files. Retrieve properties as a list of batch file `set` commands to set the corresponding variables. Changes files in place. |
 | [initool](https://github.com/dbohdan/initool) | Windows, Linux, FreeBSD | MIT | Set and remove properties in INI files and check for their existence. Outputs updated INI data. |
 
-# Configuration files
+## Configuration files
 
 | Name and link | Description |
 |---------------|-------------|
 | [Augeas](http://augeas.net) | Extract data from and modify [a number of file formats](http://augeas.net/stock_lenses.html). Note that not all formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed. |
 | [Elektra](http://libelektra.org) | Manipulate [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses) but has better support for generic formats such as JSON or INI. |
 
-# Bonus round: CLIs for single-file databases
+## Bonus round: CLIs for single-file databases
 
 | Name and link | Description | File format |
 |---------------|-------------|-------------|
@@ -121,10 +123,10 @@ With a format converter like Remarshal (below) you can use (JSON)[#json] tools t
 | [SDB](https://github.com/radare/sdb) | "[A] simple string key/value database based on djb's cdb disk storage and supports JSON and arrays introspection." | Binary |
 | [sqlite3(1)](https://www.sqlite.org/cli.html) | "[A] simple command-line utility [...] that allows the user to manually enter and execute SQL statements against an SQLite database." | Binary |
 
-# License
+## License
 
 The contents of this document is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). By contributing you agree to release your contribution under this license.
 
-# Disclosure
+## Disclosure
 
 [Sqawk](https://github.com/dbohdan/sqawk), [jsonwatch](https://github.com/dbohdan/jsonwatch), [Remarshal](https://github.com/dbohdan/remarshal) and [initool](https://github.com/dbohdan/initool) were written by the curator of this document.
