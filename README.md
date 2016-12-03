@@ -2,7 +2,7 @@
 
 What follows is a list of text-based file formats with command line tools for manipulating each (with a focus on Linux).
 
-## Table of contents
+## Contents
 
 * [DSV](#dsv)
 * [XML, HTML](#xml-html)
