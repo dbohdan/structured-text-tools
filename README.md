@@ -18,7 +18,7 @@ What follows is a list of text-based file formats with command line tools for ma
 
 [Delimiter-separated values](https://en.wikipedia.org/wiki/Delimiter-separated_values), including [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), [TSV](https://en.wikipedia.org/wiki/Tab-separated_values), etc.
 
-## Awk
+### Awk
 
 Awk is a POSIX-standard command line tool and programming language for processing DSV data. A list of Awk links follows.
 
@@ -26,7 +26,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 * [AWK Vs NAWK Vs GAWK](http://www.thegeekstuff.com/2011/06/awk-nawk-gawk/) — a comparison of implementations.
 * If you already know how to program in some language, the nawk [man page](http://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn Awk quickly. What you learn from it will apply to other implementations on different platforms. Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](http://www.gnu.org/software/gawk/manual/gawk.html).
 
-## POSIX commands
+### POSIX commands
 
 | Name | Description |
 |------|-------------|
@@ -36,7 +36,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | `sort` | Sort lines by key fields. See `man 1 sort` on your system ([GNU](http://linux.die.net/man/1/sort), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=sort&sektion=1)). |
 | `uniq` | Find or remove repeated lines. See `man 1 uniq` on your system ([GNU](http://linux.die.net/man/1/uniq), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=uniq&sektion=1)). |
 
-## Other tools
+### Other tools
 
 | Name and link | Description |
 |---------------|-------------|
@@ -45,7 +45,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [tab](http://tkatchev.bitbucket.org/tab/) | A non-Turing-complete programming language for data processing. An alternative to Awk. |
 | [xsv](https://github.com/BurntSushi/xsv) | Index, slice, analyze, split and join CSV files. |
 
-## SQL-based utilities
+### SQL-based utilities
 
 | Name and link | Programming language and database engine | Features | Usage link | License |
 |---------------|------------------------------------------|----------|------------|---------|
