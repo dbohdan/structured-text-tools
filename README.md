@@ -90,7 +90,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 
 ## YAML, TOML
 
-With a format converter like Remarshal (below) you can use (JSON)[#json] tools to process YAML and TOML but beware that you don't lose data in the conversion ([example](https://github.com/dbohdan/remarshal/issues/2)).
+With a format converter like Remarshal (below) you can use [JSON](#json) tools to process YAML and TOML but beware that you don't lose data in the conversion ([example](https://github.com/dbohdan/remarshal/issues/2)).
 
 | Name and link | Description |
 |---------------|-------------|
