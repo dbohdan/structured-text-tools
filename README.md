@@ -43,7 +43,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [GNU datamash](http://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
 | [Miller](https://github.com/johnkerl/miller) | `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON. |
 | [tab](http://tkatchev.bitbucket.io/tab/) | A non-Turing-complete programming language for data processing. An alternative to Awk. |
-| [tsv-utils-dlang](https://github.com/eBay/tsv-utils-dlang) | Filter, summarize, join, and other data manipulation operations on TSV files. Written in D. |
+| [eBay's TSV utilities](https://ebay.github.io/tsv-utils-dlang/) | Filter, summarize, join, and other data manipulation operations on TSV files. Written in D. |
 | [xsv](https://github.com/BurntSushi/xsv) | Index, slice, analyze, split and join CSV files. |
 
 ### SQL-based utilities
