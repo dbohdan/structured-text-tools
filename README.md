@@ -42,6 +42,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 |---------------|-------------|
 | [GNU datamash](http://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
 | [Miller](https://github.com/johnkerl/miller) | `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON. |
+| [rows](https://github.com/turicas/rows) | A Python library with a [CLI](http://turicas.info/rows/command-line-interface.html). Convert between a number of [file formats](http://turicas.info/rows/plugins.html) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas. |
 | [tab](http://tkatchev.bitbucket.io/tab/) | A non-Turing-complete programming language for data processing. An alternative to Awk. |
 | [eBay's TSV utilities](https://ebay.github.io/tsv-utils-dlang/) | Filter, summarize, join, and other data manipulation operations on TSV files. Written in D. |
 | [xsv](https://github.com/BurntSushi/xsv) | Index, slice, analyze, split and join CSV files. |
@@ -52,6 +53,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 |---------------|------------------------------------------|----------|------------|---------|
 | [csvkit](https://github.com/wireservice/csvkit) | Python, SQLite 3 | Use header row for column names, custom input and output encoding, custom input field separator, custom output field separator, custom output formatting, CSV JOINs, Python module. Excel and JSON to CSV. CSV to JSON.  SQL queries for CSV. | [Usage](http://csvkit.readthedocs.io/en/latest/) | MIT |
 | [q](https://github.com/harelba/q) | Python, SQLite 3 | Use header row for column names, custom input and output encoding, gzipped input, custom input field separator (string literal), custom output field separator, custom output formatting, table JOINs, Python module. | [Usage](https://github.com/harelba/q/blob/master/doc/USAGE.markdown) | GNU GPL 3 |
+| [rows](https://github.com/turicas/rows) | Python, SQLite 3 | See the [Other tools](#other-tools) section. | [Usage](http://turicas.info/rows/command-line-interface.html) | GNU LGPL 3.0 |
 | [Sqawk](https://github.com/dbohdan/sqawk) | Tcl, SQLite 3 | Use header row for column names, custom input field separator (regexp, per-file), custom input record delimiter (regexp, per-file), custom table names, custom output field separator, custom output record separator, merge selected columns into one, ASCII/Unicode table output, CSV input and output, JSON output, Tcl output, table JOINs. | [Usage](https://github.com/dbohdan/sqawk#options) | MIT |
 | [sqawk](https://github.com/tjunier/sqawk) | C, SQLite 3 | Use header row for column names, column name aliases, can skip lines until a regexp matches, custom input field separator (string literal, per-file), keep SQLite file, show generated SQL, table JOINs. | [Usage](https://github.com/tjunier/sqawk/blob/master/sqawk.1) | ? |
 | [Squawk](https://github.com/samuel/squawk) | Python, custom SQL interpreter | Access log and CSV input, JSON and CSV output, Python code generation. | — | Three-clause BSD |
