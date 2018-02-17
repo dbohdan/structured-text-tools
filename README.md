@@ -22,11 +22,12 @@ The following is a list of text-based file formats and command line tools for ma
 
 ### Awk
 
-Awk is a POSIX-standard command line tool and programming language for processing DSV data.
+Awk is a POSIX-standard command line tool and programming language for processing DSV data. If you use Linux, macOS or a BSD, you almost certainly have it installed. See below for Windows.
 
 * If you already know how to program, the nawk [man page](http://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn Awk quickly. What you learn from it will apply to other implementations on different platforms. Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](http://www.gnu.org/software/gawk/manual/gawk.html).
 * [Awk.info archive](https://web.archive.org/web/20160505033644/http://awk.info/) — an extensive resource on Awk.
 * [AWK Vs NAWK Vs GAWK](http://www.thegeekstuff.com/2011/06/awk-nawk-gawk/) — a comparison of implementations' features.
+* [busybox-w32](https://frippery.org/busybox/) includes a full implementation of POSIX Awk and other tools like `sed` in a single Windows executable.
 
 ### POSIX commands
 
