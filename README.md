@@ -36,8 +36,8 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | `cut` | Select portions of each line in one or several files. Can work with delimiter-separated fields. (Manual: `man 1 cut` on your system, [GNU](http://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1).) |
 | `join` | Join the lines from two files on a common field. (Manual: `man 1 join`, [GNU](http://linux.die.net/man/1/join), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=join&sektion=1).) |
 | `paste` | Combine several consecutive lines in a text file into one. (Manual: `man 1 paste`, [GNU](http://linux.die.net/man/1/paste), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=paste&sektion=1).) |
-| `sort` | Sort lines by key fields. (Manual: `man 1 sort` [GNU](http://linux.die.net/man/1/sort), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=sort&sektion=1).) |
-| `uniq` | Find or remove repeated lines. (Manual: `man 1 uniq` [GNU](http://linux.die.net/man/1/uniq), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=uniq&sektion=1).) |
+| `sort` | Sort lines by key fields. (Manual: `man 1 sort`, [GNU](http://linux.die.net/man/1/sort), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=sort&sektion=1).) |
+| `uniq` | Find or remove repeated lines. (Manual: `man 1 uniq`, [GNU](http://linux.die.net/man/1/uniq), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=uniq&sektion=1).) |
 
 ### Other tools
 
