@@ -69,7 +69,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 | Name and link | Description |
 |---------------|-------------|
-| [pup](https://github.com/EricChiang/pup) | Filter HTML pages with CSS selectors. Inspired by [jq](#json). |
+| [pup](https://github.com/EricChiang/pup) | Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json). |
 | [Saxon](http://saxon.sourceforge.net/) | Query XML and HTML data with [XPath](http://scraping.pro/xpath-review/). [Documentation](http://www.saxonica.com/html/documentation/using-xsl/commandline.html). |
 | [tq](https://github.com/plainas/tq) | Query HTML with CSS selectors. |
 | [Xidel](http://www.videlibri.de/xidel.html) | Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors. |
@@ -86,6 +86,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [fx](https://github.com/antonmedv/fx) | Run arbitrary JavaScript on JSON input. Standalone binaries available. |
 | [gron](https://github.com/tomnomnom/gron) | Convert JSON to and from flat, greppable lists of "path=value" statements. |
 | [jo](https://github.com/jpmens/jo) | Create JSON objects from the shell. |
+| [jp](https://github.com/jmespath/jp) | [JMESPath](http://jmespath.org/) | 
 | [jq](http://stedolan.github.io/jq/manual/) | Create and manipulate JSON with a functional (as in "functional programming") [DSL](https://en.wikipedia.org/wiki/Domain-specific_language). Can convert JSON to other formats. |
 | [jshon](http://kmkeen.com/jshon/) | Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options. |
 | [json2](https://github.com/vi/json2) | Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml-html). |
