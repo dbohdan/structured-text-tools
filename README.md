@@ -71,7 +71,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 |---------------|-------------|
 | [pup](https://github.com/EricChiang/pup) | Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json). |
 | [Saxon](http://saxon.sourceforge.net/) | Query XML and HTML data with [XPath](http://scraping.pro/xpath-review/). [Documentation](http://www.saxonica.com/html/documentation/using-xsl/commandline.html). |
-| [Temme](https://github.com/shinima/temme) | Extract data from HTML with a concise selector syntax. |
+| [Temme](https://github.com/shinima/temme) | Query HTML with CSS-like selectors to extract JSON. Temme extends CSS selectors with value capture patterns. |
 | [tq](https://github.com/plainas/tq) | Query HTML with CSS selectors. |
 | [Xidel](http://www.videlibri.de/xidel.html) | Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors. |
 | [xml2](https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. [Source code mirror](https://github.com/clone/xml2). |
