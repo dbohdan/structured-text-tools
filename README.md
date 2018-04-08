@@ -77,6 +77,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [Xidel](http://www.videlibri.de/xidel.html) | Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors. |
 | [xml2](https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. [Source code mirror](https://github.com/clone/xml2). |
 | [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) | Query, modify, and validate XML documents. |
+| [xq](https://github.com/kislyuk/yq) | Command-line XML processor - jq wrapper for XML documents. |
 
 See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
@@ -116,6 +117,7 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 | [validtoml](http://github.com/martinlindhe/validtoml) | Validate TOML. |
 | [validyaml](http://github.com/martinlindhe/validyaml) | Validate or pretty-print YAML. |
 | [yq (mikefarah)](https://github.com/mikefarah/yq) | Query, modify, and merge YAML. Convert to and from JSON. |
+| [yq](https://github.com/kislyuk/yq) | Command-line YAML processor - jq wrapper for YAML documents. |
 
 
 ## INI
