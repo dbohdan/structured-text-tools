@@ -86,9 +86,10 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 |---------------|-------------|
 | [fx](https://github.com/antonmedv/fx) | Run arbitrary JavaScript on JSON input. Standalone binaries available. |
 | [gron](https://github.com/tomnomnom/gron) | Convert JSON to and from flat, greppable lists of "path=value" statements. |
+| [jiq](https://github.com/simeji/jid) | Drill down JSON interactively by using filtering queries like jq. |
 | [jl](https://github.com/chrisdone/jl) | Query and manipulate JSON using a tiny functional language. |
 | [jo](https://github.com/jpmens/jo) | Create JSON objects from the shell. |
-| [jp](https://github.com/jmespath/jp) | [JMESPath](http://jmespath.org/) | 
+| [jp](https://github.com/jmespath/jp) | [JMESPath](http://jmespath.org/) |
 | [jq](http://stedolan.github.io/jq/manual/) | Create and manipulate JSON with a functional (as in "functional programming") [DSL](https://en.wikipedia.org/wiki/Domain-specific_language). Can convert JSON to other formats. |
 | [jshon](http://kmkeen.com/jshon/) | Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options. |
 | [json2](https://github.com/vi/json2) | Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml-html). |
