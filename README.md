@@ -129,6 +129,7 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 
 | Name and link | Platform | License | Description |
 |---------------|----------|---------|-------------|
+| [confget](https://devel.ringlet.net/textproc/confget/) | Linux, FreeBSD | Two-clause BSD | Retrieve properties and sections as shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Check for existence of properties. List sections. Find values that match a pattern. Read-only. |
 | [crudini](https://github.com/pixelb/crudini/) | Any with Python 2.x | GNU GPLv2 | Retrieve properties and sections as INI fragments or shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Set properties. Remove properties and sections. Create empty sections. Merge INI files. Changes files in place. |
 | [IniFile](http://www.horstmuc.de/wbat32.htm#inifile) ([DOS version](http://www.horstmuc.de/div.htm#inifile)) | Windows (x86, x86-64), MS-DOS | Closed-source freeware | Retrieve properties and sections as batch file commands to set the corresponding variables. Set  properties. Remove properties and sections. Changes files in place. |
 | [initool](https://github.com/dbohdan/initool) | Windows, Linux, FreeBSD | MIT | Retrieve properties and sections as INI fragments. Retrieve properties' values as plain text. Set properties. Check for existence of properties and sections. Remove properties and sections. Outputs the updated INI file. |
