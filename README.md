@@ -76,7 +76,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [tq](https://github.com/plainas/tq) | Query HTML with CSS selectors. |
 | [Xidel](http://www.videlibri.de/xidel.html) | Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors. |
 | [xml2](https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. [Source code mirror](https://github.com/clone/xml2). |
-| [XMLLint](http://xmlsoft.org/xmllint.html) | Query, and validate XML documents. |
+| [XMLLint](http://xmlsoft.org/xmllint.html) | Query (including XSLT), validate and reformat XML documents. |
 | [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) | Query, modify, and validate XML documents. |
 | [xq](https://github.com/kislyuk/yq) | [jq](#json) wrapper for XML documents. |
 
