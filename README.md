@@ -46,6 +46,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 |---------------|-------------|
 | [csv2md](https://github.com/pstaender/csv2md) | Convert CSV to Markdown tables. |
 | [csv2html](https://github.com/dbohdan/csv2html) | Convert CSV to HTML tables. |
+| [csvfaker](https://github.com/pereorga/csvfaker) | Generate CSV files with fake data. Supports different types of fake data in different locales: names, cities, jobs, email addresses, and others. |
 | [GNU datamash](http://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
 | [jp (sgreben)](https://github.com/sgreben/jp) | Plot data. See the [JSON](#json) section. |
 | [Miller](https://github.com/johnkerl/miller) | `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON. |
