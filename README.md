@@ -44,6 +44,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | Name and link | Description |
 |---------------|-------------|
 | [GNU datamash](http://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
+| [jp (sgreben)](https://github.com/sgreben/jp) | Plot data. See the [JSON](#json) section. |
 | [Miller](https://github.com/johnkerl/miller) | `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON. |
 | [rows](https://github.com/turicas/rows) | A Python library with a [CLI](http://turicas.info/rows/command-line-interface.html). Convert between a number of [file formats](http://turicas.info/rows/plugins.html) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas. |
 | [tab](http://tkatchev.bitbucket.io/tab/) | A non-Turing-complete statically typed programming language for data processing. An alternative to Awk. |
@@ -92,7 +93,8 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [jiq](https://github.com/simeji/jid) | Drill down JSON interactively by using filtering queries like jq. |
 | [jl](https://github.com/chrisdone/jl) | Query and manipulate JSON using a tiny functional language. |
 | [jo](https://github.com/jpmens/jo) | Create JSON objects from the shell. |
-| [jp](https://github.com/jmespath/jp) | [JMESPath](http://jmespath.org/) |
+| [jp (jmespath)](https://github.com/jmespath/jp) | [JMESPath](http://jmespath.org/) |
+| [jp (sgreben)](https://github.com/sgreben/jp) | Plot JSON and CSV data in the terminal. Supports different kinds of plots: bar charts, line charts, scatter plots, histograms, and heatmaps. |
 | [jq](http://stedolan.github.io/jq/manual/) | Create and manipulate JSON with a functional (as in "functional programming") [DSL](https://en.wikipedia.org/wiki/Domain-specific_language). Can convert JSON to other formats. |
 | [jshon](http://kmkeen.com/jshon/) | Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options. |
 | [json2](https://github.com/vi/json2) | Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml-html). |
