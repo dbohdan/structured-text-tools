@@ -58,7 +58,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 ### SQL-based tools
 
-See the [separate file](sql-based.md).
+See the [Grand Comparison Table of SQL-based Tools](sql-based.md).
 
 
 ## XML, HTML

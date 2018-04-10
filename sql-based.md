@@ -1,14 +1,804 @@
 ## SQL-based tools
 
-| Name and link | Programming language and database engine | Features | Usage link | License |
-|---------------|------------------------------------------|----------|------------|---------|
-| [csvkit](https://github.com/wireservice/csvkit) | Python, SQLite 3 | Use header row for column names. Custom input and output encoding. Custom input field separator. Custom output field separator. Custom output formatting. CSV JOINs. Python module. Excel and JSON to CSV. CSV to JSON. SQL queries for CSV. | [Usage](http://csvkit.readthedocs.io/en/latest/) | MIT |
-| [fsql](https://metacpan.org/release/App-fsql) | Perl, custom SQL interpreter | CSV, TSV, [LTSV](http://ltsv.org/), Perl, JSON, and YAML input and output. Table JOINs. Custom SQL functions defined in Perl. Array and dictionary output for Perl, JSON, and YAML. | [Usage](https://metacpan.org/pod/distribution/App-fsql/bin/fsql) | Choice of GNU GPLv1+ or [Artistic License](https://en.wikipedia.org/wiki/Artistic_License) |
-| [q](https://github.com/harelba/q) | Python, SQLite 3 | Use header row for column names. Custom input and output encoding. Gzipped input. Custom input field separator (string literal). Custom output field separator. Custom output formatting. Table JOINs. Python module. | [Usage](https://github.com/harelba/q/blob/master/doc/USAGE.markdown) | GNU GPLv3 |
-| [rows](https://github.com/turicas/rows) | Python, SQLite 3 | See the [Other tools](#other-tools) section. | [Usage](http://turicas.info/rows/command-line-interface.html) | GNU LGPLv3 |
-| [Sqawk](https://github.com/dbohdan/sqawk) | Tcl, SQLite 3 | Use header row for column names. Custom input field separator (regexp, per-file). Custom input record delimiter (regexp, per-file). Custom output field separator. Custom output record separator. Custom table names. Merge selected columns into one. Skip columns. ASCII/Unicode table output, CSV input and output. JSON output. Keep SQLite file. Tcl input and output. Table JOINs. | [Usage](https://github.com/dbohdan/sqawk#options) | MIT |
-| [sqawk](https://github.com/tjunier/sqawk) | C, SQLite 3 | Use header row for column names. Column name aliases. Can skip lines until a regexp matches. Custom input field separator (string literal, per-file). Keep SQLite file. Show generated SQL. Table JOINs. | [Usage](https://github.com/tjunier/sqawk/blob/master/sqawk.1) | ? |
-| [Squawk](https://github.com/samuel/squawk) | Python, custom SQL interpreter | Access log and CSV input. JSON and CSV output. Python code generation. | — | Three-clause BSD |
-| [termsql](https://github.com/tobimensch/termsql) | Python, SQLite 3 | Use header rows for column names. Custom field separator (regexp). Custom record separator (string literal). Lines as columns. Skip a given number of lines and the beginning and at the end. Merge selected columns into one. HTML, CSV, SQL, and Tcl output. | [Manual](http://tobimensch.github.io/termsql/) | MIT |A
-| [trdsql](https://github.com/noborus/trdsql) | Go, MySQL/PostgreSQL/SQLite 3 | Use header row for column names. Custom field separator (string literal). Table JOINs. CSV, LTSV, and JSON input. CSV, LTSV, JSON, ASCII table, Markdown output. | [Usage](https://github.com/noborus/trdsql#usage) | MIT |
-| [textql](https://github.com/dinedal/textql) | Go, SQLite 3 | Use header rows for column names. Keep SQLite file. Custom input field separator (string literal). | [Usage](https://github.com/dinedal/textql#usage) | MIT |
+<table>
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Link
+    </th>
+    <th>
+      Documentation link
+    </th>
+    <th>
+      Programming language
+    </th>
+    <th>
+      Database
+    </th>
+    <th>
+      Column names from header row
+    </th>
+    <th>
+      Custom character encoding
+    </th>
+    <th>
+      Custom input field separator
+    </th>
+    <th>
+      Custom input record separator
+    </th>
+    <th>
+      Custom output field separator
+    </th>
+    <th>
+      Custom output record separator
+    </th>
+    <th>
+      JOINs
+    </th>
+    <th>
+      Use as library
+    </th>
+    <th>
+      Input formats
+    </th>
+    <th>
+      Output formats
+    </th>
+    <th>
+      Custom table names
+    </th>
+    <th>
+      Custom column names
+    </th>
+    <th>
+      Keep database file (for SQLite 3)
+    </th>
+    <th>
+      Skip input fields
+    </th>
+    <th>
+      Skip input records (lines)
+    </th>
+    <th>
+      Merge input fields
+    </th>
+    <th>
+      Database table customization
+    </th>
+    <th>
+      SQL dump
+    </th>
+    <th>
+      Other
+    </th>
+  </tr>
+  <tr>
+    <td>
+      csvsql
+    </td>
+    <td>
+      https://github.com/wireservice/csvkit
+    </td>
+    <td>
+      http://csvkit.readthedocs.io/en/latest/
+    </td>
+    <td>
+      Python
+    </td>
+    <td>
+      Firebird/MS SQL/MySQL/Oracle/PostgreSQL/SQLite 3/Sybase
+    </td>
+    <td>
+      yes, optional
+    </td>
+    <td>
+      yes, input and output
+    </td>
+    <td>
+      yes, string
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes, Python
+    </td>
+    <td>
+      delimited without quotes, DSV, Excel, JSON, SQL, fixed-width,
+      DBF, and others (separate converters)
+    </td>
+    <td>
+      delimited without quotes, DSV, JSON, Markdown-style table,
+      SQL (separate converters)
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes (separate tool)
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no?
+    </td>
+    <td>
+      yes, UNIQUE constraints, database schema name, automatic
+      column datatype or text
+    </td>
+    <td>
+      yes
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      fsql
+    </td>
+    <td>
+      https://metacpan.org/release/App-fsql
+    </td>
+    <td>
+      https://metacpan.org/pod/distribution/App-fsql/bin/fsql
+    </td>
+    <td>
+      Perl
+    </td>
+    <td>
+      custom SQL interpreter
+    </td>
+    <td>
+      yes, always
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes, Perl
+    </td>
+    <td>
+      CSV, TSV, LTSV, Perl, JSON, YAML
+    </td>
+    <td>
+      CSV, TSV, LTSV, Perl, JSON, YAML
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      q
+    </td>
+    <td>
+      https://github.com/harelba/q
+    </td>
+    <td>
+      https://github.com/harelba/q/blob/master/doc/USAGE.markdown
+    </td>
+    <td>
+      Python
+    </td>
+    <td>
+      SQLite 3
+    </td>
+    <td>
+      yes, optional
+    </td>
+    <td>
+      yes, input and output
+    </td>
+    <td>
+      yes, string
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes, Python
+    </td>
+    <td>
+      delimited without quotes, DSV
+    </td>
+    <td>
+      delimited without quotes, DSV, custom using Python formatting
+      string
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, automatic column datatype or text
+    </td>
+    <td>
+      no
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      rows
+    </td>
+    <td>
+      https://github.com/turicas/rows
+    </td>
+    <td>
+      http://turicas.info/rows/command-line-interface.html
+    </td>
+    <td>
+      Python
+    </td>
+    <td>
+      SQLite 3
+    </td>
+    <td>
+      yes, always?
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, Python
+    </td>
+    <td>
+      CSV, JSON, XLS, XLSX, ODS, and others
+    </td>
+    <td>
+      CSV, JSON, XLS, XLSX, ODS, and others
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      Sqawk
+    </td>
+    <td>
+      https://github.com/dbohdan/sqawk
+    </td>
+    <td>
+      https://github.com/dbohdan/sqawk#options
+    </td>
+    <td>
+      Tcl
+    </td>
+    <td>
+      SQLite 3
+    </td>
+    <td>
+      yes, optional
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, regexp, per-file
+    </td>
+    <td>
+      yes, regexp, per-file
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes, Tcl
+    </td>
+    <td>
+      delimited without quotes, DSV, Tcl
+    </td>
+    <td>
+      delimited without quotes, CSV, JSON, ASCII/Unicode table, Tcl
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes, any
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, any consecutive
+    </td>
+    <td>
+      yes, column datatypes
+    </td>
+    <td>
+      no
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      sqawk
+    </td>
+    <td>
+      https://github.com/tjunier/sqawk
+    </td>
+    <td>
+      https://github.com/tjunier/sqawk/blob/master/sqawk.1
+    </td>
+    <td>
+      C
+    </td>
+    <td>
+      SQLite 3
+    </td>
+    <td>
+      yes, optional
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, string, per-file
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      DSV
+    </td>
+    <td>
+      CSV
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, until regexp matches
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, primary key, indexes, foreign key constraints, automatic
+      column datatype or text
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      chunked mode (read and process only N lines at a time)
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Squawk
+    </td>
+    <td>
+      https://github.com/samuel/squawk
+    </td>
+    <td></td>
+    <td>
+      Python
+    </td>
+    <td>
+      custom SQL interpreter
+    </td>
+    <td>
+      yes, always
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, Python
+    </td>
+    <td>
+      CSV, Apache and Nginx log files
+    </td>
+    <td>
+      table, CSV, JSON
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      termsql
+    </td>
+    <td>
+      https://github.com/tobimensch/termsql
+    </td>
+    <td>
+      http://tobimensch.github.io/termsql/
+    </td>
+    <td>
+      Python
+    </td>
+    <td>
+      SQLite 3
+    </td>
+    <td>
+      yes, optional
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, regexp
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      DSV, “vertical” DSV (lines as columns)
+    </td>
+    <td>
+      delimited without quotes, CSV, TSV, HTML, SQL, Tcl
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, N first and M last
+    </td>
+    <td>
+      yes, Nth to last
+    </td>
+    <td>
+      yes, primary key
+    </td>
+    <td>
+      yes
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      trdsql
+    </td>
+    <td>
+      https://github.com/noborus/trdsql
+    </td>
+    <td>
+      https://github.com/noborus/trdsql#usage
+    </td>
+    <td>
+      Go
+    </td>
+    <td>
+      MySQL/PostgreSQL/SQLite 3
+    </td>
+    <td>
+      yes, optional
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, string
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      CSV, LTSV, JSON
+    </td>
+    <td>
+      delimited without quotes, CSV, LTSV, JSON, ASCII table,
+      Markdown
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      textql
+    </td>
+    <td>
+      https://github.com/dinedal/textql
+    </td>
+    <td>
+      https://github.com/dinedal/textql#usage
+    </td>
+    <td>
+      Go
+    </td>
+    <td>
+      SQLite 3
+    </td>
+    <td>
+      yes, optional
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, string
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      DSV
+    </td>
+    <td>
+      DSV
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td></td>
+  </tr>
+</table>
