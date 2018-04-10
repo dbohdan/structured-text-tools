@@ -38,7 +38,8 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 | Name | Description |
 |------|-------------|
-| `cut` | Select portions of each line in one or several files. Can work with delimiter-separated fields. (Manual: `man 1 cut` on your system, [GNU](http://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1).) |
+| `comm` | Select lines common to two sorted files or those contained in only one of them. (Manual: `man 1 comm` on your system, [GNU](http://linux.die.net/man/1/comm), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=comm&sektion=1).) |
+| `cut` | Select portions of each line in one or several files. Can work with delimiter-separated fields. (Manual: `man 1 cut`, [GNU](http://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1).) |
 | `grep` | Select lines from one or several files. (Manual: `man 1 grep`, [GNU](http://linux.die.net/man/1/grep), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=grep&sektion=1).) |
 | `join` | Join the lines from two files on a common field. (Manual: `man 1 join`, [GNU](http://linux.die.net/man/1/join), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=join&sektion=1).) |
 | `paste` | Combine several consecutive lines in a text file into one. (Manual: `man 1 paste`, [GNU](http://linux.die.net/man/1/paste), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=paste&sektion=1).) |
