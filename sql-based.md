@@ -77,6 +77,78 @@
   </tr>
   <tr>
     <td>
+      AlaSQL CLI
+    </td>
+    <td>
+      https://github.com/agershun/alasql
+    </td>
+    <td>
+      https://github.com/agershun/alasql/wiki/AlaSQL-CLI
+    </td>
+    <td>
+      JavaScript
+    </td>
+    <td>
+      AlaSQL
+    </td>
+    <td>
+      yes, optional
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, string
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yees
+    </td>
+    <td>
+      yes, JavaScript
+    </td>
+    <td>
+      lines, DSV, XLS, XLSX, HTML tables, JSON
+    </td>
+    <td>
+      lines, DSV, XLS, XLSX, HTML tables, JSON
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      n/a
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, can create custom table then import into it
+    </td>
+    <td>
+      yes
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
       csvsql
     </td>
     <td>
