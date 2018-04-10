@@ -10,6 +10,7 @@ The following is a list of text-based file formats and command line tools for ma
 * [JSON](#json)
 * [YAML, TOML](#yaml-toml)
 * [INI](#ini)
+* [Log files](#log-files)
 * [Configuration files](#configuration-files)
 * [Bonus round: CLIs for single-file databases](#bonus-round-clis-for-single-file-databases)
 * [License](#license)
@@ -128,6 +129,14 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 | [crudini](https://github.com/pixelb/crudini/) | Any with Python 2.x | GNU GPLv2 | Retrieve properties and sections as INI fragments or shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Set properties. Remove properties and sections. Create empty sections. Merge INI files. Changes files in place. |
 | [IniFile](http://www.horstmuc.de/wbat32.htm#inifile) ([DOS version](http://www.horstmuc.de/div.htm#inifile)) | Windows (x86, x86-64), MS-DOS | Closed-source freeware | Retrieve properties and sections as batch file commands to set the corresponding variables. Set  properties. Remove properties and sections. Changes files in place. |
 | [initool](https://github.com/dbohdan/initool) | Windows, Linux, FreeBSD | MIT | Retrieve properties and sections as INI fragments. Retrieve properties' values as plain text. Set properties. Check for existence of properties and sections. Remove properties and sections. Outputs the updated INI file. |
+
+
+## Log files
+
+| Name and link | Description |
+|---------------|-------------|
+| [Squawk](https://github.com/samuel/squawk) | Query Apache and Nginx log files. See the [SQL-based tool comparison](sql-based.md). |
+| [lnav](https://lnav.org) | Query and watch log files. Has batch and interactive mode. Supported formats include the Common Log Format, CUPS page_log, syslog, strace, and generic timestamped messages. Can perform SQL queries. | 
 
 
 ## Configuration files
