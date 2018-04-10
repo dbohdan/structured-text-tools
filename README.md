@@ -6,6 +6,10 @@ The following is a list of text-based file formats and command line tools for ma
 ## Contents
 
 * [DSV](#dsv)
+  * [Awk](#awk)
+  * [POSIX commands](#posix-commands)
+  * [SQL-based tools](#sql-based-tools)
+  * [Other tools](#other-tools)
 * [XML, HTML](#xml-html)
 * [JSON](#json)
 * [YAML, TOML](#yaml-toml)
