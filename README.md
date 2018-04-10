@@ -57,6 +57,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [GNU datamash](http://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
 | [jp (sgreben)](https://github.com/sgreben/jp) | Plot data. See the [JSON](#json) section. |
 | [Miller](https://github.com/johnkerl/miller) | `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON. |
+| [pawk](https://github.com/alecthomas/pawk) | Process text with Awk-like patterns, but Python code. |
 | [rows](https://github.com/turicas/rows) | A Python library with a [CLI](http://turicas.info/rows/command-line-interface.html). Convert between a number of [file formats](http://turicas.info/rows/plugins.html) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas. |
 | [tab](http://tkatchev.bitbucket.io/tab/) | A non-Turing-complete statically typed programming language for data processing. An alternative to Awk. |
 | [tidy-html5](http://www.html-tidy.org/) | Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML. |
