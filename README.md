@@ -56,7 +56,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [tab](http://tkatchev.bitbucket.io/tab/) | A non-Turing-complete statically typed programming language for data processing. An alternative to Awk. |
 | [tidy-html5](http://www.html-tidy.org/) | Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML. |
 | [eBay's TSV utilities](https://ebay.github.io/tsv-utils-dlang/) | Filter, summarize, join, and perform other operations on TSV files. Written in D. |
-| [VisiData](https://github.com/saulpw/visidata) | Expore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). |
+| [VisiData](https://github.com/saulpw/visidata) | Expore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/). |
 | [xsv](https://github.com/BurntSushi/xsv) | Index, slice, analyze, split, and join CSV files. |
 
 ### SQL-based tools
