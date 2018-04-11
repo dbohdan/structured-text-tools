@@ -108,6 +108,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [json2](https://github.com/vi/json2) | Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml-html). |
 | [jsonaxe](https://github.com/davvid/jsonaxe) | Create and manipulate JSON with a Python-based DSL. Inspired by jq. |
 | [json](https://github.com/trentm/json) | Run arbitrary JavaScript on JSON input. |
+| [jsonTocsv](https://github.com/PaulRosset/j2c) | CLI that transform a JSON to CSV with ```Key,Value``` format. Usefull to map keys and value from a JSON object. |
 | [json-table](https://github.com/micha/json-table) | Convert nested JSON into CSV or TSV for processing in the shell. |
 | [json.tool](https://docs.python.org/2/library/json.html) ([Python 3 docs](https://docs.python.org/3/library/json.html)) | Validate and pretty-print JSON. This module is part of the standard library of Python 2/3 and is likely to be available wherever Python is installed. |
 | [jsonwatch](https://github.com/dbohdan/jsonwatch) | Track changes in JSON data from the command line. Works like `watch -d`. |
