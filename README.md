@@ -99,6 +99,7 @@ See the [Grand Comparison Table of SQL-based Tools](sql-based.md). It covers
 | [XMLLint](http://xmlsoft.org/xmllint.html) | Query (including XSLT), validate and reformat XML documents. |
 | [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) | Query, modify, and validate XML documents. |
 | [xq](https://github.com/kislyuk/yq) | [jq](#json) wrapper for XML documents. |
+| [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html) | Transform XML documents using [XSLT](https://www.w3.org/TR/xslt) and [EXSLT](http://exslt.org). |
 
 See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
