@@ -103,6 +103,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [jo](https://github.com/jpmens/jo) | Create JSON objects from the shell. |
 | [jp (jmespath)](https://github.com/jmespath/jp) | [JMESPath](http://jmespath.org/) |
 | [jp (sgreben)](https://github.com/sgreben/jp) | Plot JSON and CSV data in the terminal. Supports different kinds of plots: bar charts, line charts, scatter plots, histograms, and heatmaps. |
+| [jplot](https://github.com/rs/jplot) | Plot real-time JSON data in the terminal (works with terminals supporting graphic rendering). |
 | [jq](http://stedolan.github.io/jq/manual/) | Create and manipulate JSON with a functional (as in "functional programming") [DSL](https://en.wikipedia.org/wiki/Domain-specific_language). Can convert JSON to other formats. |
 | [jshon](http://kmkeen.com/jshon/) | Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options. |
 | [json2](https://github.com/vi/json2) | Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml-html). |
