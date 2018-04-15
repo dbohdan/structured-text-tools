@@ -126,6 +126,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [json.tool](https://docs.python.org/2/library/json.html) ([Python 3 docs](https://docs.python.org/3/library/json.html)) | Validate and pretty-print JSON. This module is part of the standard library of Python 2/3 and is likely to be available wherever Python is installed. |
 | [jsonwatch](https://github.com/dbohdan/jsonwatch) | Track changes in JSON data from the command line. Works like `watch -d`. |
 | [lobar](https://github.com/sodiumjoe/lobar) | Explore JSON interactively or process it in batch with a wrapper for `lodash.chain()`. An alternative to jq with a JavaScript syntax. |
+| [quicktype](https://github.com/quicktype/quicktype) | Infer the underlying model of the JSON and output as types for various programming languages or JSON Schema.  CLI and [Web UI](https://app.quicktype.io). |
 | [rq](https://github.com/dflemstr/rq) | Create and manipulate JSON with a DSL inspired by Rust, C and JavaScript. Similar to jq. Supports JSON, YAML and TOML as well as binary formats like Apache Avro and MessagePack. |
 | [validjson](http://github.com/martinlindhe/validjson) | Validate or pretty-print JSON. |
 | [VisiData](https://github.com/saulpw/visidata) | Explore data interactively data. See the [DSV/Other tools](#other-tools) section. |
