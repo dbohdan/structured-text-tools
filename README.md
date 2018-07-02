@@ -145,6 +145,7 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 | [shyaml](https://github.com/0k/shyaml) | Query YAML. Can output null-terminated strings for use in shell scripts. |
 | [validtoml](http://github.com/martinlindhe/validtoml) | Validate TOML. |
 | [validyaml](http://github.com/martinlindhe/validyaml) | Validate or pretty-print YAML. |
+| [yaml-tools](https://github.com/thecodingmachine/yaml-tools) | A set of CLI tools to manipulate YAML files (merge, delete, etc...) with comment preservation, based on [ruamel.yaml](http://yaml.readthedocs.io/en/latest/). |
 | [yq (kislyuk)](https://github.com/kislyuk/yq) | [jq](#json) wrapper for YAML. |
 | [yq (mikefarah)](https://github.com/mikefarah/yq) | Query, modify, and merge YAML. Convert to and from JSON. |
 
