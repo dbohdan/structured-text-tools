@@ -16,6 +16,8 @@ The following is a list of text-based file formats and command line tools for ma
 * [INI](#ini)
 * [Log files](#log-files)
 * [Configuration files](#configuration-files)
+  * [/etc/hosts](#etchosts)
+  * [Multiple formats](#multiple-formats)
 * [Bonus round: CLIs for single-file databases](#bonus-round-clis-for-single-file-databases)
 * [License](#license)
 * [Disclosure](#disclosure)
@@ -171,6 +173,15 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 
 ## Configuration files
 
+### /etc/hosts
+
+| Name and link | Description |
+|---------------|-------------|
+| [hosts](https://gitlab.com/dbohdan/hosts) | Add and remove entires in `/etc/hosts`. Change a hostname's IP address. Idempotent. Preserves arbitrary comments. Can be used as a Tcl library. |
+| [hostess](https://github.com/cbednarski/hostess) | Add and remove entires in `/etc/hosts`. Disable (comment out) and enable (uncomment) entires. Check if a hostname exists. Reformat the hosts file. Convert the entries to JSON. Idempotent. Removes arbitrary comments. |
+
+### Multiple formats
+
 | Name and link | Description |
 |---------------|-------------|
 | [Augeas](http://augeas.net) | Query and modify [a number of file formats](http://augeas.net/stock_lenses.html). Not all of the formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed. |
@@ -194,4 +205,4 @@ The contents of this document is licensed under the [Creative Commons Attributio
 
 ## Disclosure
 
-[csv2html](https://github.com/dbohdan/csv2html), [Sqawk](https://github.com/dbohdan/sqawk), [jsonwatch](https://github.com/dbohdan/jsonwatch), [Remarshal](https://github.com/dbohdan/remarshal) and [initool](https://github.com/dbohdan/initool) are developed by the curator of this document.
+[csv2html](https://github.com/dbohdan/csv2html), [hosts](https://gitlab.com/dbohdan/hosts), [Sqawk](https://github.com/dbohdan/sqawk), [jsonwatch](https://github.com/dbohdan/jsonwatch), [Remarshal](https://github.com/dbohdan/remarshal) and [initool](https://github.com/dbohdan/initool) are developed by the curator of this document.
