@@ -13,10 +13,10 @@ The following is a list of text-based file formats and command line tools for ma
 * [XML, HTML](#xml-html)
 * [JSON](#json)
 * [YAML, TOML](#yaml-toml)
-* [INI](#ini)
 * [Log files](#log-files)
 * [Configuration files](#configuration-files)
   * [/etc/hosts](#etchosts)
+  * [INI](#ini)
   * [Multiple formats](#multiple-formats)
 * [Bonus round: CLIs for single-file databases](#bonus-round-clis-for-single-file-databases)
 * [License](#license)
@@ -153,16 +153,6 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 | [yq (mikefarah)](https://github.com/mikefarah/yq) | Query, modify, and merge YAML. Convert to and from JSON. |
 
 
-## INI
-
-| Name and link | Platform | License | Description |
-|---------------|----------|---------|-------------|
-| [confget](https://devel.ringlet.net/textproc/confget/) | Linux, FreeBSD | Two-clause BSD | Retrieve properties and sections as shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Check for existence of properties. List sections. Find values that match a pattern. Read-only. |
-| [crudini](https://github.com/pixelb/crudini/) | Any with Python 2.x | GNU GPLv2 | Retrieve properties and sections as INI fragments or shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Set properties. Remove properties and sections. Create empty sections. Merge INI files. Changes files in place. |
-| [IniFile](http://www.horstmuc.de/wbat32.htm#inifile) ([DOS version](http://www.horstmuc.de/div.htm#inifile)) | Windows (x86, x86-64), MS-DOS | Closed-source freeware | Retrieve properties and sections as batch file commands to set the corresponding variables. Set  properties. Remove properties and sections. Changes files in place. |
-| [initool](https://github.com/dbohdan/initool) | Linux, FreeBSD, Windows | MIT | Retrieve properties and sections as INI fragments. Retrieve properties' values as plain text. Set properties. Check for existence of properties and sections. Remove properties and sections. Outputs the updated INI file. |
-
-
 ## Log files
 
 | Name and link | Description |
@@ -179,6 +169,15 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 |---------------|-------------|
 | [hosts](https://gitlab.com/dbohdan/hosts) | Add and remove entires in `/etc/hosts`. Change a hostname's IP address. Idempotent. Preserves arbitrary comments. Can be used as a Tcl library. |
 | [hostess](https://github.com/cbednarski/hostess) | Add and remove entires in `/etc/hosts`. Disable (comment out) and enable (uncomment) entires. Check if a hostname exists. Reformat the hosts file. Convert the entries to JSON. Idempotent. Removes arbitrary comments. |
+
+## INI
+
+| Name and link | Platform | License | Description |
+|---------------|----------|---------|-------------|
+| [confget](https://devel.ringlet.net/textproc/confget/) | Linux, FreeBSD | Two-clause BSD | Retrieve properties and sections as shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Check for existence of properties. List sections. Find values that match a pattern. Read-only. |
+| [crudini](https://github.com/pixelb/crudini/) | Any with Python 2.x | GNU GPLv2 | Retrieve properties and sections as INI fragments or shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Set properties. Remove properties and sections. Create empty sections. Merge INI files. Changes files in place. |
+| [IniFile](http://www.horstmuc.de/wbat32.htm#inifile) ([DOS version](http://www.horstmuc.de/div.htm#inifile)) | Windows (x86, x86-64), MS-DOS | Closed-source freeware | Retrieve properties and sections as batch file commands to set the corresponding variables. Set  properties. Remove properties and sections. Changes files in place. |
+| [initool](https://github.com/dbohdan/initool) | Linux, FreeBSD, Windows | MIT | Retrieve properties and sections as INI fragments. Retrieve properties' values as plain text. Set properties. Check for existence of properties and sections. Remove properties and sections. Outputs the updated INI file. |
 
 ### Multiple formats
 
