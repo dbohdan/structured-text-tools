@@ -66,6 +66,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [eBay's TSV utilities](https://github.com/eBay/tsv-utils) | Filtering, statistics, sampling, joins and other operations on TSV files. High performance, especially good for large datasets. Written in D. |
 | [tv](https://github.com/codechenx/tv) | View delimited files in the terminal. |
 | [VisiData](https://github.com/saulpw/visidata) | Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/). |
+|[tv](https://github.com/codechenx/tv)|A tool to view the delimited file in terminal|
 | [xsv](https://github.com/BurntSushi/xsv) | Index, slice, analyze, split, and join CSV files. |
 
 ### SQL-based tools
