@@ -53,6 +53,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 | Name and link | Description |
 |---------------|-------------|
+| [cdi_ohe](https://github.com/plainas/cdi_ohe) | Command line [one-hot](https://en.wikipedia.org/wiki/One-hot) encoder. |
 | [csv2md](https://github.com/pstaender/csv2md) | Convert CSV to Markdown tables. |
 | [csv2html](https://github.com/dbohdan/csv2html) | Convert CSV to HTML tables. |
 | [csvfaker](https://github.com/pereorga/csvfaker) | Generate CSV files with fake data. Supports different types of fake data in different locales: names, cities, jobs, email addresses, and others. |
