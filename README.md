@@ -65,6 +65,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [MCMD (M-Command)](https://github.com/nysol/mcmd) | Select, sample, cut, join, sort, reformat, and generate CSV files. Contains a large set of commands. |
 | [Miller](https://github.com/johnkerl/miller) | `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON. |
 | [pawk](https://github.com/alecthomas/pawk) | Process text with Awk-like patterns, but Python code. |
+| [RecordStream](https://github.com/benbernard/RecordStream) | Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources. |
 | [rows](https://github.com/turicas/rows) | A Python library with a [CLI](http://turicas.info/rows/command-line-interface.html). Convert between a number of [file formats](http://turicas.info/rows/plugins.html) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas. |
 | [tab](http://tkatchev.bitbucket.io/tab/) | A non-Turing-complete statically typed programming language for data processing. An alternative to Awk. |
 | [eBay's TSV utilities](https://github.com/eBay/tsv-utils) | Filtering, statistics, sampling, joins and other operations on TSV files. High performance, especially good for large datasets. Written in D. |
