@@ -65,7 +65,6 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [MCMD (M-Command)](https://github.com/nysol/mcmd) | Select, sample, cut, join, sort, reformat, and generate CSV files. Contains a large set of commands. |
 | [Miller](https://github.com/johnkerl/miller) | `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON. |
 | [pawk](https://github.com/alecthomas/pawk) | Process text with Awk-like patterns, but Python code. |
-| [RecordStream](https://github.com/benbernard/RecordStream) | Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources. |
 | [rows](https://github.com/turicas/rows) | A Python library with a [CLI](http://turicas.info/rows/command-line-interface.html). Convert between a number of [file formats](http://turicas.info/rows/plugins.html) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas. |
 | [tab](http://tkatchev.bitbucket.io/tab/) | A non-Turing-complete statically typed programming language for data processing. An alternative to Awk. |
 | [eBay's TSV utilities](https://github.com/eBay/tsv-utils) | Filtering, statistics, sampling, joins and other operations on TSV files. High performance, especially good for large datasets. Written in D. |
@@ -135,6 +134,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [lobar](https://github.com/sodiumjoe/lobar) | Explore JSON interactively or process it in batch with a wrapper for `lodash.chain()`. An alternative to jq with a JavaScript syntax. |
 | [quicktype](https://github.com/quicktype/quicktype) | Infer the underlying model of the JSON and output as types for various programming languages or JSON Schema.  CLI and [Web UI](https://app.quicktype.io). |
 | [ramda-cli](https://github.com/raine/ramda-cli) | Manipulate JSON with the [Ramda](https://ramdajs.com/) functional library, and either LiveScript or JavaScript syntax. |
+| [RecordStream](https://github.com/benbernard/RecordStream) | Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources. |
 | [rq](https://github.com/dflemstr/rq) | Create and manipulate JSON with a DSL inspired by Rust, C and JavaScript. Similar to jq. Supports JSON, YAML and TOML as well as binary formats like Apache Avro and MessagePack. |
 | [validjson](http://github.com/martinlindhe/validjson) | Validate or pretty-print JSON. |
 | [VisiData](https://github.com/saulpw/visidata) | Explore data interactively data. See the [DSV/Other tools](#other-tools) section. |
