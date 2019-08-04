@@ -96,7 +96,7 @@ See the [Grand Comparison Table of SQL-based Tools](sql-based.md). It covers
 | [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) | Convert XML to JSON. Can handle very large XML files. |
 | [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) | A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained. |
 | [pup](https://github.com/EricChiang/pup) | Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json). |
-| [Saxon](http://saxon.sourceforge.net/) | Query XML and HTML data with [XPath](http://scraping.pro/xpath-review/). [Documentation](http://www.saxonica.com/html/documentation/using-xsl/commandline.html). |
+| [Saxon](http://saxon.sourceforge.net/) | Query XML and HTML data with [XPath](http://scraping.pro/xpath-review/). [Documentation](http://www.saxonica.com/documentation/#!using-xsl). |
 | [Temme](https://github.com/shinima/temme) | Query HTML with CSS-like selectors to extract JSON. Temme extends CSS selectors with value capture patterns. |
 | [tidy-html5](http://www.html-tidy.org/) | Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML. |
 | [tq](https://github.com/plainas/tq) | Query HTML with CSS selectors. |
