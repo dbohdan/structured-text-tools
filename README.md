@@ -18,6 +18,7 @@ The following is a list of text-based file formats and command line tools for ma
   * [/etc/hosts](#etchosts)
   * [INI](#ini)
   * [Multiple formats](#multiple-formats)
+* [Templating for structured text](#templating-for-structured-text)
 * [Bonus round: CLIs for single-file databases](#bonus-round-clis-for-single-file-databases)
 * [License](#license)
 * [Disclosure](#disclosure)
@@ -190,6 +191,18 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 | [Augeas](http://augeas.net) | Query and modify [a number of file formats](http://augeas.net/stock_lenses.html). Not all of the formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed. |
 | [Elektra](http://libelektra.org) | Query and modify [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses), but has better support for generic formats such as JSON and INI. |
 
+## Templating for structured text
+
+Listed below are restricted programming language interpreters and templating tools that produce structured text output.  They are generally intended to remove repetition in configuration files.  They are distinct from unstructed templating tools like the `jinja2` CLI program, which should not be added to this table.
+
+| Name and link | Output format | Turing-complete? | Syntax | I/O | Description |
+|---------------|---------------|------------------|--------|-----|-------------|
+| [CUE](https://github.com/cuelang/cue) | JSON | Yes? | Extended JSON | ? | A constraint language for JSON configuration data.  Can generate and validates JSON. |
+| [Dhall](https://dhall-lang.org/) | JSON, YAML | No | Haskell-inspired | Limited to importing libraries from files and HTTP(S) URLs (with protection against leaking your data to the server) | A statically-typed functional configuration language.  Has a standard formatting tool. |
+| [jk](https://github.com/jkcfg/jk) | JSON, YAML, plain text | Yes | JavaScript | Disk I/O | Generate configuration files using JavaScript (V8 VM). |
+| [Jsonnet](https://jsonnet.org/) | JSON | Yes | Extended JSON | None | A functional configuration language.  Has a standard formatting tool. |
+| [rjsone](https://github.com/wryun/rjsone) | JSON, YAML | No? | Extended JSON | None | A CLI tool for the [JSON-e](https://github.com/taskcluster/json-e) templating language. |
+| [ytt](https://get-ytt.io/) | YAML | No | YAML/Python hybrid | None? | A templating tool for YAML built upon the [Starlark](https://github.com/bazelbuild/starlark) configuration language. |
 
 ## Bonus round: CLIs for single-file databases
 
