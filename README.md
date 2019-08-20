@@ -117,6 +117,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 |---------------|-------------|
 | [fx](https://github.com/antonmedv/fx) | Run arbitrary JavaScript on JSON input. Standalone binaries available. |
 | [gron](https://github.com/tomnomnom/gron) | Convert JSON to and from flat, greppable lists of "path=value" statements. |
+| [jfq](https://github.com/blgm/jfq) | Query and transform JSON with the [JSONata](http://jsonata.org/) language. |
 | [jid](https://github.com/simeji/jid) | Explore JSON interactively with filtering queries like jq. |
 | [jj](https://github.com/tidwall/jj) | Query and modify values in JSON or [JSON lines](http://jsonlines.org/) with a key path. |
 | [jl](https://github.com/chrisdone/jl) | Query and manipulate JSON using a tiny functional language. |
