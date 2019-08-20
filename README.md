@@ -200,7 +200,7 @@ Listed below are restricted programming language interpreters and templating too
 | [CUE](https://github.com/cuelang/cue) | JSON | Yes? | Extended JSON | ? | A constraint language for JSON configuration data.  Can generate and validates JSON. |
 | [Dhall](https://dhall-lang.org/) | JSON, YAML | No | Haskell-inspired | Limited to importing libraries from files and HTTP(S) URLs (with protection against leaking your data to the server) | A statically-typed functional configuration language.  Has a standard formatting tool. |
 | [jk](https://github.com/jkcfg/jk) | JSON, YAML, plain text | Yes | JavaScript | Disk I/O | Generate configuration files using JavaScript (V8 VM). |
-| [Jsonnet](https://jsonnet.org/) | JSON | Yes | Extended JSON | None | A functional configuration language.  Has a standard formatting tool. |
+| [Jsonnet](https://jsonnet.org/) | JSON, INI, XML, YAML, plain text | Yes | Extended JSON | None | A functional configuration language.  Has a standard formatting tool. |
 | [rjsone](https://github.com/wryun/rjsone) | JSON, YAML | No? | Extended JSON | None | A CLI tool for the [JSON-e](https://github.com/taskcluster/json-e) templating language. |
 | [ytt](https://get-ytt.io/) | YAML | No | YAML/Python hybrid | None? | A templating tool for YAML built upon the [Starlark](https://github.com/bazelbuild/starlark) configuration language. |
 
