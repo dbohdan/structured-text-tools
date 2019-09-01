@@ -110,7 +110,7 @@
       no
     </td>
     <td>
-      yees
+      yes
     </td>
     <td>
       yes, JavaScript
@@ -144,6 +144,79 @@
     </td>
     <td>
       yes
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      csvq
+    </td>
+    <td>
+      https://github.com/mithrandie/csvq
+    </td>
+    <td>
+      https://mithrandie.github.io/csvq/reference
+    </td>
+    <td>
+      Go
+    </td>
+    <td>
+      custom SQL interpreter
+    </td>
+    <td>
+      yes, optional
+    </td>
+    <td>
+      yes, input and output
+    </td>
+    <td>
+      yes, character
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes, Go
+    </td>
+    <td>
+      CSV, TSV, LTSV, fixed-width, JSON
+    </td>
+    <td>
+      CSV, TSV, LTSV, fixed-width, JSON, Makedown-style table,
+      Org-mode, ASCII table
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      n/a
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, ALTER TABLE
+    </td>
+    <td>
+      no
     </td>
     <td></td>
   </tr>
