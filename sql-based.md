@@ -442,6 +442,78 @@
   </tr>
   <tr>
     <td>
+      RBQL
+    </td>
+    <td>
+      https://github.com/mechatroner/RBQL
+    </td>
+    <td>
+      https://rbql.org/
+    </td>
+    <td>
+      JavaScript, Python
+    </td>
+    <td>
+      custom SQL interpreter
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes, input
+    </td>
+    <td>
+      yes, string
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      yes
+    </td>
+    <td>
+      yes, JavaScript and Python
+    </td>
+    <td>
+      DSV
+    </td>
+    <td>
+      DSV
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      n/a
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td>
+      no
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
       rows
     </td>
     <td>
