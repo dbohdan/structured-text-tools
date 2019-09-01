@@ -78,9 +78,11 @@ Awk is a POSIX-standard command line tool and programming language for processin
 See the [Grand Comparison Table of SQL-based Tools](sql-based.md). It covers
 
 * AlaSQL CLI
+* csvq
 * csvsql
 * fsql
 * q
+* RBQL
 * rows
 * Sqawk (dbohdan)
 * sqawk (tjunier)
