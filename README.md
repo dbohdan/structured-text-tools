@@ -64,6 +64,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [csvtk](https://github.com/shenwei356/csvtk) | Search, sample, cut, join, transpose, and sort CSV/TSV files. Rename columns. Replace fields and generate new fiends from existing fields. Plot data as vector or raster histograms and box, line, and scatter plots. Convert CSV to Markdown. Convert XLSX to CSV. Split XLSX sheets. |
 | [GNU datamash](http://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
 | [jp (sgreben)](https://github.com/sgreben/jp) | Plot data. See the [JSON](#json) section. |
+| [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
 | [MCMD (M-Command)](https://github.com/nysol/mcmd) | Select, sample, cut, join, sort, reformat, and generate CSV files. Contains a large set of commands. |
 | [Miller](https://github.com/johnkerl/miller) | `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON. |
 | [pawk](https://github.com/alecthomas/pawk) | Process text with Awk-like patterns, but Python code. |
@@ -99,6 +100,7 @@ See the [Grand Comparison Table of SQL-based Tools](sql-based.md). It covers
 |---------------|-------------|
 | [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) | Convert XML to JSON. Can handle very large XML files. |
 | [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) | A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained. |
+| [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
 | [pup](https://github.com/EricChiang/pup) | Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json). |
 | [Saxon](http://saxon.sourceforge.net/) | Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl). |
 | [Temme](https://github.com/shinima/temme) | Query HTML with CSS-like selectors to extract JSON. Temme extends CSS selectors with value capture patterns. |
@@ -139,6 +141,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [json.tool](https://docs.python.org/2/library/json.html) ([Python 3 docs](https://docs.python.org/3/library/json.html)) | Validate and pretty-print JSON. This module is part of the standard library of Python 2/3 and is likely to be available wherever Python is installed. |
 | [jsonwatch](https://github.com/dbohdan/jsonwatch) | Track changes in JSON data from the command line. Works like `watch -d`. |
 | [lobar](https://github.com/sodiumjoe/lobar) | Explore JSON interactively or process it in batch with a wrapper for `lodash.chain()`. An alternative to jq with a JavaScript syntax. |
+| [Mario](https://github.com/python-mario/mario) | Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code. |
 | [quicktype](https://github.com/quicktype/quicktype) | Infer the underlying model of the JSON and output as types for various programming languages or JSON Schema.  CLI and [Web UI](https://app.quicktype.io). |
 | [ramda-cli](https://github.com/raine/ramda-cli) | Manipulate JSON with the [Ramda](https://ramdajs.com/) functional library, and either LiveScript or JavaScript syntax. |
 | [RecordStream](https://github.com/benbernard/RecordStream) | Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources. |
@@ -153,6 +156,7 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 
 | Name and link | Description |
 |---------------|-------------|
+| [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
 | [Remarshal](https://github.com/dbohdan/remarshal) | Convert between JSON, MessagePack, TOML, and YAML.  Validate each of the formats.  Pretty-print JSON, TOML, and YAML. |
 | [rq](https://github.com/dflemstr/rq) | See the [JSON section](#json). |
 | [shyaml](https://github.com/0k/shyaml) | Query YAML. Can output null-terminated strings for use in shell scripts. |
