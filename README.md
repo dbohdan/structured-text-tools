@@ -54,7 +54,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 | Name and link | Description |
 |---------------|-------------|
-| [csv-nix-tools](https://github.com/mslusarz/csv-nix-tools) | List \*nix system infomation such as environment variables, files, processes, network connections, users as CSV. Manipulate and pretty-print CSV. |
+| [csv-nix-tools](https://github.com/mslusarz/csv-nix-tools) | List \*nix system information such as environment variables, files, processes, network connections, users as CSV. Manipulate and pretty-print CSV. Execute CSV rows as commands. |
 | [csv2md](https://github.com/pstaender/csv2md) | Convert CSV to Markdown tables. |
 | [csv2html](https://github.com/dbohdan/csv2html) | Convert CSV to HTML tables. |
 | [csvfaker](https://github.com/pereorga/csvfaker) | Generate CSV files with fake data. Supports different types of fake data in different locales: names, cities, jobs, email addresses, and others. |
@@ -168,7 +168,7 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 | Name and link | Description |
 |---------------|-------------|
 | [Squawk](https://github.com/samuel/squawk) | Query Apache and Nginx log files. See the [SQL-based tool comparison](sql-based.md). |
-| [lnav](https://lnav.org) | Query and watch log files. Has batch and interactive mode. Supported formats include the Common Log Format, CUPS page_log, syslog, strace, and generic timestamped messages. Can perform SQL queries. | 
+| [lnav](https://lnav.org) | Query and watch log files. Has batch and interactive mode. Supported formats include the Common Log Format, CUPS page_log, syslog, strace, and generic timestamped messages. Can perform SQL queries. |
 
 
 ## Configuration files
