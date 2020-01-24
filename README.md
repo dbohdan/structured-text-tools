@@ -54,6 +54,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 | Name and link | Description |
 |---------------|-------------|
+| [csv-nix-tools](https://github.com/mslusarz/csv-nix-tools) | List \*nix system infomation such as environment variables, files, processes, network connections, users as CSV. Manipulate and pretty-print CSV. |
 | [csv2md](https://github.com/pstaender/csv2md) | Convert CSV to Markdown tables. |
 | [csv2html](https://github.com/dbohdan/csv2html) | Convert CSV to HTML tables. |
 | [csvfaker](https://github.com/pereorga/csvfaker) | Generate CSV files with fake data. Supports different types of fake data in different locales: names, cities, jobs, email addresses, and others. |
