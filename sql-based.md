@@ -457,7 +457,7 @@
       custom SQL interpreter
     </td>
     <td>
-      no
+      yes, optional
     </td>
     <td>
       yes, input
