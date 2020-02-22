@@ -122,6 +122,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 |---------------|-------------|
 | [fx](https://github.com/antonmedv/fx) | Run arbitrary JavaScript on JSON input. Standalone binaries available. |
 | [gron](https://github.com/tomnomnom/gron) | Convert JSON to and from flat, greppable lists of "path=value" statements. |
+| [JC](https://github.com/kellyjonbrazil/jc) | Convert the output of standard command line tools to JSON. |
 | [jet](https://github.com/borkdude/jet) | Convert between and query JSON, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format). |
 | [jfq](https://github.com/blgm/jfq) | Query and transform JSON with the [JSONata](http://jsonata.org/) language. |
 | [jid](https://github.com/simeji/jid) | Explore JSON interactively with filtering queries like jq. |
