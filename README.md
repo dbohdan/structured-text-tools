@@ -221,6 +221,7 @@ Listed below are restricted programming language interpreters and templating too
 | Name and link | Description | File format |
 |---------------|-------------|-------------|
 | [Firebird](https://firebirdsql.org/) | Firebird is a FOSS database that can be used from a single file, like SQLite. "isql is a program that allows the user to issue arbitrary SQL commands". | Binary |
+| [Fsdb](https://www.isi.edu/~johnh/SOFTWARE/FSDB/perl-Fsdb-2.69_README.html) | A flat-file database for shell scripting. | Text-based, TSV with a header or "key: value" |
 | [GNU Recutils](http://www.gnu.org/software/recutils/) | "[A] set of tools and libraries to access human-editable, plain text databases called recfiles." | Text-based, roughly "key: value" |
 | [SDB](https://github.com/radare/sdb) | "[A] simple string key/value database based on djb's cdb disk storage and supports JSON and arrays introspection." | Binary |
 | [sqlite3(1)](https://www.sqlite.org/cli.html) | "[A] simple command-line utility [...] that allows the user to manually enter and execute SQL statements against an SQLite database." | Binary |
