@@ -103,6 +103,7 @@ See the [Grand Comparison Table of SQL-based Tools](sql-based.md). It covers
 | [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
 | [pup](https://github.com/EricChiang/pup) | Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json). |
 | [Saxon](http://saxon.sourceforge.net/) | Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl). |
+| [sml2](https://github.com/JFLarvoire/libxml2) | Convert between XML and SML, a simplified XML representation. |
 | [Temme](https://github.com/shinima/temme) | Query HTML with CSS-like selectors to extract JSON. Temme extends CSS selectors with value capture patterns. |
 | [tidy-html5](http://www.html-tidy.org/) | Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML. |
 | [tq](https://github.com/plainas/tq) | Query HTML with CSS selectors. |
