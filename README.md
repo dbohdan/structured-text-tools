@@ -127,13 +127,14 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [jet](https://github.com/borkdude/jet) | Convert between and query JSON, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format). |
 | [jfq](https://github.com/blgm/jfq) | Query and transform JSON with the [JSONata](http://jsonata.org/) language. |
 | [jid](https://github.com/simeji/jid) | Explore JSON interactively with filtering queries like jq. |
-| [jj](https://github.com/tidwall/jj) | Query and modify values in JSON or [JSON lines](http://jsonlines.org/) with a key path. |
+| [jj](https://github.com/tidwall/jj) | Query and modify values in JSON or [JSON Lines](http://jsonlines.org/) with a key path. |
 | [jl](https://github.com/chrisdone/jl) | Query and manipulate JSON using a tiny functional language. |
 | [jo](https://github.com/jpmens/jo) | Create JSON objects from the shell. |
 | [jp (jmespath)](https://github.com/jmespath/jp) | Query JSON with [JMESPath](http://jmespath.org/). |
 | [jp (sgreben)](https://github.com/sgreben/jp) | Plot JSON and CSV data in the terminal. Supports different kinds of plots: bar charts, line charts, scatter plots, histograms, and heatmaps. |
 | [jplot](https://github.com/rs/jplot) | Plot real-time JSON data in the terminal (works with terminals supporting graphic rendering). |
 | [jq](http://stedolan.github.io/jq/manual/) | Create and manipulate JSON with a functional (as in "functional programming") [DSL](https://en.wikipedia.org/wiki/Domain-specific_language). Can convert JSON to other formats. |
+| [jtbl](https://github.com/kellyjonbrazil/jtbl) | Format JSON or JSON Lines as a plain-text table. |
 | [jtc](https://github.com/ldn-softdev/jtc) | Create, manipulate, search, validate JSON with path expressions. Can be used as a C++14 library. |
 | [emuto](http://kantord.github.io/emuto/) | CLI tool similar to jq. Create and manipulate JSON and other files. Can be compiled to JavaScript. |
 | [jshon](http://kmkeen.com/jshon/) | Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options. |
