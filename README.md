@@ -124,10 +124,11 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [fx](https://github.com/antonmedv/fx) | Run arbitrary JavaScript on JSON input. Standalone binaries available. |
 | [gron](https://github.com/tomnomnom/gron) | Convert JSON to and from flat, greppable lists of "path=value" statements. |
 | [JC](https://github.com/kellyjonbrazil/jc) | Convert the output of standard command line tools to JSON. |
+| [jello](https://github.com/kellyjonbrazil/jello) | Query JSON and [JSON Lines](http://jsonlines.org/) with Python code.  Output the result in a line-based format suitable for creating Bash arrays.  Generate a grep-able schema. |
 | [jet](https://github.com/borkdude/jet) | Convert between and query JSON, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format). |
 | [jfq](https://github.com/blgm/jfq) | Query and transform JSON with the [JSONata](http://jsonata.org/) language. |
 | [jid](https://github.com/simeji/jid) | Explore JSON interactively with filtering queries like jq. |
-| [jj](https://github.com/tidwall/jj) | Query and modify values in JSON or [JSON Lines](http://jsonlines.org/) with a key path. |
+| [jj](https://github.com/tidwall/jj) | Query and modify values in JSON or JSON Lines with a key path. |
 | [jl](https://github.com/chrisdone/jl) | Query and manipulate JSON using a tiny functional language. |
 | [jo](https://github.com/jpmens/jo) | Create JSON objects from the shell. |
 | [jp (jmespath)](https://github.com/jmespath/jp) | Query JSON with [JMESPath](http://jmespath.org/). |
