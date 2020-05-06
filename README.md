@@ -98,7 +98,6 @@ See the [Grand Comparison Table of SQL-based Tools](sql-based.md). It covers
 
 | Name and link | Description |
 |---------------|-------------|
-| [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) | Convert XML to JSON. Can handle very large XML files. |
 | [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) | A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained. |
 | [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
 | [pup](https://github.com/EricChiang/pup) | Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json). |
@@ -108,6 +107,7 @@ See the [Grand Comparison Table of SQL-based Tools](sql-based.md). It covers
 | [tidy-html5](http://www.html-tidy.org/) | Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML. |
 | [tq](https://github.com/plainas/tq) | Query HTML with CSS selectors. |
 | [Xidel](http://www.videlibri.de/xidel.html) | Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors. |
+| [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) | Convert XML to JSON. Can handle very large XML files. |
 | [xml2](https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. [Source code mirror](https://github.com/clone/xml2). |
 | [XMLLint](http://xmlsoft.org/xmllint.html) | Query (including XSLT), validate and reformat XML documents. |
 | [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) | Query, modify, and validate XML documents. |
