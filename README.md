@@ -109,6 +109,7 @@ See the [Grand Comparison Table of SQL-based Tools](sql-based.md). It covers
 | [Xidel](http://www.videlibri.de/xidel.html) | Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors. |
 | [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) | Convert XML to JSON. Can handle very large XML files. |
 | [xml2](https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. [Source code mirror](https://github.com/clone/xml2). |
+| [xmljson](https://github.com/engali94/XMLJson) | Convert multiple and large XML files to JSON.  Written in Swift. |
 | [XMLLint](http://xmlsoft.org/xmllint.html) | Query (including XSLT), validate and reformat XML documents. |
 | [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) | Query, modify, and validate XML documents. |
 | [xq](https://github.com/kislyuk/yq) | [jq](#json) wrapper for XML documents. |
