@@ -53,6 +53,36 @@
     <td>yes</td>
     <td></td>
   </tr>
+  
+https://github.com/OndraZizka/csv-cruncher
+
+  <tr>
+    <td>CSV Cruncher</td>
+    <td>https://github.com/OndraZizka/csv-cruncher</td>
+    <td>https://github.com/OndraZizka/csv-cruncher</td>
+    <td>Java</td>
+    <td>HSQLDB</td>
+    <td>yes, optional</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>yes</td>
+    <td>yes, Java</td>
+    <td>CSV,</td>
+    <td>CSV, JSON</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>n/a</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td></td>
+  </tr>
+
   <tr>
     <td>csvq</td>
     <td>https://github.com/mithrandie/csvq</td>
