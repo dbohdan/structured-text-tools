@@ -123,6 +123,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | Name and link | Description |
 |---------------|-------------|
 | [fx](https://github.com/antonmedv/fx) | Run arbitrary JavaScript on JSON input. Standalone binaries available. |
+| [gojq](https://github.com/itchyny/gojq) | A pure Go implementation of jq (see below). |
 | [gron](https://github.com/tomnomnom/gron) | Convert JSON to and from flat, greppable lists of "path=value" statements. |
 | [JC](https://github.com/kellyjonbrazil/jc) | Convert the output of standard command line tools to JSON. |
 | [jello](https://github.com/kellyjonbrazil/jello) | Query JSON and [JSON Lines](http://jsonlines.org/) with Python code.  Output the result in a line-based format suitable for creating Bash arrays.  Generate a grep-able schema. |
