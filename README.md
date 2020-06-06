@@ -123,7 +123,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | Name and link | Description |
 |---------------|-------------|
 | [fx](https://github.com/antonmedv/fx) | Run arbitrary JavaScript on JSON input. Standalone binaries available. |
-| [gojq](https://github.com/itchyny/gojq) | A pure Go implementation of jq (see below). |
+| [gojq](https://github.com/itchyny/gojq) | A pure Go implementation of jq (see below). Supports YAML input and output. |
 | [gron](https://github.com/tomnomnom/gron) | Convert JSON to and from flat, greppable lists of "path=value" statements. |
 | [JC](https://github.com/kellyjonbrazil/jc) | Convert the output of standard command line tools to JSON. |
 | [jello](https://github.com/kellyjonbrazil/jello) | Query JSON and [JSON Lines](http://jsonlines.org/) with Python code.  Output the result in a line-based format suitable for creating Bash arrays.  Generate a grep-able schema. |
@@ -163,6 +163,7 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 
 | Name and link | Description |
 |---------------|-------------|
+| [gojq](https://github.com/itchyny/gojq) | See the [JSON section](#json). |
 | [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
 | [Remarshal](https://github.com/dbohdan/remarshal) | Convert between JSON, MessagePack, TOML, and YAML.  Validate each of the formats.  Pretty-print JSON, TOML, and YAML. |
 | [rq](https://github.com/dflemstr/rq) | See the [JSON section](#json). |
