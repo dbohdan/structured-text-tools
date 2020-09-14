@@ -150,6 +150,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [lobar](https://github.com/sodiumjoe/lobar) | Explore JSON interactively or process it in batch with a wrapper for `lodash.chain()`. An alternative to jq with a JavaScript syntax. |
 | [Mario](https://github.com/python-mario/mario) | Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code. |
 | [qpyson](https://github.com/mpkocher/qpyson) | Thin commandline tool to explore, transform, and munge JSON directly using Python. |
+| [query-json](https://github.com/davesnx/query-json) | A faster jq implementation written in Reason Native (OCaml). |
 | [quicktype](https://github.com/quicktype/quicktype) | Infer the underlying model of the JSON and output as types for various programming languages or JSON Schema.  CLI and [Web UI](https://app.quicktype.io). |
 | [ramda-cli](https://github.com/raine/ramda-cli) | Manipulate JSON with the [Ramda](https://ramdajs.com/) functional library, and either LiveScript or JavaScript syntax. |
 | [RecordStream](https://github.com/benbernard/RecordStream) | Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources. |
