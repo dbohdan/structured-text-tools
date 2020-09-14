@@ -137,6 +137,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [jp (sgreben)](https://github.com/sgreben/jp) | Plot JSON and CSV data in the terminal. Supports different kinds of plots: bar charts, line charts, scatter plots, histograms, and heatmaps. |
 | [jplot](https://github.com/rs/jplot) | Plot real-time JSON data in the terminal (works with terminals supporting graphic rendering). |
 | [jq](http://stedolan.github.io/jq/manual/) | Create and manipulate JSON with a functional (as in "functional programming") [DSL](https://en.wikipedia.org/wiki/Domain-specific_language). Can convert JSON to other formats. |
+| [jql](https://github.com/cube2222/jql) | Create and manipulate JSON with a Lisp-syntax DSL. |
 | [jtbl](https://github.com/kellyjonbrazil/jtbl) | Format JSON or JSON Lines as a plain-text table. |
 | [jtc](https://github.com/ldn-softdev/jtc) | Create, manipulate, search, validate JSON with path expressions. Can be used as a C++14 library. |
 | [emuto](http://kantord.github.io/emuto/) | CLI tool similar to jq. Create and manipulate JSON and other files. Can be compiled to JavaScript. |
