@@ -122,6 +122,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 
 | Name and link | Description |
 |---------------|-------------|
+| [dasel](https://github.com/TomWright/dasel) | Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML and XML with zero runtime dependencies. |
 | [fx](https://github.com/antonmedv/fx) | Run arbitrary JavaScript on JSON input. Standalone binaries available. |
 | [gojq](https://github.com/itchyny/gojq) | A pure Go implementation of jq (see below). Supports YAML input and output. |
 | [gron](https://github.com/tomnomnom/gron) | Convert JSON to and from flat, greppable lists of "path=value" statements. |
@@ -167,6 +168,7 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 
 | Name and link | Description |
 |---------------|-------------|
+| [dasel](https://github.com/TomWright/dasel) | Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML and XML with zero runtime dependencies. |
 | [gojq](https://github.com/itchyny/gojq) | See the [JSON section](#json). |
 | [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
 | [Remarshal](https://github.com/dbohdan/remarshal) | Convert between JSON, MessagePack, TOML, and YAML.  Validate each of the formats.  Pretty-print JSON, TOML, and YAML. |
@@ -212,6 +214,7 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 | Name and link | Description |
 |---------------|-------------|
 | [Augeas](http://augeas.net) | Query and modify [a number of file formats](http://augeas.net/stock_lenses.html). Not all of the formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed. |
+| [dasel](https://github.com/TomWright/dasel) | Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML and XML with zero runtime dependencies. |
 | [Elektra](http://libelektra.org) | Query and modify [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses), but has better support for generic formats such as JSON and INI. |
 
 ## Templating for structured text
