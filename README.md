@@ -173,7 +173,7 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 | [dasel](https://github.com/TomWright/dasel) | See the [JSON section](#json). |
 | [gojq](https://github.com/itchyny/gojq) | See the [JSON section](#json). |
 | [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
-| [Remarshal](https://github.com/dbohdan/remarshal) | Convert between JSON, MessagePack, TOML, and YAML.  Validate each of the formats.  Pretty-print JSON, TOML, and YAML. |
+| [Remarshal](https://github.com/dbohdan/remarshal) | Convert between CBOR, JSON, MessagePack, TOML, and YAML.  Validate each of the formats.  Pretty-print JSON, TOML, and YAML. |
 | [rq](https://github.com/dflemstr/rq) | See the [JSON section](#json). |
 | [shyaml](https://github.com/0k/shyaml) | Query YAML. Can output null-terminated strings for use in shell scripts. |
 | [validtoml](http://github.com/martinlindhe/validtoml) | Validate TOML. |
