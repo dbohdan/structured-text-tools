@@ -63,6 +63,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [csvquote](https://github.com/dbro/csvquote) | Transform CSV to and from a format processable with regular [POSIX](#posix) tools. |
 | [csvtk](https://github.com/shenwei356/csvtk) | Search, sample, cut, join, transpose, and sort CSV/TSV files. Rename columns. Replace fields and generate new fiends from existing fields. Plot data as vector or raster histograms and box, line, and scatter plots. Convert CSV to Markdown. Convert XLSX to CSV. Split XLSX sheets. |
 | [GNU datamash](http://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
+| [dasel](https://github.com/TomWright/dasel) | See the [JSON section](#json). |
 | [jp (sgreben)](https://github.com/sgreben/jp) | Plot data. See the [JSON](#json) section. |
 | [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
 | [MCMD (M-Command)](https://github.com/nysol/mcmd) | Select, sample, cut, join, sort, reformat, and generate CSV files. Contains a large set of commands. |
@@ -98,6 +99,7 @@ See the [Grand Comparison Table of SQL-based Tools](sql-based.md). It covers
 
 | Name and link | Description |
 |---------------|-------------|
+| [dasel](https://github.com/TomWright/dasel) | See the [JSON section](#json). |
 | [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) | A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained. |
 | [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
 | [pup](https://github.com/EricChiang/pup) | Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json). |
@@ -122,7 +124,7 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 
 | Name and link | Description |
 |---------------|-------------|
-| [dasel](https://github.com/TomWright/dasel) | Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML and XML with zero runtime dependencies. |
+| [dasel](https://github.com/TomWright/dasel) | Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML, and XML. Static binaries available for releases. |
 | [fx](https://github.com/antonmedv/fx) | Run arbitrary JavaScript on JSON input. Standalone binaries available. |
 | [gojq](https://github.com/itchyny/gojq) | A pure Go implementation of jq (see below). Supports YAML input and output. |
 | [gron](https://github.com/tomnomnom/gron) | Convert JSON to and from flat, greppable lists of "path=value" statements. |
@@ -168,7 +170,7 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 
 | Name and link | Description |
 |---------------|-------------|
-| [dasel](https://github.com/TomWright/dasel) | Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML and XML with zero runtime dependencies. |
+| [dasel](https://github.com/TomWright/dasel) | See the [JSON section](#json). |
 | [gojq](https://github.com/itchyny/gojq) | See the [JSON section](#json). |
 | [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
 | [Remarshal](https://github.com/dbohdan/remarshal) | Convert between JSON, MessagePack, TOML, and YAML.  Validate each of the formats.  Pretty-print JSON, TOML, and YAML. |
@@ -214,7 +216,6 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 | Name and link | Description |
 |---------------|-------------|
 | [Augeas](http://augeas.net) | Query and modify [a number of file formats](http://augeas.net/stock_lenses.html). Not all of the formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed. |
-| [dasel](https://github.com/TomWright/dasel) | Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML and XML with zero runtime dependencies. |
 | [Elektra](http://libelektra.org) | Query and modify [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses), but has better support for generic formats such as JSON and INI. |
 
 ## Templating for structured text
