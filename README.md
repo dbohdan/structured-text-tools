@@ -5,11 +5,12 @@ The following is a list of text-based file formats and command line tools for ma
 
 ## Contents
 
-* [DSV](#dsv)
+* [Awk-like](#awklike)
   * [Awk](#awk)
   * [POSIX commands](#posix-commands)
   * [SQL-based tools](#sql-based-tools)
   * [Other tools](#other-tools)
+* [CSV](#csv)
 * [XML, HTML](#xml-html)
 * [JSON](#json)
 * [YAML, TOML](#yaml-toml)
@@ -24,9 +25,9 @@ The following is a list of text-based file formats and command line tools for ma
 * [Disclosure](#disclosure)
 
 
-## DSV
+## Awk-like
 
-[Delimiter-separated values](https://en.wikipedia.org/wiki/Delimiter-separated_values), including [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), [TSV](https://en.wikipedia.org/wiki/Tab-separated_values), etc.
+Tools that work with lines of fields separated by delimiters but do not necessarily support [CSV field quoting](https://en.wikipedia.org/wiki/Comma-separated_values#Basic_rules).
 
 ### Awk
 
@@ -52,6 +53,17 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 ### Other tools
 
+| Name | Description |
+|------|-------------|
+| [csvquote](https://github.com/dbro/csvquote) | See the [CSV](#csv) section. |
+| [GNU datamash](http://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
+| [rq](https://github.com/dflemstr/rq) | See the [JSON section]](#json). |
+
+
+## CSV
+
+CSV, TSV, and other delimiter-separated value formats.  Tools belong on this list if they support [field quoting](https://en.wikipedia.org/wiki/Comma-separated_values#Basic_rules).
+
 | Name and link | Description |
 |---------------|-------------|
 | [csv-nix-tools](https://github.com/mslusarz/csv-nix-tools) | List \*nix system information such as environment variables, files, processes, network connections, users as CSV. Manipulate and pretty-print CSV. Execute CSV rows as commands. |
@@ -60,9 +72,8 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | [csvfaker](https://github.com/pereorga/csvfaker) | Generate CSV files with fake data. Supports different types of fake data in different locales: names, cities, jobs, email addresses, and others. |
 | [csvfix](https://bitbucket.org/neilb/csvfix) | A multitool. Compare, filter, normalize, split, and validate CSV files. Reorder, remove, split, and merge fields. Convert data between fixed-width, multi-line, XML, and DSV format. Generate SQL statements. [Documentation](https://neilb.bitbucket.io/csvfix/manual/csvfix16/csvfix.html). |
 | [csvkit](https://github.com/wireservice/csvkit) | csvkit is a suite of command-line tools for converting to and working with CSV: convert, clean, cut, grep, join, sort, stack, format, render, query, analyze, etc. |
-| [csvquote](https://github.com/dbro/csvquote) | Transform CSV to and from a format processable with regular [POSIX](#posix) tools. |
+| [csvquote](https://github.com/dbro/csvquote) | Transform CSV to and from a format processable with [Awk-like](#awklike) tools. |
 | [csvtk](https://github.com/shenwei356/csvtk) | Search, sample, cut, join, transpose, and sort CSV/TSV files. Rename columns. Replace fields and generate new fiends from existing fields. Plot data as vector or raster histograms and box, line, and scatter plots. Convert CSV to Markdown. Convert XLSX to CSV. Split XLSX sheets. |
-| [GNU datamash](http://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
 | [dasel](https://github.com/TomWright/dasel) | See the [JSON section](#json). |
 | [jp (sgreben)](https://github.com/sgreben/jp) | Plot data. See the [JSON](#json) section. |
 | [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
