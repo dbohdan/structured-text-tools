@@ -57,7 +57,7 @@ Awk is a POSIX-standard command line tool and programming language.  If you use 
 |------|-------------|
 | [csvquote](https://github.com/dbro/csvquote) | See the [CSV](#csv) section. |
 | [GNU datamash](https://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
-| [rq](https://github.com/dflemstr/rq) | See the [JSON section]](#json). |
+| [rq](https://github.com/dflemstr/rq) | See the [JSON section](#json). |
 
 
 ## CSV
