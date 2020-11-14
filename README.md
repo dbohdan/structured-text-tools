@@ -14,11 +14,11 @@ The following is a list of text-based file formats and command line tools for ma
 * [JSON](#json)
 * [XML, HTML](#xml-html)
 * [YAML, TOML](#yaml-toml)
-* [Log files](#log-files)
 * [Configuration files](#configuration-files)
   * [/etc/hosts](#etchosts)
   * [INI](#ini)
   * [Multiple formats](#multiple-formats)
+* [Log files](#log-files)
 * [Templating for structured text](#templating-for-structured-text)
 * [Bonus round: CLIs for single-file databases](#bonus-round-clis-for-single-file-databases)
 * [License](#license)
@@ -195,14 +195,6 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 | [yq (mikefarah)](https://github.com/mikefarah/yq) | Query, modify, and merge YAML. Convert to and from JSON. |
 
 
-## Log files
-
-| Name and link | Description |
-|---------------|-------------|
-| [Squawk](https://github.com/samuel/squawk) | Query Apache and Nginx log files. See the [SQL-based tool comparison](sql-based.md). |
-| [lnav](https://lnav.org) | Query and watch log files. Has batch and interactive mode. Supported formats include the Common Log Format, CUPS page_log, syslog, strace, and generic timestamped messages. Can perform SQL queries. |
-
-
 ## Configuration files
 
 ### /etc/hosts
@@ -230,6 +222,15 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 | [Augeas](http://augeas.net) | Query and modify [a number of file formats](http://augeas.net/stock_lenses.html). Not all of the formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed. |
 | [Elektra](http://libelektra.org) | Query and modify [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses), but has better support for generic formats such as JSON and INI. |
 
+
+## Log files
+
+| Name and link | Description |
+|---------------|-------------|
+| [Squawk](https://github.com/samuel/squawk) | Query Apache and Nginx log files. See the [SQL-based tool comparison](sql-based.md). |
+| [lnav](https://lnav.org) | Query and watch log files. Has batch and interactive mode. Supported formats include the Common Log Format, CUPS page_log, syslog, strace, and generic timestamped messages. Can perform SQL queries. |
+
+
 ## Templating for structured text
 
 Listed below are restricted programming language interpreters and templating tools that produce structured text output.  They are generally intended to remove repetition in configuration files.  They are distinct from unstructed templating tools like the `jinja2` CLI program, which should not be added to this table.
@@ -242,6 +243,7 @@ Listed below are restricted programming language interpreters and templating too
 | [Jsonnet](https://jsonnet.org/) | JSON, INI, XML, YAML, plain text | Yes | Extended JSON | None | A functional configuration language.  Has a standard formatting tool. |
 | [rjsone](https://github.com/wryun/rjsone) | JSON, YAML | No? | Extended JSON | None | A CLI tool for the [JSON-e](https://github.com/taskcluster/json-e) templating language. |
 | [ytt](https://get-ytt.io/) | YAML | No | YAML/Python hybrid | None? | A templating tool for YAML built upon the [Starlark](https://github.com/bazelbuild/starlark) configuration language. |
+
 
 ## Bonus round: CLIs for single-file databases
 
