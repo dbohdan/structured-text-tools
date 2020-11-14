@@ -70,7 +70,7 @@ CSV, TSV, and other delimiter-separated value formats.  Tools belong on this lis
 | [csv2md](https://github.com/pstaender/csv2md) | Convert CSV to Markdown tables. |
 | [csv2html](https://github.com/dbohdan/csv2html) | Convert CSV to HTML tables. |
 | [csvfaker](https://github.com/pereorga/csvfaker) | Generate CSV files with fake data.  Supports different types of fake data in different locales: names, cities, jobs, email addresses, and others. |
-| [csvfix](https://bitbucket.org/neilb/csvfix) | A multitool.  Compare, filter, normalize, split, and validate CSV files.  Reorder, remove, split, and merge fields.  Convert data between fixed-width, multi-line, XML, and DSV format.  Generate SQL statements.  [Documentation](https://neilb.bitbucket.io/csvfix/manual/csvfix16/csvfix.html). |
+| [csvfix](https://github.com/jheusser/csvfix) (unofficial mirror) | A multitool.  Compare, filter, normalize, split, and validate CSV files.  Reorder, remove, split, and merge fields.  Convert data between fixed-width, multi-line, XML, and DSV format.  Generate SQL statements. |
 | [csvkit](https://github.com/wireservice/csvkit) | csvkit is a suite of command-line tools for converting to and working with CSV: convert, clean, cut, grep, join, sort, stack, format, render, query, analyze, etc. |
 | [csvquote](https://github.com/dbro/csvquote) | Transform CSV to and from a format processable with [Awk-like](#awklike) tools. |
 | [csvtk](https://github.com/shenwei356/csvtk) | Search, sample, cut, join, transpose, and sort CSV/TSV files.  Rename columns.  Replace fields and generate new fiends from existing fields.  Plot data as vector or raster histograms and box, line, and scatter plots.  Convert CSV to Markdown.  Convert XLSX to CSV.  Split XLSX sheets. |
