@@ -5,7 +5,7 @@ The following is a list of text-based file formats and command line tools for ma
 
 ## Contents
 
-* [Awk-like](#awklike)
+* [Awk-like](#awk-like)
   * [Awk](#awk)
   * [POSIX commands](#posix-commands)
   * [SQL-based tools](#sql-based-tools)
@@ -72,7 +72,7 @@ CSV, TSV, and other delimiter-separated value formats.  Tools belong on this lis
 | [csvfaker](https://github.com/pereorga/csvfaker) | Generate CSV files with fake data.  Supports different types of fake data in different locales: names, cities, jobs, email addresses, and others. |
 | [csvfix](https://github.com/jheusser/csvfix) (unofficial mirror) | A multitool.  Compare, filter, normalize, split, and validate CSV files.  Reorder, remove, split, and merge fields.  Convert data between fixed-width, multi-line, XML, and DSV format.  Generate SQL statements. |
 | [csvkit](https://github.com/wireservice/csvkit) | csvkit is a suite of command-line tools for converting to and working with CSV: convert, clean, cut, grep, join, sort, stack, format, render, query, analyze, etc. |
-| [csvquote](https://github.com/dbro/csvquote) | Transform CSV to and from a format processable with [Awk-like](#awklike) tools. |
+| [csvquote](https://github.com/dbro/csvquote) | Transform CSV to and from a format processable with [Awk-like](#awk-like) tools. |
 | [csvtk](https://github.com/shenwei356/csvtk) | Search, sample, cut, join, transpose, and sort CSV/TSV files.  Rename columns.  Replace fields and generate new fiends from existing fields.  Plot data as vector or raster histograms and box, line, and scatter plots.  Convert CSV to Markdown.  Convert XLSX to CSV.  Split XLSX sheets. |
 | [dasel](https://github.com/TomWright/dasel) | See the [JSON section](#json). |
 | [jp (sgreben)](https://github.com/sgreben/jp) | Plot data.  See the [JSON](#json) section. |
