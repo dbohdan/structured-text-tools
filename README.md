@@ -11,8 +11,8 @@ The following is a list of text-based file formats and command line tools for ma
   * [SQL-based tools](#sql-based-tools)
   * [Other tools](#other-tools)
 * [CSV](#csv)
-* [XML, HTML](#xml-html)
 * [JSON](#json)
+* [XML, HTML](#xml-html)
 * [YAML, TOML](#yaml-toml)
 * [Log files](#log-files)
 * [Configuration files](#configuration-files)
@@ -107,31 +107,6 @@ See the [Grand Comparison Table of SQL-based Tools](sql-based.md). It covers
 * textql
 
 
-## XML, HTML
-
-| Name and link | Description |
-|---------------|-------------|
-| [dasel](https://github.com/TomWright/dasel) | Supports XML. See the [JSON section](#json). |
-| [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) | A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained. |
-| [Mario](https://github.com/python-mario/mario) | Supports XML.  See the [JSON section](#json). |
-| [pup](https://github.com/EricChiang/pup) | Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json). |
-| [Saxon](http://saxon.sourceforge.net/) | Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl). |
-| [sml2](https://github.com/JFLarvoire/libxml2) | Convert between XML and [SML](https://htmlpreview.github.io/?https://github.com/JFLarvoire/libxml2/blob/master/SML_presentation.htm), a simplified XML representation. |
-| [Temme](https://github.com/shinima/temme) | Query HTML with CSS-like selectors to extract JSON. Temme extends CSS selectors with value capture patterns. |
-| [tidy-html5](http://www.html-tidy.org/) | Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML. |
-| [tq](https://github.com/plainas/tq) | Query HTML with CSS selectors. |
-| [Xidel](http://www.videlibri.de/xidel.html) | Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors. |
-| [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) | Convert XML to JSON. Can handle very large XML files. |
-| [xml2](https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. [Source code mirror](https://github.com/clone/xml2). |
-| [xmljson](https://github.com/engali94/XMLJson) | Convert multiple and large XML files to JSON.  Written in Swift. |
-| [XMLLint](http://xmlsoft.org/xmllint.html) | Query (including XSLT), validate and reformat XML documents. |
-| [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) | Query, modify, and validate XML documents. |
-| [xq](https://github.com/kislyuk/yq) | [jq](#json) wrapper for XML documents. |
-| [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html) | Transform XML documents using [XSLT](https://www.w3.org/TR/xslt) and [EXSLT](http://exslt.org). |
-
-See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
-
-
 ## JSON
 
 | Name and link | Description |
@@ -174,6 +149,31 @@ See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stack
 | [rq](https://github.com/dflemstr/rq) | Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and Awk-style plain text. |
 | [validjson](http://github.com/martinlindhe/validjson) | Validate or pretty-print JSON. |
 | [VisiData](https://github.com/saulpw/visidata) | Explore data interactively data. See the [DSV/Other tools](#other-tools) section. |
+
+
+## XML, HTML
+
+| Name and link | Description |
+|---------------|-------------|
+| [dasel](https://github.com/TomWright/dasel) | Supports XML. See the [JSON section](#json). |
+| [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) | A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained. |
+| [Mario](https://github.com/python-mario/mario) | Supports XML.  See the [JSON section](#json). |
+| [pup](https://github.com/EricChiang/pup) | Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json). |
+| [Saxon](http://saxon.sourceforge.net/) | Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl). |
+| [sml2](https://github.com/JFLarvoire/libxml2) | Convert between XML and [SML](https://htmlpreview.github.io/?https://github.com/JFLarvoire/libxml2/blob/master/SML_presentation.htm), a simplified XML representation. |
+| [Temme](https://github.com/shinima/temme) | Query HTML with CSS-like selectors to extract JSON. Temme extends CSS selectors with value capture patterns. |
+| [tidy-html5](http://www.html-tidy.org/) | Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML. |
+| [tq](https://github.com/plainas/tq) | Query HTML with CSS selectors. |
+| [Xidel](http://www.videlibri.de/xidel.html) | Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors. |
+| [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) | Convert XML to JSON. Can handle very large XML files. |
+| [xml2](https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/) | Convert XML and HTML to and from flat, greppable lists of "path=value" statements. [Source code mirror](https://github.com/clone/xml2). |
+| [xmljson](https://github.com/engali94/XMLJson) | Convert multiple and large XML files to JSON.  Written in Swift. |
+| [XMLLint](http://xmlsoft.org/xmllint.html) | Query (including XSLT), validate and reformat XML documents. |
+| [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) | Query, modify, and validate XML documents. |
+| [xq](https://github.com/kislyuk/yq) | [jq](#json) wrapper for XML documents. |
+| [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html) | Transform XML documents using [XSLT](https://www.w3.org/TR/xslt) and [EXSLT](http://exslt.org). |
+
+See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
 
 ## YAML, TOML
