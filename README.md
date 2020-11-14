@@ -31,11 +31,11 @@ Tools that work with lines of fields separated by delimiters but do not necessar
 
 ### Awk
 
-Awk is a POSIX-standard command line tool and programming language for processing DSV data.  If you use Linux, macOS or a BSD, you almost certainly have it installed.  See below for Windows.
+Awk is a POSIX-standard command line tool and programming language.  If you use Linux, macOS, or a BSD, you almost certainly have it installed.  See below for Windows.
 
-* If you already know how to program, the nawk [man page](http://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn Awk quickly.  What you learn from it will apply to other implementations on different platforms.  Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](http://www.gnu.org/software/gawk/manual/gawk.html).
+* If you already know how to program, the nawk [man page](https://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn Awk quickly.  What you learn from it will apply to other implementations on different platforms.  Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](https://www.gnu.org/software/gawk/manual/gawk.html).
 * [Awk.info archive](https://web.archive.org/web/20160505033644/http://awk.info/) — an extensive resource on Awk.
-* [AWK Vs NAWK Vs GAWK](http://www.thegeekstuff.com/2011/06/awk-nawk-gawk/) — a comparison of implementations' features.
+* [AWK Vs NAWK Vs GAWK](https://www.thegeekstuff.com/2011/06/awk-nawk-gawk/) — a comparison of features present in different implementations.
 * [busybox-w32](https://frippery.org/busybox/) includes a full implementation of POSIX Awk and other tools like `sed` in a single Windows executable.
 * [GNU Awk 5 binaries for Windows](https://sourceforge.net/projects/ezwinports/files/) by [EZWinPorts](https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/EZWinPorts.html).
 
@@ -43,10 +43,10 @@ Awk is a POSIX-standard command line tool and programming language for processin
 
 | Name | Description |
 |------|-------------|
-| `comm` | Select lines common to two sorted files or those contained in only one of them.  (Manual: `man 1 comm` on your system, [GNU](https://linux.die.net/man/1/comm), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=comm&sektion=1).) |
-| `cut` | Select portions of each line in one or several files.  Can work with delimiter-separated fields.  (Manual: `man 1 cut`, [GNU](https://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1).) |
-| `grep` | Select lines from one or several files.  (Manual: `man 1 grep`, [GNU](https://linux.die.net/man/1/grep), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=grep&sektion=1).) |
-| `join` | Join the lines from two files on a common field.  (Manual: `man 1 join`, [GNU](https://linux.die.net/man/1/join), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=join&sektion=1).) |
+| `comm` | Select the lines common to two sorted files or the lines contained in only one of them.  (Manual: `man 1 comm` on your system, [GNU](https://linux.die.net/man/1/comm), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=comm&sektion=1).) |
+| `cut` | Select portions of each line in one or more files.  (Manual: `man 1 cut`, [GNU](https://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1).) |
+| `grep` | Select the lines that match or do not match a pattern from one or more files.  (Manual: `man 1 grep`, [GNU](https://linux.die.net/man/1/grep), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=grep&sektion=1).) |
+| `join` | Take two files sorted by a common field and join their lines on the value of that field.  Lines with values that do not appear in the other file are discarded.  (Manual: `man 1 join`, [GNU](https://linux.die.net/man/1/join), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=join&sektion=1).) |
 | `paste` | Combine several consecutive lines in a text file into one.  (Manual: `man 1 paste`, [GNU](https://linux.die.net/man/1/paste), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=paste&sektion=1).) |
 | `sort` | Sort lines by key fields.  (Manual: `man 1 sort`, [GNU](https://linux.die.net/man/1/sort), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=sort&sektion=1).) |
 | `uniq` | Find or remove repeated lines.  (Manual: `man 1 uniq`, [GNU](https://linux.die.net/man/1/uniq), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=uniq&sektion=1).) |
@@ -56,7 +56,7 @@ Awk is a POSIX-standard command line tool and programming language for processin
 | Name | Description |
 |------|-------------|
 | [csvquote](https://github.com/dbro/csvquote) | See the [CSV](#csv) section. |
-| [GNU datamash](http://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
+| [GNU datamash](https://www.gnu.org/software/datamash/) | Perform statistical operations on text input. |
 | [rq](https://github.com/dflemstr/rq) | See the [JSON section]](#json). |
 
 
