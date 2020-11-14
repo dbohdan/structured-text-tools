@@ -99,9 +99,9 @@ See the [Grand Comparison Table of SQL-based Tools](sql-based.md). It covers
 
 | Name and link | Description |
 |---------------|-------------|
-| [dasel](https://github.com/TomWright/dasel) | See the [JSON section](#json). |
+| [dasel](https://github.com/TomWright/dasel) | Supports XML. See the [JSON section](#json). |
 | [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) | A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained. |
-| [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
+| [Mario](https://github.com/python-mario/mario) | Supports XML.  See the [JSON section](#json). |
 | [pup](https://github.com/EricChiang/pup) | Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json). |
 | [Saxon](http://saxon.sourceforge.net/) | Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl). |
 | [sml2](https://github.com/JFLarvoire/libxml2) | Convert between XML and [SML](https://htmlpreview.github.io/?https://github.com/JFLarvoire/libxml2/blob/master/SML_presentation.htm), a simplified XML representation. |
@@ -170,11 +170,11 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 
 | Name and link | Description |
 |---------------|-------------|
-| [dasel](https://github.com/TomWright/dasel) | See the [JSON section](#json). |
-| [gojq](https://github.com/itchyny/gojq) | See the [JSON section](#json). |
-| [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
+| [dasel](https://github.com/TomWright/dasel) | Supports TOML and YAML.  See the [JSON section](#json). |
+| [gojq](https://github.com/itchyny/gojq) | Supports YAML.  See the [JSON section](#json). |
+| [Mario](https://github.com/python-mario/mario) | Supports YAML.  See the [JSON section](#json). |
 | [Remarshal](https://github.com/dbohdan/remarshal) | Convert between CBOR, JSON, MessagePack, TOML, and YAML.  Validate each of the formats.  Pretty-print JSON, TOML, and YAML. |
-| [rq](https://github.com/dflemstr/rq) | See the [JSON section](#json). |
+| [rq](https://github.com/dflemstr/rq) | Supports TOML and YAML.  See the [JSON section](#json). |
 | [shyaml](https://github.com/0k/shyaml) | Query YAML. Can output null-terminated strings for use in shell scripts. |
 | [validtoml](http://github.com/martinlindhe/validtoml) | Validate TOML. |
 | [validyaml](http://github.com/martinlindhe/validyaml) | Validate or pretty-print YAML. |
