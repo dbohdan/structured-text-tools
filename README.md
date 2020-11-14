@@ -90,7 +90,7 @@ CSV, TSV, and other delimiter-separated value formats.  Tools belong on this lis
 
 ### SQL-based tools
 
-See the [Grand Comparison Table of SQL-based Tools](sql-based.md).  It covers
+See the [big comparison table](sql-based.md).  It covers
 
 * AlaSQL CLI
 * csvq
