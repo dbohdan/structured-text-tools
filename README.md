@@ -173,7 +173,9 @@ See the [big comparison table](sql-based.md).  It covers
 | [xq](https://github.com/kislyuk/yq) | [jq](#json) wrapper for XML documents. |
 | [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html) | Transform XML documents using [XSLT](https://www.w3.org/TR/xslt) and [EXSLT](http://exslt.org). |
 
-See also: [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
+### See also
+
+*  [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
 
 ## YAML, TOML
