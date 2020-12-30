@@ -68,7 +68,7 @@
     <td>yes</td>
     <td>yes, Go</td>
     <td>CSV, TSV, LTSV, fixed-width, JSON</td>
-    <td>CSV, TSV, LTSV, fixed-width, JSON, Makedown-style table,
+    <td>CSV, TSV, LTSV, fixed-width, JSON, Markdown-style table,
     Org-mode, ASCII table</td>
     <td>yes</td>
     <td>yes</td>
