@@ -112,6 +112,7 @@ See the [big comparison table](sql-based.md).  It covers
 
 | Name and link | Description |
 |---------------|-------------|
+| [clconf](https://github.com/pastdev/clconf) | A utility for merging multiple config files and extracting values using a path string. clconf is both a library, and a command line application. Supports JSON and YAML. |
 | [dasel](https://github.com/TomWright/dasel) | Query and update data structures from the command line.  Comparable to jq/yq but supports JSON, TOML, YAML, and XML.  Static binaries available for releases. |
 | [fx](https://github.com/antonmedv/fx) | Run arbitrary JavaScript on JSON input.  Standalone binaries available. |
 | [gojq](https://github.com/itchyny/gojq) | A pure Go implementation of jq (see below).  Supports YAML input and output. |
@@ -186,6 +187,7 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 
 | Name and link | Description |
 |---------------|-------------|
+| [clconf](https://github.com/pastdev/clconf) | A utility for merging multiple config files and extracting values using a path string. clconf is both a library, and a command line application. Supports JSON and YAML. |
 | [dasel](https://github.com/TomWright/dasel) | Supports TOML and YAML.  See the [JSON section](#json). |
 | [gojq](https://github.com/itchyny/gojq) | Supports YAML.  See the [JSON section](#json). |
 | [Mario](https://github.com/python-mario/mario) | Supports YAML.  See the [JSON section](#json). |
