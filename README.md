@@ -83,7 +83,7 @@ CSV, TSV, and other delimiter-separated value formats.  Tools belong on this lis
 | [rows](https://github.com/turicas/rows) | A Python library with a [CLI](http://turicas.info/rows/cli/).  Convert between a number of [file formats](http://turicas.info/rows/plugins/) for tabular data: CSV, XLS, XLSX, ODS, and others.  Query the data (via SQLite).  Combine tables.  Generate schemas. |
 | [rq](https://github.com/dflemstr/rq) | See the [JSON section](#json). |
 | [tab](http://tkatchev.bitbucket.io/tab/) | A non-Turing-complete statically typed programming language for data processing.  An alternative to Awk. |
-| [teip](https://github.com/greymd/teip) | Select partial standard input and replace with the result of another command efficiently |
+| [teip](https://github.com/greymd/teip) | Select fields, character ranges, or regular expression matches from the standard input.  Replace them with the output of a command. |
 | [eBay's TSV utilities](https://github.com/eBay/tsv-utils) | Filtering, statistics, sampling, joins and other operations on TSV files.  High performance, especially good for large datasets.  Written in D. |
 | [tv](https://github.com/codechenx/tv) | View delimited files in the terminal. |
 | [VisiData](https://github.com/saulpw/visidata) | Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders).  [Introduction](https://jsvine.github.io/intro-to-visidata/). |
