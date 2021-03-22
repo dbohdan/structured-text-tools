@@ -75,6 +75,7 @@ CSV, TSV, and other delimiter-separated value formats.  Tools belong on this lis
 | [csvkit](https://github.com/wireservice/csvkit) | csvkit is a suite of command-line tools for converting to and working with CSV: convert, clean, cut, grep, join, sort, stack, format, render, query, analyze, etc. |
 | [csvquote](https://github.com/dbro/csvquote) | Transform CSV to and from a format processable with [Awk-like](#awk-like) tools. |
 | [csvtk](https://github.com/shenwei356/csvtk) | Search, sample, cut, join, transpose, and sort CSV/TSV files.  Rename columns.  Replace fields and generate new fiends from existing fields.  Plot data as vector or raster histograms and box, line, and scatter plots.  Convert CSV to Markdown.  Convert XLSX to CSV.  Split XLSX sheets. |
+| [CSVtoTable](https://github.com/vividvilla/csvtotable) | Convert CSV to a searchable and sortable HTML table. |
 | [dasel](https://github.com/TomWright/dasel) | See the [JSON section](#json). |
 | [Graphtage](https://github.com/trailofbits/graphtage) | See the [JSON section](#json). |
 | [jp (sgreben)](https://github.com/sgreben/jp) | Plot data.  See the [JSON](#json) section. |
