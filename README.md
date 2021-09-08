@@ -166,6 +166,7 @@ See the [big comparison table](sql-based.md).  It covers
 | [Graphtage](https://github.com/trailofbits/graphtage) | See the [JSON section](#json). |
 | [hred](https://github.com/danburzo/hred) | Query XML and HTML with a query language based on CSS selectors. |
 | [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) | A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/).  Written in C, quite old-fashioned, but still relevant and maintained. |
+| [htmlq](https://github.com/mgdm/htmlq) | Filter and extract bits of html using CSS selectors. Like jq, but for HTML. |
 | [Mario](https://github.com/python-mario/mario) | Supports XML.  See the [JSON section](#json). |
 | [pup](https://github.com/EricChiang/pup) | Query HTML pages with CSS selectors.  Static binaries available for releases.  Inspired by [jq](#json). |
 | [Saxon](http://saxon.sourceforge.net/) | Query XML and HTML data with [XPath](https://devhints.io/xpath).  [Documentation](http://www.saxonica.com/documentation/#!using-xsl). |
