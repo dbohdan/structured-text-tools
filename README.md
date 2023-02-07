@@ -92,6 +92,7 @@ CSV, TSV, and other delimiter-separated value formats.  Tools belong on this lis
 | [tv](https://github.com/codechenx/tv) | View delimited files in the terminal. |
 | [VisiData](https://github.com/saulpw/visidata) | Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders).  [Introduction](https://jsvine.github.io/intro-to-visidata/). |
 | [xsv](https://github.com/BurntSushi/xsv) | Index, slice, analyze, split, and join CSV files. |
+| [Text to CSV](https://www.nbshare.io/notebook/155060683/Text-to-CSV-Data-Table/) | Free Online Text to CSV Data Table. | 
 
 ### SQL-based tools
 
