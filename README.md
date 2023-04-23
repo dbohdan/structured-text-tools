@@ -35,7 +35,7 @@ AWK/awk is a programming language and a POSIX-standard command line tool. (You w
 
 * If you already know how to program, the nawk [man page](https://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn AWK quickly. What you learn from it will apply to other implementations on different platforms. Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](https://www.gnu.org/software/gawk/manual/gawk.html).
 * [awk.info archive](https://web.archive.org/web/20160505033644/http://awk.info/) **—** an extensive resource on Awk.
-* [AWK Vs NAWK Vs GAWK](https://www.thegeekstuff.com/2011/06/awk-nawk-gawk/) **—** a comparison of features present in different implementations.
+* ["AWK Vs NAWK Vs GAWK"](https://www.thegeekstuff.com/2011/06/awk-nawk-gawk/) **—** a comparison of features present in different implementations.
 * [busybox-w32](https://frippery.org/busybox/) includes a full implementation of POSIX awk and other tools like `sed` in a single Windows executable.
 * [GNU Awk 5 binaries for Windows](https://sourceforge.net/projects/ezwinports/files/) by [EZWinPorts](https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/EZWinPorts.html).
 * [GoAWK](https://github.com/benhoyt/goawk) is a cross-platform implementation of awk with added support for CSV. The project provides binaries for many platforms, including Windows.
@@ -149,7 +149,7 @@ See the [big comparison table](sql-based.md). It covers
 * [RecordStream](https://github.com/benbernard/RecordStream) **—** Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources. 
 * [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text. 
 * [validjson](http://github.com/martinlindhe/validjson) **—** Validate or pretty-print JSON. 
-* [VisiData](https://github.com/saulpw/visidata) **—** Explore data interactively data. See the [DSV/Other tools](#other-tools) section. 
+* [VisiData](https://github.com/saulpw/visidata) **—** Explore data interactively data. See the [awk-like/Other tools](#other-tools) section. 
 
 
 ## XML, HTML
@@ -177,7 +177,7 @@ See the [big comparison table](sql-based.md). It covers
 
 ### See also
 
-*  [Grep and Sed Equivalent for XML Command Line Processing](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
+* ["Grep and Sed Equivalent for XML Command Line Processing"](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
 
 ## YAML, TOML
@@ -314,4 +314,4 @@ The contents of this document is licensed under the [Creative Commons Attributio
 
 ## Disclosure
 
-[csv2html](https://github.com/dbohdan/csv2html), [hosts](https://gitlab.com/dbohdan/hosts), [Sqawk](https://github.com/dbohdan/sqawk), [jsonwatch](https://github.com/dbohdan/jsonwatch), [Remarshal](https://github.com/dbohdan/remarshal) and [initool](https://github.com/dbohdan/initool) are developed by the curator of this document.
+[csv2html](https://github.com/dbohdan/csv2html), [hosts](https://gitlab.com/dbohdan/hosts), [Sqawk](https://github.com/dbohdan/sqawk), [jsonwatch](https://github.com/dbohdan/jsonwatch), [Remarshal](https://github.com/dbohdan/remarshal), and [initool](https://github.com/dbohdan/initool) are developed by the curator of this document.
