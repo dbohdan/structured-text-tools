@@ -5,8 +5,8 @@ The following is a list of text-based file formats and command line tools for ma
 
 ## Contents
 
-* [Awk-like](#awk-like)
-  * [Awk](#awk)
+* [awk-like](#awk-like)
+  * [awk](#awk)
   * [POSIX commands](#posix-commands)
   * [SQL-based tools](#sql-based-tools)
   * [Other tools](#other-tools)
@@ -25,18 +25,18 @@ The following is a list of text-based file formats and command line tools for ma
 * [Disclosure](#disclosure)
 
 
-## Awk-like
+## awk-like
 
 Tools that work with lines of fields separated by delimiters but do not necessarily support [CSV field quoting](https://en.wikipedia.org/wiki/Comma-separated_values#Basic_rules).
 
-### Awk
+### awk
 
-Awk is a POSIX-standard command line tool and programming language.  If you use Linux, macOS, or a BSD, you almost certainly have it installed.  See below for Windows.
+AWK/awk is a programming language and a POSIX-standard command line tool. (You will sometimes see "awk" used for the tool and "AWK" for the language. This document follows this convention. GNU Awk uses "Awk".) If you run Linux, macOS, or a BSD, you almost certainly have it installed. See below for Windows.
 
-* If you already know how to program, the nawk [man page](https://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn Awk quickly.  What you learn from it will apply to other implementations on different platforms.  Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](https://www.gnu.org/software/gawk/manual/gawk.html).
-* [Awk.info archive](https://web.archive.org/web/20160505033644/http://awk.info/) — an extensive resource on Awk.
+* If you already know how to program, the nawk [man page](https://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn AWK quickly. What you learn from it will apply to other implementations on different platforms. Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](https://www.gnu.org/software/gawk/manual/gawk.html).
+* [awk.info archive](https://web.archive.org/web/20160505033644/http://awk.info/) — an extensive resource on Awk.
 * [AWK Vs NAWK Vs GAWK](https://www.thegeekstuff.com/2011/06/awk-nawk-gawk/) — a comparison of features present in different implementations.
-* [busybox-w32](https://frippery.org/busybox/) includes a full implementation of POSIX Awk and other tools like `sed` in a single Windows executable.
+* [busybox-w32](https://frippery.org/busybox/) includes a full implementation of POSIX awk and other tools like `sed` in a single Windows executable.
 * [GNU Awk 5 binaries for Windows](https://sourceforge.net/projects/ezwinports/files/) by [EZWinPorts](https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/EZWinPorts.html).
 
 ### POSIX commands
@@ -73,7 +73,7 @@ CSV, TSV, and other delimiter-separated value formats.  Tools belong on this lis
 | [csvfaker](https://github.com/pereorga/csvfaker) | Generate CSV files with fake data.  Supports different types of fake data in different locales: names, cities, jobs, email addresses, and others. |
 | [csvfix](https://github.com/jheusser/csvfix) (unofficial mirror) | A multitool.  Compare, filter, normalize, split, and validate CSV files.  Reorder, remove, split, and merge fields.  Convert data between fixed-width, multi-line, XML, and DSV format.  Generate SQL statements. |
 | [csvkit](https://github.com/wireservice/csvkit) | csvkit is a suite of command-line tools for converting to and working with CSV: convert, clean, cut, grep, join, sort, stack, format, render, query, analyze, etc. |
-| [csvquote](https://github.com/dbro/csvquote) | Transform CSV to and from a format processable with [Awk-like](#awk-like) tools. |
+| [csvquote](https://github.com/dbro/csvquote) | Transform CSV to and from a format processable with [awk-like](#awk-like) tools. |
 | [csvtk](https://github.com/shenwei356/csvtk) | Search, sample, cut, join, transpose, and sort CSV/TSV files.  Rename columns.  Replace fields and generate new fiends from existing fields.  Plot data as vector or raster histograms and box, line, and scatter plots.  Convert CSV to Markdown.  Convert XLSX to CSV.  Split XLSX sheets. |
 | [CSVtoTable](https://github.com/vividvilla/csvtotable) | Convert CSV to a searchable and sortable HTML table. |
 | [dasel](https://github.com/TomWright/dasel) | See the [JSON section](#json). |
@@ -82,11 +82,11 @@ CSV, TSV, and other delimiter-separated value formats.  Tools belong on this lis
 | [Mario](https://github.com/python-mario/mario) | See the [JSON section](#json). |
 | [MCMD (M-Command)](https://github.com/nysol/mcmd) | Select, sample, cut, join, sort, reformat, and generate CSV files.  Contains a large set of commands. |
 | [Miller](https://github.com/johnkerl/miller) | `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON. |
-| [pawk](https://github.com/alecthomas/pawk) | Process text with Awk-like patterns, but Python code. |
+| [pawk](https://github.com/alecthomas/pawk) | Process text with AWK-like patterns, but Python code. |
 | [rows](https://github.com/turicas/rows) | A Python library with a [CLI](http://turicas.info/rows/cli/).  Convert between a number of [file formats](http://turicas.info/rows/plugins/) for tabular data: CSV, XLS, XLSX, ODS, and others.  Query the data (via SQLite).  Combine tables.  Generate schemas. |
 | [rq](https://github.com/dflemstr/rq) | See the [JSON section](#json). |
 | [scrubcsv](https://github.com/faradayio/scrubcsv) | Remove bad lines from a CSV file and normalize the rest. Written in Rust. |
-| [tab](http://tkatchev.bitbucket.io/tab/) | A non-Turing-complete statically typed programming language for data processing.  An alternative to Awk. |
+| [tab](http://tkatchev.bitbucket.io/tab/) | A non-Turing-complete statically typed programming language for data processing.  An alternative to awk. |
 | [teip](https://github.com/greymd/teip) | Select fields, character ranges, or regular expression matches from standard input.  Replace them with the output of a command. |
 | [eBay's TSV utilities](https://github.com/eBay/tsv-utils) | Filtering, statistics, sampling, joins and other operations on TSV files.  High performance, especially good for large datasets.  Written in D. |
 | [tv](https://github.com/codechenx/tv) | View delimited files in the terminal. |
@@ -153,7 +153,7 @@ See the [big comparison table](sql-based.md).  It covers
 | [quicktype](https://github.com/quicktype/quicktype) | Infer the underlying model of the JSON and output as types for various programming languages or JSON Schema.  CLI and [Web UI](https://app.quicktype.io). |
 | [ramda-cli](https://github.com/raine/ramda-cli) | Manipulate JSON with the [Ramda](https://ramdajs.com/) functional library, and either LiveScript or JavaScript syntax. |
 | [RecordStream](https://github.com/benbernard/RecordStream) | Create, manipulate, and output a stream of records, or JSON objects.  Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources. |
-| [rq](https://github.com/dflemstr/rq) | Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and Awk-style plain text. |
+| [rq](https://github.com/dflemstr/rq) | Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text. |
 | [validjson](http://github.com/martinlindhe/validjson) | Validate or pretty-print JSON. |
 | [VisiData](https://github.com/saulpw/visidata) | Explore data interactively data.  See the [DSV/Other tools](#other-tools) section. |
 
