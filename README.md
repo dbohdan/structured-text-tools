@@ -207,16 +207,32 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 * [hostess](https://github.com/cbednarski/hostess) — Add and remove entires in `/etc/hosts`. Disable (comment out) and enable (uncomment) entires. Check if a hostname exists. Reformat the hosts file. Convert the entries to JSON. Idempotent. Removes arbitrary comments. 
 * [hosts](https://gitlab.com/dbohdan/hosts) — Add and remove entires in `/etc/hosts`. Change a hostname's IP address. Idempotent. Preserves arbitrary comments. Can be used as a Tcl library. 
 
-## INI
+### INI
 
-| Name and link | Platform | License | Description |
-|---------------|----------|---------|-------------|
-| [cfget](https://packages.debian.org/unstable/cfget) | Any with Python 2.x? | GNU GPLv2+ | Retrieve properties as shell script commands to set the corresponding variables (with `--dump exports`). Retrieve properties' values as plain text. Substitute values from an INI file in an Autoconf-style template. Supports plug-ins. Chokes on section names and keys with spaces. |
-| [confget](https://devel.ringlet.net/textproc/confget/) | Linux, FreeBSD | Two-clause BSD | Retrieve properties and sections as shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Check for existence of properties. List sections. Find values that match a pattern. Read-only. |
-| [crudini](https://github.com/pixelb/crudini/) | Any with Python 2.x | GNU GPLv2 | Retrieve properties and sections as INI fragments or shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Set properties. Remove properties and sections. Create empty sections. Merge INI files. Changes files in place. |
-| [inicomp](https://github.com/JFLarvoire/SysToolsLib/blob/HEAD/C/SRC/inicomp.c) | Windows, \*nix | Apache 2.0 | Compare INI (and also Windows .reg) files. |
-| [IniFile](http://www.horstmuc.de/wbat32.htm#inifile) ([DOS version](http://www.horstmuc.de/div.htm#inifile)) | Windows (x86, x86-64), MS-DOS | Closed-source freeware | Retrieve properties and sections as batch file commands to set the corresponding variables. Set properties. Remove properties and sections. Changes files in place. |
-| [initool](https://github.com/dbohdan/initool) | Linux, FreeBSD, Windows | MIT | Retrieve properties and sections as INI fragments. Retrieve properties' values as plain text. Set properties. Check for existence of properties and sections. Remove properties and sections. Outputs the updated INI file. |
+* [cfget](https://packages.debian.org/unstable/cfget)
+    * **Platform:** Any with Python 2.x?
+    * **License:** GNU GPLv2+
+    * **Description:** Retrieve properties as shell script commands to set the corresponding variables (with `--dump exports`). Retrieve properties' values as plain text. Substitute values from an INI file in an Autoconf-style template. Supports plug-ins. Chokes on section names and keys with spaces.
+* [confget](https://devel.ringlet.net/textproc/confget/)
+    * **Platform:** Linux, FreeBSD
+    * **License:** Two-clause BSD
+    * **Description:** Retrieve properties and sections as shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Check for existence of properties. List sections. Find values that match a pattern. Read-only.
+* [crudini](https://github.com/pixelb/crudini/)
+    * **Platform:** Any with Python 2.x
+    * **License:** GNU GPLv2
+    * **Description:** Retrieve properties and sections as INI fragments or shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Set properties. Remove properties and sections. Create empty sections. Merge INI files. Changes files in place.
+* [inicomp](https://github.com/JFLarvoire/SysToolsLib/blob/HEAD/C/SRC/inicomp.c)
+    * **Platform:** Windows, \*nix
+    * **License:** Apache 2.0
+    * **Description:** Compare INI (and also Windows .reg) files.
+* [IniFile](http://www.horstmuc.de/wbat32.htm#inifile) ([DOS version](http://www.horstmuc.de/div.htm#inifile))
+    * **Platform:** Windows (x86, x86-64), MS-DOS
+    * **License:** Closed-source freeware
+    * **Description:** Retrieve properties and sections as batch file commands to set the corresponding variables. Set properties. Remove properties and sections. Changes files in place.
+* [initool](https://github.com/dbohdan/initool)
+    * **Platform:** Linux, FreeBSD, Windows
+    * **License:** MIT
+    * **Description:** Retrieve properties and sections as INI fragments. Retrieve properties' values as plain text. Set properties. Check for existence of properties and sections. Remove properties and sections. Outputs the updated INI file.
 
 ### Multiple formats
 
@@ -234,25 +250,61 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 
 Listed below are restricted programming language interpreters and templating tools that produce structured text output. They are generally intended to remove repetition in configuration files. They are distinct from unstructed templating tools like the `jinja2` CLI program, which should not be added to this table.
 
-| Name and link | Output format | Turing-complete? | Syntax | I/O | Description |
-|---------------|---------------|------------------|--------|-----|-------------|
-| [CUE](https://github.com/cuelang/cue) | JSON | Yes? | Extended JSON | ? | A constraint language for JSON configuration data. Can generate and validates JSON. |
-| [Dhall](https://dhall-lang.org/) | JSON, YAML | No | Haskell-inspired | Limited to importing libraries from files and HTTP(S) URLs (with protection against leaking your data to the server) | A statically-typed functional configuration language. Has a standard formatting tool. |
-| [jk](https://github.com/jkcfg/jk) | JSON, YAML, plain text | Yes | JavaScript | Disk I/O | Generate configuration files using JavaScript (V8 VM). |
-| [Jsonnet](https://jsonnet.org/) | JSON, INI, XML, YAML, plain text | Yes | Extended JSON | None | A functional configuration language. Has a standard formatting tool. |
-| [rjsone](https://github.com/wryun/rjsone) | JSON, YAML | No? | Extended JSON | None | A CLI tool for the [JSON-e](https://github.com/taskcluster/json-e) templating language. |
-| [ytt](https://get-ytt.io/) | YAML | No | YAML/Python hybrid | None? | A templating tool for YAML built upon the [Starlark](https://github.com/bazelbuild/starlark) configuration language. |
+* [CUE](https://github.com/cuelang/cue) 
+    * **Output format:** JSON 
+    * **Turing-complete:** Yes? 
+    * **Syntax:** Extended JSON 
+    * **I/O:** ? 
+    * **Description:** A constraint language for JSON configuration data. Can generate and validates JSON. 
+* [Dhall](https://dhall-lang.org/) 
+    * **Output format:** JSON, YAML 
+    * **Turing-complete:** No 
+    * **Syntax:** Haskell-inspired 
+    * **I/O:** Limited to importing libraries from files and HTTP(S) URLs (with protection against leaking your data to the server) 
+    * **Description:** A statically-typed functional configuration language. Has a standard formatting tool. 
+* [jk](https://github.com/jkcfg/jk) 
+    * **Output format:** JSON, YAML, plain text 
+    * **Turing-complete:** Yes 
+    * **Syntax:** JavaScript 
+    * **I/O:** Disk I/O 
+    * **Description:** Generate configuration files using JavaScript (V8 VM). 
+* [Jsonnet](https://jsonnet.org/) 
+    * **Output format:** JSON, INI, XML, YAML, plain text 
+    * **Turing-complete:** Yes 
+    * **Syntax:** Extended JSON 
+    * **I/O:** None 
+    * **Description:** A functional configuration language. Has a standard formatting tool. 
+* [rjsone](https://github.com/wryun/rjsone) 
+    * **Output format:** JSON, YAML 
+    * **Turing-complete:** No? 
+    * **Syntax:** Extended JSON 
+    * **I/O:** None 
+    * **Description:** A CLI tool for the [JSON-e](https://github.com/taskcluster/json-e) templating language. 
+* [ytt](https://get-ytt.io/) 
+    * **Output format:** YAML 
+    * **Turing-complete:** No 
+    * **Syntax:** YAML/Python hybrid 
+    * **I/O:** None? 
+    * **Description:** A templating tool for YAML built upon the [Starlark](https://github.com/bazelbuild/starlark) configuration language. 
 
 
 ## Bonus round: CLIs for single-file databases
 
-| Name and link | Description | File format |
-|---------------|-------------|-------------|
-| [Firebird](https://firebirdsql.org/) | Firebird is a FOSS database that can be used from a single file, like SQLite. "isql is a program that allows the user to issue arbitrary SQL commands". | Binary |
-| [Fsdb](https://www.isi.edu/~johnh/SOFTWARE/FSDB/perl-Fsdb-2.69_README.html) | A flat-file database for shell scripting. | Text-based, TSV with a header or "key: value" |
-| [GNU Recutils](http://www.gnu.org/software/recutils/) | "[A] set of tools and libraries to access human-editable, plain text databases called recfiles." | Text-based, roughly "key: value" |
-| [SDB](https://github.com/radare/sdb) | "[A] simple string key/value database based on djb's cdb disk storage and supports JSON and arrays introspection." | Binary |
-| [sqlite3(1)](https://www.sqlite.org/cli.html) | "[A] simple command-line utility [...] that allows the user to manually enter and execute SQL statements against an SQLite database." | Binary |
+* [Firebird](https://firebirdsql.org/) 
+    * **Description:** Firebird is a FOSS database that can be used from a single file, like SQLite. "isql is a program that allows the user to issue arbitrary SQL commands". 
+    * **File format:** Binary 
+* [Fsdb](https://www.isi.edu/~johnh/SOFTWARE/FSDB/perl-Fsdb-2.69_README.html) 
+    * **Description:** A flat-file database for shell scripting. 
+    * **File format:** Text-based, TSV with a header or "key: value" 
+* [GNU Recutils](http://www.gnu.org/software/recutils/) 
+    * **Description:** "[A] set of tools and libraries to access human-editable, plain text databases called recfiles." 
+    * **File format:** Text-based, roughly "key: value" 
+* [SDB](https://github.com/radare/sdb) 
+    * **Description:** "[A] simple string key/value database based on djb's cdb disk storage and supports JSON and arrays introspection." 
+    * **File format:** Binary 
+* [sqlite3(1)](https://www.sqlite.org/cli.html) 
+    * **Description:** "[A] simple command-line utility [...] that allows the user to manually enter and execute SQL statements against an SQLite database." 
+    * **File format:** Binary 
 
 
 ## License
