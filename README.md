@@ -172,6 +172,7 @@ See the [big comparison table](sql-based.md). It covers
 * [xmljson](https://github.com/engali94/XMLJson) **—** Convert multiple and large XML files to JSON. Written in Swift.
 * [XMLLint](http://xmlsoft.org/xmllint.html) **—** Query (including XSLT), validate and reformat XML documents.
 * [XMLStarlet](http://xmlstar.sourceforge.net/overview.php) **—** Query, modify, and validate XML documents.
+* [xpe](https://github.com/charmparticle/xpe) **—** Query HTML and XML with XPath expressions.
 * [xq](https://github.com/kislyuk/yq) **—** [jq](#json) wrapper for XML documents.
 * [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html) **—** Transform XML documents using [XSLT](https://www.w3.org/TR/xslt) and [EXSLT](http://exslt.org).
 
