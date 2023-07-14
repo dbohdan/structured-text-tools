@@ -37,6 +37,7 @@ AWK/awk is a programming language and a POSIX-standard command line tool. (You w
 * [awk.info archive](https://web.archive.org/web/20160505033644/http://awk.info/) **—** an extensive resource on Awk.
 * ["AWK Vs NAWK Vs GAWK"](https://www.thegeekstuff.com/2011/06/awk-nawk-gawk/) **—** a comparison of features present in different implementations.
 * [busybox-w32](https://frippery.org/busybox/) includes a full implementation of POSIX awk and other tools like `sed` in a single Windows executable.
+* [frawk](https://github.com/ezrosent/frawk) is a Rust implementation of a language partially compatible with AWK that supports [parallelism](https://github.com/ezrosent/frawk/blob/master/info/parallelism.md) and CSV input and output.
 * [GNU Awk 5 binaries for Windows](https://sourceforge.net/projects/ezwinports/files/) by [EZWinPorts](https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/EZWinPorts.html).
 * [GoAWK](https://github.com/benhoyt/goawk) is a cross-platform implementation of awk with added support for CSV. The project provides binaries for many platforms, including Windows.
 
@@ -72,6 +73,7 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 * [csvtk](https://github.com/shenwei356/csvtk) **—** Search, sample, cut, join, transpose, and sort CSV/TSV files. Rename columns. Replace fields and generate new fiends from existing fields. Plot data as vector or raster histograms and box, line, and scatter plots. Convert CSV to Markdown. Convert XLSX to CSV. Split XLSX sheets.
 * [CSVtoTable](https://github.com/vividvilla/csvtotable) **—** Convert CSV to a searchable and sortable HTML table.
 * [dasel](https://github.com/TomWright/dasel) **—** See the [JSON section](#json).
+* [frawk](https://github.com/ezrosent/frawk) **—** frawk is an awk-derived language with a CSV mode for input and for output.
 * [GoAWK](https://github.com/benhoyt/goawk) **—** GoAWK is an awk implementation that adds a CSV mode for input and for output.
 * [Graphtage](https://github.com/trailofbits/graphtage) **—** See the [JSON section](#json).
 * [jp (sgreben)](https://github.com/sgreben/jp) **—** Plot data. See the [JSON](#json) section.
