@@ -206,9 +206,9 @@ With a format converter like Remarshal (below) you can use [JSON](#json) tools t
 
 ### /etc/hosts
 
-* [hostctl](https://github.com/guumaster/hostctl) **—** Add and remove entires in `/etc/hosts`. Disable (comment out) and enable (uncomment) entires. Not idempotent. Preserves arbitrary comments above its section of the hosts file. Works with groups of entries called "profiles".
-* [hostess](https://github.com/cbednarski/hostess) **—** Add and remove entires in `/etc/hosts`. Disable (comment out) and enable (uncomment) entires. Check if a hostname exists. Reformat the hosts file. Convert the entries to JSON. Idempotent. Removes arbitrary comments.
-* [hosts](https://gitlab.com/dbohdan/hosts) **—** Add and remove entires in `/etc/hosts`. Change a hostname's IP address. Idempotent. Preserves arbitrary comments. Can be used as a Tcl library.
+* [hostctl](https://github.com/guumaster/hostctl) **—** Add and remove entries in `/etc/hosts`. Disable (comment out) and enable (uncomment) entries. Idempotent. Preserves arbitrary comments above its section of the hosts file. Works with groups of entries called "profiles".
+* [hostess](https://github.com/cbednarski/hostess) **—** Add and remove entries in `/etc/hosts`. Disable (comment out) and enable (uncomment) entries. Check if a hostname exists. Reformat the hosts file. Convert the entries to JSON. Idempotent. Removes arbitrary comments.
+* [hosts](https://gitlab.com/dbohdan/hosts) **—** Add and remove entries in `/etc/hosts`. Change a hostname's IP address. Idempotent. Preserves arbitrary comments. Can be used as a Tcl library.
 
 ### INI
 
