@@ -123,7 +123,6 @@ See the [big comparison table](sql-based.md). It covers
 * [jello](https://github.com/kellyjonbrazil/jello) **—** Query JSON and [JSON Lines](http://jsonlines.org/) with Python code. Output the result in a line-based format suitable for creating Bash arrays. Generate a grep-able schema.
 * [jet](https://github.com/borkdude/jet) **—** Convert between and query JSON, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format).
 * [jfq](https://github.com/blgm/jfq) **—** Query and transform JSON with the [JSONata](http://jsonata.org/) language.
-* [jid](https://github.com/simeji/jid) **—** Explore JSON interactively with filtering queries like jq.
 * [jiq](https://github.com/fiatjaf/jiq) **—** Explore JSON interactively with jq. Requires jq.
 * [jj](https://github.com/tidwall/jj) **—** Query and modify values in JSON or JSON Lines with a key path.
 * [jl](https://github.com/chrisdone/jl) **—** Query and manipulate JSON using a tiny functional language.
@@ -294,6 +293,7 @@ Listed below are restricted programming language interpreters and templating too
 
 ## Extra: interactive TUIs
 
+* [jid](https://github.com/simeji/jid) **—** Explore JSON interactively with filtering queries like jq.
 * [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
 
 
