@@ -83,6 +83,7 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 * [MCMD (M-Command)](https://github.com/nysol/mcmd) **—** Select, sample, cut, join, sort, reformat, and generate CSV files. Contains a large set of commands.
 * [Miller](https://github.com/johnkerl/miller) **—** `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON.
 * [pawk](https://github.com/alecthomas/pawk) **—** Process text with AWK-like patterns, but Python code.
+* [qsv](https://github.com/jqnatividad/qsv) **—** Index, slice, analyze, split, and join CSV files. A fork of xsv that adds subcommands and features.
 * [rows](https://github.com/turicas/rows) **—** A Python library with a [CLI](http://turicas.info/rows/cli/). Convert between a number of [file formats](http://turicas.info/rows/plugins/) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas.
 * [rq](https://github.com/dflemstr/rq) **—** See the [JSON section](#json).
 * [scrubcsv](https://github.com/faradayio/scrubcsv) **—** Remove bad lines from a CSV file and normalize the rest. Written in Rust.
