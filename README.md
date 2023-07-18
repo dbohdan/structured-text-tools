@@ -58,6 +58,7 @@ AWK/awk is a programming language and a POSIX-standard command line tool. (You w
 * [GNU datamash](https://www.gnu.org/software/datamash/) **—** Perform statistical operations on text input.
 * [Hawk](https://github.com/gelisam/hawk) **—** Transform text from the command-line using Haskell expressions.
 * [rq](https://github.com/dflemstr/rq) **—** See the [JSON section](#json).
+* [vnlog](https://github.com/dkogan/vnlog/) **—** Process labelled tabular ASCII data using normal UNIX tools. Can plot data with gnuplot.
 
 
 ## CSV
