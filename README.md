@@ -294,6 +294,7 @@ Listed below are restricted programming language interpreters and templating too
 * [jid](https://github.com/simeji/jid) **—** Explore JSON interactively with filtering queries like jq.
 * [jiq](https://github.com/fiatjaf/jiq) **—** Explore JSON interactively with jq. Requires jq.
 * [lobar](https://github.com/sodiumjoe/lobar) **—** Explore JSON interactively with `lodash.chain()`.
+* [sc-im](https://github.com/andmarti1424/sc-im) **—** A Vim-like spreadsheet calculator for CSV and TSV files.
 * [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
 
 
