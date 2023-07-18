@@ -150,7 +150,6 @@ See the [big comparison table](sql-based.md). It covers
 * [RecordStream](https://github.com/benbernard/RecordStream) **—** Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources.
 * [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 * [validjson](http://github.com/martinlindhe/validjson) **—** Validate or pretty-print JSON.
-* [VisiData](https://github.com/saulpw/visidata) **—** Explore data interactively data. See the [awk-like/Other tools](#other-tools) section.
 
 
 ## XML, HTML
