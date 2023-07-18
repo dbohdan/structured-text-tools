@@ -90,6 +90,7 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 * [tv](https://github.com/codechenx/tv) **—** View delimited files in the terminal.
 * [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
 * [xsv](https://github.com/BurntSushi/xsv) **—** Index, slice, analyze, split, and join CSV files.
+* [zsv](https://github.com/liquidaty/zsv) **—** Slice, combine, reformat, flatten/unflatten CSV (TSV, DSV) files. Query them with SQL and jq filters. Convert between them, JSON, and SQLite 3. Also a C library.
 
 ### SQL-based tools
 
