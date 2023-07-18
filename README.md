@@ -20,7 +20,8 @@ The following is a list of text-based file formats and command line tools for ma
   * [Multiple formats](#multiple-formats)
 * [Log files](#log-files)
 * [Templating for structured text](#templating-for-structured-text)
-* [Bonus round: CLIs for single-file databases](#bonus-round-clis-for-single-file-databases)
+* [Extra: interactive TUIs](#extra-interactive-tuis)
+* [Extra: CLIs for single-file databases](#extra-clis-for-single-file-databases)
 * [License](#license)
 * [Disclosure](#disclosure)
 
@@ -88,7 +89,6 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 * [teip](https://github.com/greymd/teip) **—** Select fields, character ranges, or regular expression matches from standard input. Replace them with the output of a command.
 * [eBay's TSV utilities](https://github.com/eBay/tsv-utils) **—** Filtering, statistics, sampling, joins and other operations on TSV files. High performance, especially good for large datasets. Written in D.
 * [tv](https://github.com/codechenx/tv) **—** View delimited files in the terminal.
-* [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
 * [xsv](https://github.com/BurntSushi/xsv) **—** Index, slice, analyze, split, and join CSV files.
 * [zsv](https://github.com/liquidaty/zsv) **—** Slice, combine, reformat, flatten/unflatten CSV (TSV, DSV) files. Query them with SQL and jq filters. Convert between them, JSON, and SQLite 3. Also a C library.
 
@@ -292,7 +292,12 @@ Listed below are restricted programming language interpreters and templating too
     * **Description:** A templating tool for YAML built upon the [Starlark](https://github.com/bazelbuild/starlark) configuration language.
 
 
-## Bonus round: CLIs for single-file databases
+## Extra: interactive TUIs
+
+* [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
+
+
+## Extra: CLIs for single-file databases
 
 * [Firebird](https://firebirdsql.org/)
     * **Description:** Firebird is a FOSS database that can be used from a single file, like SQLite. "isql is a program that allows the user to issue arbitrary SQL commands".
