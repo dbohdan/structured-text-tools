@@ -141,7 +141,7 @@ See the [big comparison table](sql-based.md). It covers
 * [json-table](https://github.com/micha/json-table) **—** Convert nested JSON into CSV or TSV for processing in the shell.
 * [json.tool](https://docs.python.org/2/library/json.html) ([Python 3 docs](https://docs.python.org/3/library/json.html)) **—** Validate and pretty-print JSON. This module is part of the standard library of Python 2/3 and is likely to be available wherever Python is installed.
 * [jsonwatch](https://github.com/dbohdan/jsonwatch) **—** Track changes in JSON data from the command line. Works like `watch -d`.
-* [lobar](https://github.com/sodiumjoe/lobar) **—** Explore JSON interactively or process it in batch with a wrapper for `lodash.chain()`. An alternative to jq with a JavaScript syntax.
+* [lobar](https://github.com/sodiumjoe/lobar) **—** Process JSON with a wrapper for `lodash.chain()`. An alternative to jq with a JavaScript syntax.
 * [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 * [qpyson](https://github.com/mpkocher/qpyson) **—** Query and manipulate JSON with Python.
 * [query-json](https://github.com/davesnx/query-json) **—** A faster jq implementation written in Reason Native (OCaml).
@@ -294,6 +294,7 @@ Listed below are restricted programming language interpreters and templating too
 
 * [jid](https://github.com/simeji/jid) **—** Explore JSON interactively with filtering queries like jq.
 * [jiq](https://github.com/fiatjaf/jiq) **—** Explore JSON interactively with jq. Requires jq.
+* [lobar](https://github.com/sodiumjoe/lobar) **—** Explore JSON interactively with `lodash.chain()`.
 * [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
 
 
