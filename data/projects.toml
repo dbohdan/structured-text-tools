@@ -2,845 +2,620 @@
 name = "\"AWK Vs NAWK Vs GAWK\""
 url = "https://www.thegeekstuff.com/2011/06/awk-nawk-gawk/"
 descr = "a comparison of features present in different implementations."
-tags = [
-    "awk",
-]
+tags = ["awk"]
 
 [[projects]]
 name = "Augeas"
 url = "http://augeas.net"
 descr = "Query and modify [a number of file formats](http://augeas.net/stock_lenses.html). Not all of the formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed."
-tags = [
-    "config",
-]
+tags = ["config"]
 
 [[projects]]
 name = "awk.info archive"
 url = "https://web.archive.org/web/20160505033644/http://awk.info/"
 descr = "an extensive resource on Awk."
-tags = [
-    "awk",
-]
+tags = ["awk"]
 
 [[projects]]
 name = "busybox-w32"
 url = "https://frippery.org/busybox/"
 descr = "includes a full implementation of POSIX awk and other tools like `sed` in a single Windows executable."
-tags = [
-    "awk",
-]
+tags = ["awk"]
 
 [[projects]]
 name = "clconf"
 url = "https://github.com/pastdev/clconf"
 descr = "Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library."
-tags = [
-    "yaml-toml",
-    "json",
-]
+tags = ["yaml-toml", "json"]
 
 [[projects]]
 name = "csv-nix-tools"
 url = "https://github.com/mslusarz/csv-nix-tools"
 descr = "List \\*nix system information such as environment variables, files, processes, network connections, users as CSV. Manipulate and pretty-print CSV. Execute CSV rows as commands."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "csv2html"
 url = "https://github.com/dbohdan/csv2html"
 descr = "Convert CSV to HTML tables."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "csv2md"
 url = "https://github.com/pstaender/csv2md"
 descr = "Convert CSV to Markdown tables."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "csvfaker"
 url = "https://github.com/pereorga/csvfaker"
 descr = "Generate CSV files with fake data. Supports different types of fake data in different locales: names, cities, jobs, email addresses, and others."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "csvfix"
 url = "https://github.com/jheusser/csvfix"
 descr = "A multitool. Compare, filter, normalize, split, and validate CSV files. Reorder, remove, split, and merge fields. Convert data between fixed-width, multi-line, XML, and DSV format. Generate SQL statements. (Unofficial mirror.)"
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "csvkit"
 url = "https://github.com/wireservice/csvkit"
 descr = "csvkit is a suite of command-line tools for converting to and working with CSV: convert, clean, cut, grep, join, sort, stack, format, render, query, analyze, etc."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "csvquote"
 url = "https://github.com/dbro/csvquote"
 descr = "Transform CSV to and from a format processable with [awk-like](#awk-like) tools."
-tags = [
-    "csv",
-    "awk-other",
-]
+tags = ["csv", "awk-other"]
 
 [[projects]]
 name = "csvtk"
 url = "https://github.com/shenwei356/csvtk"
 descr = "Search, sample, cut, join, transpose, and sort CSV/TSV files. Rename columns. Replace fields and generate new fiends from existing fields. Plot data as vector or raster histograms and box, line, and scatter plots. Convert CSV to Markdown. Convert XLSX to CSV. Split XLSX sheets."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "CSVtoTable"
 url = "https://github.com/vividvilla/csvtotable"
 descr = "Convert CSV to a searchable and sortable HTML table."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "dasel"
 url = "https://github.com/TomWright/dasel"
 descr = "Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML, and XML. Static binaries available for releases."
-tags = [
-    "csv",
-    "xml-html",
-    "yaml-toml",
-    "json",
-]
+tags = ["csv", "xml-html", "yaml-toml", "json"]
 
 [[projects]]
 name = "eBay's TSV utilities"
 url = "https://github.com/eBay/tsv-utils"
 descr = "Filtering, statistics, sampling, joins and other operations on TSV files. High performance, especially good for large datasets. Written in D."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "Elektra"
 url = "http://libelektra.org"
 descr = "Query and modify [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses), but has better support for generic formats such as JSON and INI."
-tags = [
-    "config",
-]
+tags = ["config"]
 
 [[projects]]
 name = "emuto"
 url = "http://kantord.github.io/emuto/"
 descr = "CLI tool similar to jq. Create and manipulate JSON and other files. Can be compiled to JavaScript."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "frawk"
 url = "https://github.com/ezrosent/frawk"
 descr = "a Rust implementation of a language partially compatible with AWK that supports [parallelism](https://github.com/ezrosent/frawk/blob/master/info/parallelism.md) and CSV input and output. frawk is an awk-derived language with a CSV mode for input and for output."
-tags = [
-    "csv",
-    "awk",
-]
+tags = ["csv", "awk"]
 
 [[projects]]
 name = "fx"
 url = "https://github.com/antonmedv/fx"
 descr = "Run arbitrary JavaScript on JSON input. Standalone binaries available."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "GNU datamash"
 url = "https://www.gnu.org/software/datamash/"
 descr = "Perform statistical operations on text input."
-tags = [
-    "awk-other",
-]
+tags = ["awk-other"]
 
 [[projects]]
 name = "GoAWK"
 url = "https://github.com/benhoyt/goawk"
 descr = "a cross-platform implementation of awk with added support for CSV. The project provides binaries for many platforms, including Windows. GoAWK is an awk implementation that adds a CSV mode for input and for output."
-tags = [
-    "csv",
-    "awk",
-]
+tags = ["csv", "awk"]
 
 [[projects]]
 name = "gojq"
 url = "https://github.com/itchyny/gojq"
 descr = "A pure Go implementation of jq. Supports YAML input and output."
-tags = [
-    "yaml-toml",
-    "json",
-]
+tags = ["yaml-toml", "json"]
 
 [[projects]]
 name = "Graphtage"
 url = "https://github.com/trailofbits/graphtage"
 descr = "Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library."
-tags = [
-    "csv",
-    "xml-html",
-    "yaml-toml",
-    "json",
-]
+tags = ["csv", "xml-html", "yaml-toml", "json"]
 
 [[projects]]
 name = "gron"
 url = "https://github.com/tomnomnom/gron"
 descr = "Convert JSON to and from flat, greppable lists of \"path=value\" statements."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "Hawk"
 url = "https://github.com/gelisam/hawk"
 descr = "Transform text from the command-line using Haskell expressions."
-tags = [
-    "awk-other",
-]
+tags = ["awk-other"]
 
 [[projects]]
 name = "hostctl"
 url = "https://github.com/guumaster/hostctl"
 descr = "Add and remove entries in `/etc/hosts`. Disable (comment out) and enable (uncomment) entries. Idempotent. Preserves arbitrary comments above its section of the hosts file. Works with groups of entries called \"profiles\"."
-tags = [
-    "hosts",
-]
+tags = ["hosts"]
 
 [[projects]]
 name = "hostess"
 url = "https://github.com/cbednarski/hostess"
 descr = "Add and remove entries in `/etc/hosts`. Disable (comment out) and enable (uncomment) entries. Check if a hostname exists. Reformat the hosts file. Convert the entries to JSON. Idempotent. Removes arbitrary comments."
-tags = [
-    "hosts",
-]
+tags = ["hosts"]
 
 [[projects]]
 name = "hosts"
 url = "https://gitlab.com/dbohdan/hosts"
 descr = "Add and remove entries in `/etc/hosts`. Change a hostname's IP address. Idempotent. Preserves arbitrary comments. Can be used as a Tcl library."
-tags = [
-    "hosts",
-]
+tags = ["hosts"]
 
 [[projects]]
 name = "hred"
 url = "https://github.com/danburzo/hred"
 descr = "Query XML and HTML with a query language based on CSS selectors."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "html-xml-utils"
 url = "https://www.w3.org/Tools/HTML-XML-utils/README"
 descr = "A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "htmlq"
 url = "https://github.com/mgdm/htmlq"
 descr = "Query HTML with CSS selectors. Can remove elements in the output."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "JC"
 url = "https://github.com/kellyjonbrazil/jc"
 descr = "Convert the output of standard command line tools to JSON."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jello"
 url = "https://github.com/kellyjonbrazil/jello"
 descr = "Query JSON and [JSON Lines](http://jsonlines.org/) with Python code. Output the result in a line-based format suitable for creating Bash arrays. Generate a grep-able schema."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jet"
 url = "https://github.com/borkdude/jet"
 descr = "Convert between and query JSON, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format)."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jfq"
 url = "https://github.com/blgm/jfq"
 descr = "Query and transform JSON with the [JSONata](http://jsonata.org/) language."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jid"
 url = "https://github.com/simeji/jid"
 descr = "Explore JSON interactively with filtering queries like jq."
-tags = [
-    "tui",
-]
+tags = ["tui"]
 
 [[projects]]
 name = "jiq"
 url = "https://github.com/fiatjaf/jiq"
 descr = "Explore JSON interactively with jq. Requires jq."
-tags = [
-    "tui",
-]
+tags = ["tui"]
 
 [[projects]]
 name = "jj"
 url = "https://github.com/tidwall/jj"
 descr = "Query and modify values in JSON or JSON Lines with a key path."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jl"
 url = "https://github.com/chrisdone/jl"
 descr = "Query and manipulate JSON using a tiny functional language."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jo"
 url = "https://github.com/jpmens/jo"
 descr = "Create JSON objects from the shell."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jp (jmespath)"
 url = "https://github.com/jmespath/jp"
 descr = "Query JSON with [JMESPath](http://jmespath.org/)."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jp (sgreben)"
 url = "https://github.com/sgreben/jp"
 descr = "Plot JSON and CSV data in the terminal. Supports different kinds of plots: bar charts, line charts, scatter plots, histograms, and heatmaps."
-tags = [
-    "csv",
-    "json",
-]
+tags = ["csv", "json"]
 
 [[projects]]
 name = "jplot"
 url = "https://github.com/rs/jplot"
 descr = "Plot real-time JSON data in the terminal (works with terminals supporting graphic rendering)."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jq"
 url = "http://stedolan.github.io/jq/manual/"
 descr = "Create and manipulate JSON with a functional (as in \"functional programming\") [DSL](https://en.wikipedia.org/wiki/Domain-specific_language). Can convert JSON to other formats."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jql"
 url = "https://github.com/cube2222/jql"
 descr = "Create and manipulate JSON with a Lisp-syntax DSL."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jshon"
 url = "http://kmkeen.com/jshon/"
 descr = "Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "json"
 url = "https://github.com/trentm/json"
 descr = "Run arbitrary JavaScript on JSON input."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "json-table"
 url = "https://github.com/micha/json-table"
 descr = "Convert nested JSON into CSV or TSV for processing in the shell."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "json.tool"
 url = "https://docs.python.org/2/library/json.html"
 descr = "Validate and pretty-print JSON. This module is part of the standard library of Python 2/3 and is likely to be available wherever Python is installed. ([Python 3 docs](https://docs.python.org/3/library/json.html).)"
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "json2"
 url = "https://github.com/vi/json2"
 descr = "Convert JSON to and from flat, greppable lists of \"path=value\" statements. Modeled after [xml2](#xml-html)."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jsonaxe"
 url = "https://github.com/davvid/jsonaxe"
 descr = "Create and manipulate JSON with a Python-based DSL. Inspired by jq."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jsonwatch"
 url = "https://github.com/dbohdan/jsonwatch"
 descr = "Track changes in JSON data from the command line. Works like `watch -d`."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jtbl"
 url = "https://github.com/kellyjonbrazil/jtbl"
 descr = "Format JSON or JSON Lines as a plain-text table."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "jtc"
 url = "https://github.com/ldn-softdev/jtc"
 descr = "Create, manipulate, search, validate JSON with path expressions. Can be used as a C++14 library."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "lnav"
 url = "https://lnav.org"
 descr = "Query and watch log files. Has batch and interactive mode. Supported formats include the Common Log Format, CUPS page_log, syslog, strace, and generic timestamped messages. Can perform SQL queries."
-tags = [
-    "log",
-]
+tags = ["log"]
 
 [[projects]]
 name = "lobar"
 url = "https://github.com/sodiumjoe/lobar"
 descr = "Process JSON and explore it interactively with a wrapper for `lodash.chain()`. An alternative to jq with JavaScript syntax."
-tags = [
-    "tui",
-    "json",
-]
+tags = ["tui", "json"]
 
 [[projects]]
 name = "Mario"
 url = "https://github.com/python-mario/mario"
 descr = "Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code."
-tags = [
-    "csv",
-    "xml-html",
-    "yaml-toml",
-    "json",
-]
+tags = ["csv", "xml-html", "yaml-toml", "json"]
 
 [[projects]]
 name = "MCMD (M-Command)"
 url = "https://github.com/nysol/mcmd"
 descr = "Select, sample, cut, join, sort, reformat, and generate CSV files. Contains a large set of commands."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "Miller"
 url = "https://github.com/johnkerl/miller"
 descr = "`sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "pawk"
 url = "https://github.com/alecthomas/pawk"
 descr = "Process text with AWK-like patterns, but Python code."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "pup"
 url = "https://github.com/EricChiang/pup"
 descr = "Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json)."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "qpyson"
 url = "https://github.com/mpkocher/qpyson"
 descr = "Query and manipulate JSON with Python."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "qsv"
 url = "https://github.com/jqnatividad/qsv"
 descr = "Index, slice, analyze, split, and join CSV files. A fork of xsv that adds subcommands and features."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "query-json"
 url = "https://github.com/davesnx/query-json"
 descr = "A faster jq implementation written in Reason Native (OCaml)."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "quicktype"
 url = "https://github.com/quicktype/quicktype"
 descr = "Infer the underlying model of the JSON and output as types for various programming languages or JSON Schema. CLI and [Web UI](https://app.quicktype.io)."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "ramda-cli"
 url = "https://github.com/raine/ramda-cli"
 descr = "Manipulate JSON with the [Ramda](https://ramdajs.com/) functional library, and either LiveScript or JavaScript syntax."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "RecordStream"
 url = "https://github.com/benbernard/RecordStream"
 descr = "Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "Remarshal"
 url = "https://github.com/dbohdan/remarshal"
 descr = "Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML."
-tags = [
-    "yaml-toml",
-]
+tags = ["yaml-toml"]
 
 [[projects]]
 name = "rows"
 url = "https://github.com/turicas/rows"
 descr = "A Python library with a [CLI](http://turicas.info/rows/cli/). Convert between a number of [file formats](http://turicas.info/rows/plugins/) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "rq"
 url = "https://github.com/dflemstr/rq"
 descr = "Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text."
-tags = [
-    "csv",
-    "yaml-toml",
-    "json",
-    "awk-other",
-]
+tags = ["csv", "yaml-toml", "json", "awk-other"]
 
 [[projects]]
 name = "Saxon"
 url = "http://saxon.sourceforge.net/"
 descr = "Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl)."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "sc-im"
 url = "https://github.com/andmarti1424/sc-im"
 descr = "A Vim-like spreadsheet calculator for CSV and TSV files."
-tags = [
-    "tui",
-]
+tags = ["tui"]
 
 [[projects]]
 name = "scrubcsv"
 url = "https://github.com/faradayio/scrubcsv"
 descr = "Remove bad lines from a CSV file and normalize the rest. Written in Rust."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "shyaml"
 url = "https://github.com/0k/shyaml"
 descr = "Query YAML. Can output null-terminated strings for use in shell scripts."
-tags = [
-    "yaml-toml",
-]
+tags = ["yaml-toml"]
 
 [[projects]]
 name = "sml2"
 url = "https://github.com/JFLarvoire/libxml2"
 descr = "Convert between XML and [SML](https://htmlpreview.github.io/?https://github.com/JFLarvoire/libxml2/blob/master/SML_presentation.htm), a simplified XML representation."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "Squawk"
 url = "https://github.com/samuel/squawk"
 descr = "Query Apache and Nginx log files. See the [SQL-based tool comparison](sql-based.md)."
-tags = [
-    "log",
-]
+tags = ["log"]
 
 [[projects]]
 name = "tab"
 url = "http://tkatchev.bitbucket.io/tab/"
 descr = "A non-Turing-complete statically typed programming language for data processing. An alternative to awk."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "teip"
 url = "https://github.com/greymd/teip"
 descr = "Select fields, character ranges, or regular expression matches from standard input. Replace them with the output of a command."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "Temme"
 url = "https://github.com/shinima/temme"
 descr = "Query HTML with CSS-like selectors to extract JSON. Temme extends CSS selectors with value capture patterns."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "tidy-html5"
 url = "http://www.html-tidy.org/"
 descr = "Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "tq"
 url = "https://github.com/plainas/tq"
 descr = "Query HTML with CSS selectors."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "tv"
 url = "https://github.com/codechenx/tv"
 descr = "View delimited files in the terminal."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "validjson"
 url = "http://github.com/martinlindhe/validjson"
 descr = "Validate or pretty-print JSON."
-tags = [
-    "json",
-]
+tags = ["json"]
 
 [[projects]]
 name = "validtoml"
 url = "http://github.com/martinlindhe/validtoml"
 descr = "Validate TOML."
-tags = [
-    "yaml-toml",
-]
+tags = ["yaml-toml"]
 
 [[projects]]
 name = "validyaml"
 url = "http://github.com/martinlindhe/validyaml"
 descr = "Validate or pretty-print YAML."
-tags = [
-    "yaml-toml",
-]
+tags = ["yaml-toml"]
 
 [[projects]]
 name = "VisiData"
 url = "https://github.com/saulpw/visidata"
 descr = "Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/)."
-tags = [
-    "tui",
-]
+tags = ["tui"]
 
 [[projects]]
 name = "vnlog"
 url = "https://github.com/dkogan/vnlog/"
 descr = "Process labelled tabular ASCII data using normal UNIX tools. Can plot data with gnuplot."
-tags = [
-    "awk-other",
-]
+tags = ["awk-other"]
 
 [[projects]]
 name = "Xidel"
 url = "http://www.videlibri.de/xidel.html"
 descr = "Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "xml-to-json-fast"
 url = "https://github.com/sinelaw/xml-to-json-fast"
 descr = "Convert XML to JSON. Can handle very large XML files."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "xml2"
 url = "https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/"
 descr = "Convert XML and HTML to and from flat, greppable lists of \"path=value\" statements. [Source code mirror](https://github.com/clone/xml2)."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "xmljson"
 url = "https://github.com/engali94/XMLJson"
 descr = "Convert multiple and large XML files to JSON. Written in Swift."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "XMLLint"
 url = "http://xmlsoft.org/xmllint.html"
 descr = "Query (including XSLT), validate and reformat XML documents."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "XMLStarlet"
 url = "http://xmlstar.sourceforge.net/overview.php"
 descr = "Query, modify, and validate XML documents."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "xpe"
 url = "https://github.com/charmparticle/xpe"
 descr = "Query HTML and XML with XPath expressions."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "xq"
 url = "https://github.com/kislyuk/yq"
 descr = "[jq](#json) wrapper for XML documents."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "xsltproc"
 url = "http://xmlsoft.org/XSLT/xsltproc2.html"
 descr = "Transform XML documents using [XSLT](https://www.w3.org/TR/xslt) and [EXSLT](http://exslt.org)."
-tags = [
-    "xml-html",
-]
+tags = ["xml-html"]
 
 [[projects]]
 name = "xsv"
 url = "https://github.com/BurntSushi/xsv"
 descr = "Index, slice, analyze, split, and join CSV files."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 [[projects]]
 name = "yaml-tools"
 url = "https://github.com/thecodingmachine/yaml-tools"
 descr = "A set of CLI tools to manipulate YAML files (merge, delete, etc...) with comment preservation, based on [ruamel.yaml](http://yaml.readthedocs.io/en/latest/)."
-tags = [
-    "yaml-toml",
-]
+tags = ["yaml-toml"]
 
 [[projects]]
 name = "yq (kislyuk)"
 url = "https://github.com/kislyuk/yq"
 descr = "[jq](#json) wrapper for YAML."
-tags = [
-    "yaml-toml",
-]
+tags = ["yaml-toml"]
 
 [[projects]]
 name = "yq (mikefarah)"
 url = "https://github.com/mikefarah/yq"
 descr = "Query, modify, and merge YAML. Convert to and from JSON."
-tags = [
-    "yaml-toml",
-]
+tags = ["yaml-toml"]
 
 [[projects]]
 name = "zsv"
 url = "https://github.com/liquidaty/zsv"
 descr = "Slice, combine, reformat, flatten/unflatten CSV (TSV, DSV) files. Query them with SQL and jq filters. Convert between them, JSON, and SQLite 3. Also a C library."
-tags = [
-    "csv",
-]
+tags = ["csv"]
 
 # Special: INI
 
 [[projects]]
 name = "cfget"
 url = "https://packages.debian.org/unstable/cfget"
-tags = [
-    "ini",
-]
+tags = ["ini"]
 
 [projects.props]
 Platform = "Any with Python 2.x?"
@@ -850,9 +625,7 @@ Description = "Retrieve properties as shell script commands to set the correspon
 [[projects]]
 name = "confget"
 url = "https://devel.ringlet.net/textproc/confget/"
-tags = [
-    "ini",
-]
+tags = ["ini"]
 
 [projects.props]
 Platform = "Linux, FreeBSD"
@@ -862,9 +635,7 @@ Description = "Retrieve properties and sections as shell script commands to set 
 [[projects]]
 name = "crudini"
 url = "https://github.com/pixelb/crudini/"
-tags = [
-    "ini",
-]
+tags = ["ini"]
 
 [projects.props]
 Platform = "Any with Python 2.x"
@@ -874,9 +645,7 @@ Description = "Retrieve properties and sections as INI fragments or shell script
 [[projects]]
 name = "inicomp"
 url = "https://github.com/JFLarvoire/SysToolsLib/blob/HEAD/C/SRC/inicomp.c"
-tags = [
-    "ini",
-]
+tags = ["ini"]
 
 [projects.props]
 Platform = "Windows, \\*nix"
@@ -886,9 +655,7 @@ Description = "Compare INI (and also Windows .reg) files."
 [[projects]]
 name = "IniFile"
 url = "http://www.horstmuc.de/wbat32.htm#inifile"
-tags = [
-    "ini",
-]
+tags = ["ini"]
 
 [projects.props]
 Platform = "Windows (x86, x86-64), [MS-DOS](http://www.horstmuc.de/div.htm#inifile)"
@@ -898,9 +665,7 @@ Description = "Retrieve properties and sections as batch file commands to set th
 [[projects]]
 name = "initool"
 url = "https://github.com/dbohdan/initool"
-tags = [
-    "ini",
-]
+tags = ["ini"]
 
 [projects.props]
 Platform = "Linux, FreeBSD, Windows"
@@ -912,9 +677,7 @@ Description = "Retrieve properties and sections as INI fragments. Retrieve prope
 [[projects]]
 name = "CUE"
 url = "https://github.com/cuelang/cue"
-tags = [
-    "template",
-]
+tags = ["template"]
 
 [projects.props]
 "Output format" = "JSON"
@@ -926,9 +689,7 @@ tags = [
 [[projects]]
 name = "Dhall"
 url = "https://dhall-lang.org/"
-tags = [
-    "template",
-]
+tags = ["template"]
 
 [projects.props]
 "Output format" = "JSON, YAML"
@@ -940,9 +701,7 @@ tags = [
 [[projects]]
 name = "jk"
 url = "https://github.com/jkcfg/jk"
-tags = [
-    "template",
-]
+tags = ["template"]
 
 [projects.props]
 "Output format" = "JSON, YAML, plain text"
@@ -954,9 +713,7 @@ tags = [
 [[projects]]
 name = "Jsonnet"
 url = "https://jsonnet.org/"
-tags = [
-    "template",
-]
+tags = ["template"]
 
 [projects.props]
 "Output format" = "JSON, INI, XML, YAML, plain text"
@@ -968,9 +725,7 @@ tags = [
 [[projects]]
 name = "rjsone"
 url = "https://github.com/wryun/rjsone"
-tags = [
-    "template",
-]
+tags = ["template"]
 
 [projects.props]
 "Output format" = "JSON, YAML"
@@ -982,9 +737,7 @@ tags = [
 [[projects]]
 name = "ytt"
 url = "https://get-ytt.io/"
-tags = [
-    "template",
-]
+tags = ["template"]
 
 [projects.props]
 "Output format" = "YAML"
@@ -998,9 +751,7 @@ tags = [
 [[projects]]
 name = "Firebird"
 url = "https://firebirdsql.org/"
-tags = [
-    "single-file-db",
-]
+tags = ["single-file-db"]
 
 [projects.props]
 "Description" = "Firebird is a FOSS database that can be used from a single file, like SQLite. \"isql is a program that allows the user to issue arbitrary SQL commands\"."
@@ -1009,9 +760,7 @@ tags = [
 [[projects]]
 name = "Fsdb"
 url = "https://www.isi.edu/~johnh/SOFTWARE/FSDB/perl-Fsdb-2.69_README.html"
-tags = [
-    "single-file-db",
-]
+tags = ["single-file-db"]
 
 [projects.props]
 "Description" = "A flat-file database for shell scripting."
@@ -1020,9 +769,7 @@ tags = [
 [[projects]]
 name = "GNU Recutils"
 url = "http://www.gnu.org/software/recutils/"
-tags = [
-    "single-file-db",
-]
+tags = ["single-file-db"]
 
 [projects.props]
 "Description" = "\"[A] set of tools and libraries to access human-editable, plain text databases called recfiles.\""
@@ -1031,9 +778,7 @@ tags = [
 [[projects]]
 name = "SDB"
 url = "https://github.com/radare/sdb"
-tags = [
-    "single-file-db",
-]
+tags = ["single-file-db"]
 
 [projects.props]
 "Description" = "\"[A] simple string key/value database based on djb's cdb disk storage and supports JSON and arrays introspection.\""
@@ -1042,9 +787,7 @@ tags = [
 [[projects]]
 name = "sqlite3(1)"
 url = "https://www.sqlite.org/cli.html"
-tags = [
-    "single-file-db",
-]
+tags = ["single-file-db"]
 
 [projects.props]
 "Description" = "\"[A] simple command-line utility [...] that allows the user to manually enter and execute SQL statements against an SQLite database.\""
