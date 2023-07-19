@@ -357,11 +357,11 @@ name = "Miller"
 url = "https://github.com/johnkerl/miller"
 descr = "`sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON."
 tags = ["csv"]
- 
+
 [[projects]]
 name = "Nushell"
 url = "https://github.com/nushell/nushell"
-descr = "A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, JSON, TOML, TSV, XML, YAML, and other formats."
+descr = "A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats."
 tags = ["csv", "json", "toml", "xml", "yaml"]
 
 [[projects]]
@@ -683,6 +683,16 @@ tags = ["ini"]
 Platform = "Linux, FreeBSD, Windows"
 License = "MIT"
 Description = "Retrieve properties and sections as INI fragments. Retrieve properties' values as plain text. Set properties. Check for existence of properties and sections. Remove properties and sections. Outputs the updated INI file."
+
+[[projects]]
+name = "Nushell"
+url = "https://github.com/nushell/nushell"
+tags = ["ini"]
+
+[projects.props]
+Platform = "Free/Net/OpenBSD, Linux, macOS, Windows"
+License = "MIT"
+Description = "Query and transform data with the Nushell language."
 
 # Special: templating for structured text
 
