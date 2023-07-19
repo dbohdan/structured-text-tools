@@ -357,6 +357,12 @@ name = "Miller"
 url = "https://github.com/johnkerl/miller"
 descr = "`sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON."
 tags = ["csv"]
+ 
+[[projects]]
+name = "Nushell"
+url = "https://github.com/nushell/nushell"
+descr = "A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, JSON, TOML, TSV, XML, YAML, and other formats."
+tags = ["csv", "json", "toml", "xml", "yaml"]
 
 [[projects]]
 name = "pawk"
