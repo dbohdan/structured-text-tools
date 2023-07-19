@@ -235,28 +235,28 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 
 ### INI
 
-* [cfget](https://packages.debian.org/unstable/cfget)
-    * **Platform:** Any with Python 2.x?
-    * **License:** GNU GPLv2+
+* [cfget](https://packages.debian.org/source/buster/cfget)
+    * **Platform:** Any with Python 2.6-2.7?
+    * **License:** GPL-2.0-or-later
     * **Description:** Retrieve properties as shell script commands to set the corresponding variables (with `--dump exports`). Retrieve properties' values as plain text. Substitute values from an INI file in an Autoconf-style template. Supports plug-ins. Chokes on section names and keys with spaces.
 * [confget](https://devel.ringlet.net/textproc/confget/)
-    * **Platform:** Linux, FreeBSD
-    * **License:** Two-clause BSD
-    * **Description:** Retrieve properties and sections as shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Check for existence of properties. List sections. Find values that match a pattern. Read-only.
+    * **Platform:** Free/Net/OpenBSD, Linux, likely others
+    * **License:** BSD-2-Clause
+    * **Description:** Retrieve properties and sections as shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Check for existence of properties. List sections. Find values that match a pattern. Read-only. Has a C, Python, and Rust implementation. The Rust implementation can be installed with `cargo install confget`.
 * [crudini](https://github.com/pixelb/crudini/)
-    * **Platform:** Any with Python 2.x
-    * **License:** GNU GPLv2
+    * **Platform:** Any with Python 2.6–2.7 or 3.x
+    * **License:** GPL-2.0
     * **Description:** Retrieve properties and sections as INI fragments or shell script commands to set the corresponding variables. Retrieve properties' values as plain text. Set properties. Remove properties and sections. Create empty sections. Merge INI files. Changes files in place.
 * [inicomp](https://github.com/JFLarvoire/SysToolsLib/blob/HEAD/C/SRC/inicomp.c)
-    * **Platform:** Windows, \*nix
-    * **License:** Apache 2.0
+    * **Platform:** Windows, POSIX
+    * **License:** Apache-2.0
     * **Description:** Compare INI (and also Windows .reg) files.
 * [IniFile](http://www.horstmuc.de/wbat32.htm#inifile)
     * **Platform:** Windows (x86, x86-64), [MS-DOS](http://www.horstmuc.de/div.htm#inifile)
     * **License:** Closed-source freeware
     * **Description:** Retrieve properties and sections as batch file commands to set the corresponding variables. Set properties. Remove properties and sections. Changes files in place.
 * [initool](https://github.com/dbohdan/initool)
-    * **Platform:** Linux, FreeBSD, Windows
+    * **Platform:** FreeBSD, Linux, Windows
     * **License:** MIT
     * **Description:** Retrieve properties and sections as INI fragments. Retrieve properties' values as plain text. Set properties. Check for existence of properties and sections. Remove properties and sections. Outputs the updated INI file.
 * [Nushell](https://github.com/nushell/nushell)
