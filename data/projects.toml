@@ -479,6 +479,12 @@ descr = "Query HTML with CSS-like selectors to extract JSON. Temme extends CSS s
 tags = ["html"]
 
 [[projects]]
+name = "taplo-cli"
+url = "https://github.com/tamasfe/taplo"
+descr = "Query, format, and validate (lint) TOML."
+tags = ["toml"]
+
+[[projects]]
 name = "tidy-html5"
 url = "http://www.html-tidy.org/"
 descr = "Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML."

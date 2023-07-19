@@ -182,6 +182,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 * [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 * [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 * [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
+* [taplo-cli](https://github.com/tamasfe/taplo) **—** Query, format, and validate (lint) TOML.
 
 
 ## XML
