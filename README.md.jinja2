@@ -1,0 +1,151 @@
+# Structured text tools
+
+The following is a list of text-based file formats and command line tools for manipulating each.
+
+
+## Contents
+
+* [awk-like](#awk-like)
+  * [awk](#awk)
+  * [POSIX commands](#posix-commands)
+  * [SQL-based tools](#sql-based-tools)
+  * [Other tools](#other-tools)
+* [CSV](#csv)
+* [JSON](#json)
+* [XML, HTML](#xml-html)
+* [YAML, TOML](#yaml-toml)
+* [Configuration files](#configuration-files)
+  * [/etc/hosts](#etchosts)
+  * [INI](#ini)
+  * [Multiple formats](#multiple-formats)
+* [Log files](#log-files)
+* [Templating for structured text](#templating-for-structured-text)
+* [Extra: interactive TUIs](#extra-interactive-tuis)
+* [Extra: CLIs for single-file databases](#extra-clis-for-single-file-databases)
+* [License](#license)
+* [Disclosure](#disclosure)
+
+
+## awk-like
+
+Tools that work with lines of fields separated by delimiters but do not necessarily support [CSV field quoting](https://en.wikipedia.org/wiki/Comma-separated_values#Basic_rules).
+
+### awk
+
+AWK/awk is a programming language and a POSIX-standard command line tool. (You will sometimes see "awk" used for the tool and "AWK" for the language. This document follows this convention. GNU Awk uses "Awk".) If you run Linux, macOS, or a BSD, you almost certainly have it installed. See below for Windows.
+
+* If you already know how to program, the nawk [man page](https://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn AWK quickly. What you learn from it will apply to other implementations on different platforms. Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](https://www.gnu.org/software/gawk/manual/gawk.html).
+* [awk.info archive](https://web.archive.org/web/20160505033644/http://awk.info/) **—** an extensive resource on Awk.
+* ["AWK Vs NAWK Vs GAWK"](https://www.thegeekstuff.com/2011/06/awk-nawk-gawk/) **—** a comparison of features present in different implementations.
+* [busybox-w32](https://frippery.org/busybox/) includes a full implementation of POSIX awk and other tools like `sed` in a single Windows executable.
+* [frawk](https://github.com/ezrosent/frawk) is a Rust implementation of a language partially compatible with AWK that supports [parallelism](https://github.com/ezrosent/frawk/blob/master/info/parallelism.md) and CSV input and output.
+* [GNU Awk 5 binaries for Windows](https://sourceforge.net/projects/ezwinports/files/) by [EZWinPorts](https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/EZWinPorts.html).
+* [GoAWK](https://github.com/benhoyt/goawk) is a cross-platform implementation of awk with added support for CSV. The project provides binaries for many platforms, including Windows.
+
+### POSIX commands
+
+* `comm` **—** Select the lines common to two sorted files or the lines contained in only one of them. (Manual: `man 1 comm` on your system, [GNU](https://linux.die.net/man/1/comm), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=comm&sektion=1).)
+* `cut` **—** Select portions of each line in one or more files. (Manual: `man 1 cut`, [GNU](https://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1).)
+* `grep` **—** Select the lines that match or do not match a pattern from one or more files. (Manual: `man 1 grep`, [GNU](https://linux.die.net/man/1/grep), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=grep&sektion=1).)
+* `join` **—** Take two files sorted by a common field and join their lines on the value of that field. Lines with values that do not appear in the other file are discarded. (Manual: `man 1 join`, [GNU](https://linux.die.net/man/1/join), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=join&sektion=1).)
+* `paste` **—** Combine several consecutive lines in a text file into one. (Manual: `man 1 paste`, [GNU](https://linux.die.net/man/1/paste), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=paste&sektion=1).)
+* `sort` **—** Sort lines by key fields. (Manual: `man 1 sort`, [GNU](https://linux.die.net/man/1/sort), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=sort&sektion=1).)
+* `uniq` **—** Find or remove repeated lines. (Manual: `man 1 uniq`, [GNU](https://linux.die.net/man/1/uniq), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=uniq&sektion=1).)
+
+### Other tools
+
+{{ projs_with_tag("awk-other") }}
+
+
+## CSV
+
+CSV, TSV, and other delimiter-separated value formats. Tools belong on this list if they support [field quoting](https://en.wikipedia.org/wiki/Comma-separated_values#Basic_rules).
+
+{{ projs_with_tag("csv") }}
+
+### SQL-based tools
+
+See the [big comparison table](sql-based.md). It covers
+
+* AlaSQL CLI
+* csvq
+* csvsql
+* fsql
+* q
+* RBQL
+* rows
+* Sqawk (dbohdan)
+* sqawk (tjunier)
+* Squawk
+* termsql
+* trdsql
+* textql
+
+
+## JSON
+
+{{ projs_with_tag("json") }}
+
+
+## XML, HTML
+
+{{ projs_with_tag("xml-html") }}
+
+### See also
+
+* ["Grep and Sed Equivalent for XML Command Line Processing"](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
+
+
+## YAML, TOML
+
+With a format converter like Remarshal (below) you can use [JSON](#json) tools to process YAML and TOML, but make sure you do not lose data in the conversion.
+
+{{ projs_with_tag("yaml-toml") }}
+
+
+## Configuration files
+
+### /etc/hosts
+
+{{ projs_with_tag("hosts") }}
+
+### INI
+
+{{ projs_with_tag("ini") }}
+
+### Multiple formats
+
+{{ projs_with_tag("config") }}
+
+
+## Log files
+
+{{ projs_with_tag("log") }}
+
+
+## Templating for structured text
+
+Listed below are restricted programming language interpreters and templating tools that produce structured text output. They are generally intended to remove repetition in configuration files. They are distinct from unstructed templating tools like the `jinja2` CLI program, which should not be added to this table.
+
+{{ projs_with_tag("template") }}
+
+
+## Extra: interactive TUIs
+
+{{ projs_with_tag("tui") }}
+
+
+## Extra: CLIs for single-file databases
+
+{{ projs_with_tag("single-file-db") }}
+
+
+
+## License
+
+The contents of this document is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). By contributing you agree to release your contribution under this license.
+
+
+## Disclosure
+
+[csv2html](https://github.com/dbohdan/csv2html), [hosts](https://gitlab.com/dbohdan/hosts), [Sqawk](https://github.com/dbohdan/sqawk), [jsonwatch](https://github.com/dbohdan/jsonwatch), [Remarshal](https://github.com/dbohdan/remarshal), and [initool](https://github.com/dbohdan/initool) are developed by the curator of this document.

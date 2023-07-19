@@ -1,1 +1,3 @@
+generate-readme.py linguist-vendored
 GNUmakefile linguist-vendored
+README.md.jinja2 linguist-vendored
