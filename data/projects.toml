@@ -26,7 +26,7 @@ tags = ["awk"]
 name = "clconf"
 url = "https://github.com/pastdev/clconf"
 descr = "Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library."
-tags = ["yaml-toml", "json"]
+tags = ["yaml", "json"]
 
 [[projects]]
 name = "csv-nix-tools"
@@ -85,8 +85,8 @@ tags = ["csv"]
 [[projects]]
 name = "dasel"
 url = "https://github.com/TomWright/dasel"
-descr = "Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML, and XML. Static binaries available for releases."
-tags = ["csv", "xml-html", "yaml-toml", "json"]
+descr = "Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases."
+tags = ["csv", "xml", "yaml", "toml", "json"]
 
 [[projects]]
 name = "eBay's TSV utilities"
@@ -134,13 +134,13 @@ tags = ["csv", "awk"]
 name = "gojq"
 url = "https://github.com/itchyny/gojq"
 descr = "A pure Go implementation of jq. Supports YAML input and output."
-tags = ["yaml-toml", "json"]
+tags = ["yaml", "json"]
 
 [[projects]]
 name = "Graphtage"
 url = "https://github.com/trailofbits/graphtage"
 descr = "Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library."
-tags = ["csv", "xml-html", "yaml-toml", "json"]
+tags = ["csv", "xml", "html", "yaml", "json"]
 
 [[projects]]
 name = "gron"
@@ -176,19 +176,19 @@ tags = ["hosts"]
 name = "hred"
 url = "https://github.com/danburzo/hred"
 descr = "Query XML and HTML with a query language based on CSS selectors."
-tags = ["xml-html"]
+tags = ["xml", "html"]
 
 [[projects]]
 name = "html-xml-utils"
 url = "https://www.w3.org/Tools/HTML-XML-utils/README"
 descr = "A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained."
-tags = ["xml-html"]
+tags = ["xml", "html"]
 
 [[projects]]
 name = "htmlq"
 url = "https://github.com/mgdm/htmlq"
 descr = "Query HTML with CSS selectors. Can remove elements in the output."
-tags = ["xml-html"]
+tags = ["html"]
 
 [[projects]]
 name = "JC"
@@ -301,7 +301,7 @@ tags = ["json"]
 [[projects]]
 name = "json2"
 url = "https://github.com/vi/json2"
-descr = "Convert JSON to and from flat, greppable lists of \"path=value\" statements. Modeled after [xml2](#xml-html)."
+descr = "Convert JSON to and from flat, greppable lists of \"path=value\" statements. Modeled after [xml2](#xml)."
 tags = ["json"]
 
 [[projects]]
@@ -344,7 +344,7 @@ tags = ["tui", "json"]
 name = "Mario"
 url = "https://github.com/python-mario/mario"
 descr = "Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code."
-tags = ["csv", "xml-html", "yaml-toml", "json"]
+tags = ["csv", "xml", "yaml", "toml", "json"]
 
 [[projects]]
 name = "MCMD (M-Command)"
@@ -368,7 +368,7 @@ tags = ["csv"]
 name = "pup"
 url = "https://github.com/EricChiang/pup"
 descr = "Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json)."
-tags = ["xml-html"]
+tags = ["html"]
 
 [[projects]]
 name = "qpyson"
@@ -410,7 +410,7 @@ tags = ["json"]
 name = "Remarshal"
 url = "https://github.com/dbohdan/remarshal"
 descr = "Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML."
-tags = ["yaml-toml"]
+tags = ["json", "yaml", "toml"]
 
 [[projects]]
 name = "rows"
@@ -428,7 +428,7 @@ tags = ["csv", "yaml-toml", "json", "awk-other"]
 name = "Saxon"
 url = "http://saxon.sourceforge.net/"
 descr = "Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl)."
-tags = ["xml-html"]
+tags = ["xml", "html"]
 
 [[projects]]
 name = "sc-im"
@@ -452,7 +452,7 @@ tags = ["yaml-toml"]
 name = "sml2"
 url = "https://github.com/JFLarvoire/libxml2"
 descr = "Convert between XML and [SML](https://htmlpreview.github.io/?https://github.com/JFLarvoire/libxml2/blob/master/SML_presentation.htm), a simplified XML representation."
-tags = ["xml-html"]
+tags = ["xml"]
 
 [[projects]]
 name = "Squawk"
@@ -476,19 +476,19 @@ tags = ["csv"]
 name = "Temme"
 url = "https://github.com/shinima/temme"
 descr = "Query HTML with CSS-like selectors to extract JSON. Temme extends CSS selectors with value capture patterns."
-tags = ["xml-html"]
+tags = ["html"]
 
 [[projects]]
 name = "tidy-html5"
 url = "http://www.html-tidy.org/"
 descr = "Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML."
-tags = ["xml-html"]
+tags = ["xml", "html"]
 
 [[projects]]
 name = "tq"
 url = "https://github.com/plainas/tq"
 descr = "Query HTML with CSS selectors."
-tags = ["xml-html"]
+tags = ["html"]
 
 [[projects]]
 name = "tv"
@@ -530,55 +530,55 @@ tags = ["awk-other"]
 name = "Xidel"
 url = "http://www.videlibri.de/xidel.html"
 descr = "Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors."
-tags = ["xml-html"]
+tags = ["xml", "html"]
 
 [[projects]]
 name = "xml-to-json-fast"
 url = "https://github.com/sinelaw/xml-to-json-fast"
 descr = "Convert XML to JSON. Can handle very large XML files."
-tags = ["xml-html"]
+tags = ["json", "xml"]
 
 [[projects]]
 name = "xml2"
 url = "https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/"
 descr = "Convert XML and HTML to and from flat, greppable lists of \"path=value\" statements. [Source code mirror](https://github.com/clone/xml2)."
-tags = ["xml-html"]
+tags = ["xml", "html"]
 
 [[projects]]
 name = "xmljson"
 url = "https://github.com/engali94/XMLJson"
 descr = "Convert multiple and large XML files to JSON. Written in Swift."
-tags = ["xml-html"]
+tags = ["json", "xml"]
 
 [[projects]]
 name = "XMLLint"
 url = "http://xmlsoft.org/xmllint.html"
 descr = "Query (including XSLT), validate and reformat XML documents."
-tags = ["xml-html"]
+tags = ["xml"]
 
 [[projects]]
 name = "XMLStarlet"
 url = "http://xmlstar.sourceforge.net/overview.php"
 descr = "Query, modify, and validate XML documents."
-tags = ["xml-html"]
+tags = ["xml"]
 
 [[projects]]
 name = "xpe"
 url = "https://github.com/charmparticle/xpe"
 descr = "Query HTML and XML with XPath expressions."
-tags = ["xml-html"]
+tags = ["xml", "html"]
 
 [[projects]]
 name = "xq"
 url = "https://github.com/kislyuk/yq"
 descr = "[jq](#json) wrapper for XML documents."
-tags = ["xml-html"]
+tags = ["xml"]
 
 [[projects]]
 name = "xsltproc"
 url = "http://xmlsoft.org/XSLT/xsltproc2.html"
 descr = "Transform XML documents using [XSLT](https://www.w3.org/TR/xslt) and [EXSLT](http://exslt.org)."
-tags = ["xml-html"]
+tags = ["xml"]
 
 [[projects]]
 name = "xsv"

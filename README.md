@@ -11,9 +11,11 @@ The following is a list of text-based file formats and command line tools for ma
   * [SQL-based tools](#sql-based-tools)
   * [Other tools](#other-tools)
 * [CSV](#csv)
+* [HTML](#html)
 * [JSON](#json)
-* [XML, HTML](#xml-html)
-* [YAML, TOML](#yaml-toml)
+* [TOML](#toml)
+* [XML](#xml)
+* [YAML](#yaml)
 * [Configuration files](#configuration-files)
   * [/etc/hosts](#etchosts)
   * [INI](#ini)
@@ -74,7 +76,7 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 * [csvquote](https://github.com/dbro/csvquote) **—** Transform CSV to and from a format processable with [awk-like](#awk-like) tools.
 * [csvtk](https://github.com/shenwei356/csvtk) **—** Search, sample, cut, join, transpose, and sort CSV/TSV files. Rename columns. Replace fields and generate new fiends from existing fields. Plot data as vector or raster histograms and box, line, and scatter plots. Convert CSV to Markdown. Convert XLSX to CSV. Split XLSX sheets.
 * [CSVtoTable](https://github.com/vividvilla/csvtotable) **—** Convert CSV to a searchable and sortable HTML table.
-* [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML, and XML. Static binaries available for releases.
+* [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 * [eBay's TSV utilities](https://github.com/eBay/tsv-utils) **—** Filtering, statistics, sampling, joins and other operations on TSV files. High performance, especially good for large datasets. Written in D.
 * [frawk](https://github.com/ezrosent/frawk) **—** a Rust implementation of a language partially compatible with AWK that supports [parallelism](https://github.com/ezrosent/frawk/blob/master/info/parallelism.md) and CSV input and output. frawk is an awk-derived language with a CSV mode for input and for output.
 * [GoAWK](https://github.com/benhoyt/goawk) **—** a cross-platform implementation of awk with added support for CSV. The project provides binaries for many platforms, including Windows. GoAWK is an awk implementation that adds a CSV mode for input and for output.
@@ -113,10 +115,26 @@ See the [big comparison table](sql-based.md). It covers
 * textql
 
 
+## HTML
+
+* [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
+* [hred](https://github.com/danburzo/hred) **—** Query XML and HTML with a query language based on CSS selectors.
+* [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) **—** A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained.
+* [htmlq](https://github.com/mgdm/htmlq) **—** Query HTML with CSS selectors. Can remove elements in the output.
+* [pup](https://github.com/EricChiang/pup) **—** Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json).
+* [Saxon](http://saxon.sourceforge.net/) **—** Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl).
+* [Temme](https://github.com/shinima/temme) **—** Query HTML with CSS-like selectors to extract JSON. Temme extends CSS selectors with value capture patterns.
+* [tidy-html5](http://www.html-tidy.org/) **—** Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML.
+* [tq](https://github.com/plainas/tq) **—** Query HTML with CSS selectors.
+* [Xidel](http://www.videlibri.de/xidel.html) **—** Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors.
+* [xml2](https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/) **—** Convert XML and HTML to and from flat, greppable lists of "path=value" statements. [Source code mirror](https://github.com/clone/xml2).
+* [xpe](https://github.com/charmparticle/xpe) **—** Query HTML and XML with XPath expressions.
+
+
 ## JSON
 
 * [clconf](https://github.com/pastdev/clconf) **—** Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library.
-* [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML, and XML. Static binaries available for releases.
+* [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 * [emuto](http://kantord.github.io/emuto/) **—** CLI tool similar to jq. Create and manipulate JSON and other files. Can be compiled to JavaScript.
 * [fx](https://github.com/antonmedv/fx) **—** Run arbitrary JavaScript on JSON input. Standalone binaries available.
 * [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
@@ -138,7 +156,7 @@ See the [big comparison table](sql-based.md). It covers
 * [json](https://github.com/trentm/json) **—** Run arbitrary JavaScript on JSON input.
 * [json-table](https://github.com/micha/json-table) **—** Convert nested JSON into CSV or TSV for processing in the shell.
 * [json.tool](https://docs.python.org/2/library/json.html) **—** Validate and pretty-print JSON. This module is part of the standard library of Python 2/3 and is likely to be available wherever Python is installed. ([Python 3 docs](https://docs.python.org/3/library/json.html).)
-* [json2](https://github.com/vi/json2) **—** Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml-html).
+* [json2](https://github.com/vi/json2) **—** Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml).
 * [jsonaxe](https://github.com/davvid/jsonaxe) **—** Create and manipulate JSON with a Python-based DSL. Inspired by jq.
 * [jsonwatch](https://github.com/dbohdan/jsonwatch) **—** Track changes in JSON data from the command line. Works like `watch -d`.
 * [jtbl](https://github.com/kellyjonbrazil/jtbl) **—** Format JSON or JSON Lines as a plain-text table.
@@ -150,24 +168,32 @@ See the [big comparison table](sql-based.md). It covers
 * [quicktype](https://github.com/quicktype/quicktype) **—** Infer the underlying model of the JSON and output as types for various programming languages or JSON Schema. CLI and [Web UI](https://app.quicktype.io).
 * [ramda-cli](https://github.com/raine/ramda-cli) **—** Manipulate JSON with the [Ramda](https://ramdajs.com/) functional library, and either LiveScript or JavaScript syntax.
 * [RecordStream](https://github.com/benbernard/RecordStream) **—** Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources.
+* [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
 * [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 * [validjson](http://github.com/martinlindhe/validjson) **—** Validate or pretty-print JSON.
+* [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) **—** Convert XML to JSON. Can handle very large XML files.
+* [xmljson](https://github.com/engali94/XMLJson) **—** Convert multiple and large XML files to JSON. Written in Swift.
 
 
-## XML, HTML
+## TOML
 
-* [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML, and XML. Static binaries available for releases.
+With a format converter like Remarshal you can use [JSON](#json) tools to process TOML and YAML, but make sure you do not lose data in the conversion.
+
+* [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
+* [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
+* [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
+
+
+## XML
+
+* [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 * [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
 * [hred](https://github.com/danburzo/hred) **—** Query XML and HTML with a query language based on CSS selectors.
 * [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) **—** A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained.
-* [htmlq](https://github.com/mgdm/htmlq) **—** Query HTML with CSS selectors. Can remove elements in the output.
 * [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
-* [pup](https://github.com/EricChiang/pup) **—** Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json).
 * [Saxon](http://saxon.sourceforge.net/) **—** Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl).
 * [sml2](https://github.com/JFLarvoire/libxml2) **—** Convert between XML and [SML](https://htmlpreview.github.io/?https://github.com/JFLarvoire/libxml2/blob/master/SML_presentation.htm), a simplified XML representation.
-* [Temme](https://github.com/shinima/temme) **—** Query HTML with CSS-like selectors to extract JSON. Temme extends CSS selectors with value capture patterns.
 * [tidy-html5](http://www.html-tidy.org/) **—** Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML.
-* [tq](https://github.com/plainas/tq) **—** Query HTML with CSS selectors.
 * [Xidel](http://www.videlibri.de/xidel.html) **—** Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors.
 * [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) **—** Convert XML to JSON. Can handle very large XML files.
 * [xml2](https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/) **—** Convert XML and HTML to and from flat, greppable lists of "path=value" statements. [Source code mirror](https://github.com/clone/xml2).
@@ -183,23 +209,14 @@ See the [big comparison table](sql-based.md). It covers
 * ["Grep and Sed Equivalent for XML Command Line Processing"](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
 
-## YAML, TOML
-
-With a format converter like Remarshal (below) you can use [JSON](#json) tools to process YAML and TOML, but make sure you do not lose data in the conversion.
+## YAML
 
 * [clconf](https://github.com/pastdev/clconf) **—** Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library.
-* [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML, and XML. Static binaries available for releases.
+* [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 * [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
 * [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
 * [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 * [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
-* [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
-* [shyaml](https://github.com/0k/shyaml) **—** Query YAML. Can output null-terminated strings for use in shell scripts.
-* [validtoml](http://github.com/martinlindhe/validtoml) **—** Validate TOML.
-* [validyaml](http://github.com/martinlindhe/validyaml) **—** Validate or pretty-print YAML.
-* [yaml-tools](https://github.com/thecodingmachine/yaml-tools) **—** A set of CLI tools to manipulate YAML files (merge, delete, etc...) with comment preservation, based on [ruamel.yaml](http://yaml.readthedocs.io/en/latest/).
-* [yq (kislyuk)](https://github.com/kislyuk/yq) **—** [jq](#json) wrapper for YAML.
-* [yq (mikefarah)](https://github.com/mikefarah/yq) **—** Query, modify, and merge YAML. Convert to and from JSON.
 
 
 ## Configuration files
@@ -317,7 +334,6 @@ Listed below are restricted programming language interpreters and templating too
 * [sqlite3(1)](https://www.sqlite.org/cli.html)
     * **Description:** "[A] simple command-line utility [...] that allows the user to manually enter and execute SQL statements against an SQLite database."
     * **File format:** Binary
-
 
 
 ## License

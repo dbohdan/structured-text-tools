@@ -11,9 +11,11 @@ The following is a list of text-based file formats and command line tools for ma
   * [SQL-based tools](#sql-based-tools)
   * [Other tools](#other-tools)
 * [CSV](#csv)
+* [HTML](#html)
 * [JSON](#json)
-* [XML, HTML](#xml-html)
-* [YAML, TOML](#yaml-toml)
+* [TOML](#toml)
+* [XML](#xml)
+* [YAML](#yaml)
 * [Configuration files](#configuration-files)
   * [/etc/hosts](#etchosts)
   * [INI](#ini)
@@ -82,25 +84,35 @@ See the [big comparison table](sql-based.md). It covers
 * textql
 
 
+## HTML
+
+{{ projs_with_tag("html") }}
+
+
 ## JSON
 
 {{ projs_with_tag("json") }}
 
 
-## XML, HTML
+## TOML
 
-{{ projs_with_tag("xml-html") }}
+With a format converter like Remarshal you can use [JSON](#json) tools to process TOML and YAML, but make sure you do not lose data in the conversion.
+
+{{ projs_with_tag("toml") }}
+
+
+## XML
+
+{{ projs_with_tag("xml") }}
 
 ### See also
 
 * ["Grep and Sed Equivalent for XML Command Line Processing"](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
 
 
-## YAML, TOML
+## YAML
 
-With a format converter like Remarshal (below) you can use [JSON](#json) tools to process YAML and TOML, but make sure you do not lose data in the conversion.
-
-{{ projs_with_tag("yaml-toml") }}
+{{ projs_with_tag("yaml") }}
 
 
 ## Configuration files
@@ -138,7 +150,6 @@ Listed below are restricted programming language interpreters and templating too
 ## Extra: CLIs for single-file databases
 
 {{ projs_with_tag("single-file-db") }}
-
 
 
 ## License
