@@ -344,4 +344,4 @@ The contents of this document is licensed under the [Creative Commons Attributio
 
 ## Disclosure
 
-[csv2html](https://github.com/dbohdan/csv2html), [hosts](https://gitlab.com/dbohdan/hosts), [Sqawk](https://github.com/dbohdan/sqawk), [jsonwatch](https://github.com/dbohdan/jsonwatch), [Remarshal](https://github.com/dbohdan/remarshal), and [initool](https://github.com/dbohdan/initool) are developed by the curator of this document.
+[csv2html](https://github.com/dbohdan/csv2html), [hosts](https://gitlab.com/dbohdan/hosts), [Sqawk](https://github.com/dbohdan/sqawk), [jsonwatch](https://github.com/dbohdan/jsonwatch), [Remarshal](https://github.com/remarshal-project/remarshal), and [initool](https://github.com/dbohdan/initool) are developed by the curator of this document.
