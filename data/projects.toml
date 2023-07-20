@@ -455,6 +455,12 @@ descr = "Query YAML. Can output null-terminated strings for use in shell scripts
 tags = ["yaml-toml"]
 
 [[projects]]
+name = "Skeem"
+url = "https://github.com/daq-tools/skeem"
+descr = "Infer SQL DDL statements from tabular data. Supports CSV, JSON, JSON Lines, ODS, XLSX, and other formats."
+tags = ["csv", "json"]
+
+[[projects]]
 name = "sml2"
 url = "https://github.com/JFLarvoire/libxml2"
 descr = "Convert between XML and [SML](https://htmlpreview.github.io/?https://github.com/JFLarvoire/libxml2/blob/master/SML_presentation.htm), a simplified XML representation."

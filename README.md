@@ -91,6 +91,7 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 * [rows](https://github.com/turicas/rows) **—** A Python library with a [CLI](http://turicas.info/rows/cli/). Convert between a number of [file formats](http://turicas.info/rows/plugins/) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas.
 * [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 * [scrubcsv](https://github.com/faradayio/scrubcsv) **—** Remove bad lines from a CSV file and normalize the rest. Written in Rust.
+* [Skeem](https://github.com/daq-tools/skeem) **—** Infer SQL DDL statements from tabular data. Supports CSV, JSON, JSON Lines, ODS, XLSX, and other formats.
 * [tab](http://tkatchev.bitbucket.io/tab/) **—** A non-Turing-complete statically typed programming language for data processing. An alternative to awk.
 * [teip](https://github.com/greymd/teip) **—** Select fields, character ranges, or regular expression matches from standard input. Replace them with the output of a command.
 * [tv](https://github.com/codechenx/tv) **—** View delimited files in the terminal.
@@ -172,6 +173,7 @@ See the [big comparison table](sql-based.md). It covers
 * [RecordStream](https://github.com/benbernard/RecordStream) **—** Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources.
 * [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
 * [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
+* [Skeem](https://github.com/daq-tools/skeem) **—** Infer SQL DDL statements from tabular data. Supports CSV, JSON, JSON Lines, ODS, XLSX, and other formats.
 * [validjson](http://github.com/martinlindhe/validjson) **—** Validate or pretty-print JSON.
 * [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) **—** Convert XML to JSON. Can handle very large XML files.
 * [xmljson](https://github.com/engali94/XMLJson) **—** Convert multiple and large XML files to JSON. Written in Swift.
