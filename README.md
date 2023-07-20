@@ -223,6 +223,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 
 * [clconf](https://github.com/pastdev/clconf) **—** Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library.
 * [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
+* [dy](https://github.com/sampointer/dy) **—** Construct YAML from a directory tree .
 * [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
 * [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
 * [madato](https://github.com/inosion/madato) **—** Convert ODS and XLSX spreadsheets to JSON, Markdown, and YAML.

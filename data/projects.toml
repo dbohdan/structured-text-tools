@@ -89,6 +89,12 @@ descr = "Query and update data structures from the command line. Comparable to j
 tags = ["csv", "xml", "yaml", "toml", "json"]
 
 [[projects]]
+name = "dy"
+url = "https://github.com/sampointer/dy"
+descr = "Construct YAML from a directory tree ."
+tags = ["yaml"]
+
+[[projects]]
 name = "eBay's TSV utilities"
 url = "https://github.com/eBay/tsv-utils"
 descr = "Filtering, statistics, sampling, joins and other operations on TSV files. High performance, especially good for large datasets. Written in D."
@@ -345,7 +351,7 @@ name = "madato"
 url = "https://github.com/inosion/madato"
 descr = "Convert ODS and XLSX spreadsheets to JSON, Markdown, and YAML."
 tags = ["json", "yaml"]
- 
+
 [[projects]]
 name = "Mario"
 url = "https://github.com/python-mario/mario"
