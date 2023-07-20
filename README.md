@@ -187,7 +187,9 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 * [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 * [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
 * [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
+* [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 * [taplo-cli](https://github.com/tamasfe/taplo) **—** Query, format, and validate (lint) TOML.
+* [validtoml](http://github.com/martinlindhe/validtoml) **—** Validate TOML.
 
 
 ## XML
@@ -225,6 +227,12 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 * [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 * [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
 * [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
+* [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
+* [shyaml](https://github.com/0k/shyaml) **—** Query YAML. Can output null-terminated strings for use in shell scripts.
+* [validyaml](http://github.com/martinlindhe/validyaml) **—** Validate or pretty-print YAML.
+* [yaml-tools](https://github.com/thecodingmachine/yaml-tools) **—** A set of CLI tools to manipulate YAML files (merge, delete, etc...) with comment preservation, based on [ruamel.yaml](http://yaml.readthedocs.io/en/latest/).
+* [yq (kislyuk)](https://github.com/kislyuk/yq) **—** [jq](#json) wrapper for YAML.
+* [yq (mikefarah)](https://github.com/mikefarah/yq) **—** Query, modify, and merge YAML. Convert to and from JSON.
 
 
 ## Configuration files

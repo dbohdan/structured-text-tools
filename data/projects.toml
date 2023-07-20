@@ -428,7 +428,7 @@ tags = ["csv"]
 name = "rq"
 url = "https://github.com/dflemstr/rq"
 descr = "Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text."
-tags = ["csv", "yaml-toml", "json", "awk-other"]
+tags = ["csv", "yaml", "toml", "json", "awk-other"]
 
 [[projects]]
 name = "Saxon"
@@ -452,7 +452,7 @@ tags = ["csv"]
 name = "shyaml"
 url = "https://github.com/0k/shyaml"
 descr = "Query YAML. Can output null-terminated strings for use in shell scripts."
-tags = ["yaml-toml"]
+tags = ["yaml"]
 
 [[projects]]
 name = "Skeem"
@@ -524,13 +524,13 @@ tags = ["json"]
 name = "validtoml"
 url = "http://github.com/martinlindhe/validtoml"
 descr = "Validate TOML."
-tags = ["yaml-toml"]
+tags = ["toml"]
 
 [[projects]]
 name = "validyaml"
 url = "http://github.com/martinlindhe/validyaml"
 descr = "Validate or pretty-print YAML."
-tags = ["yaml-toml"]
+tags = ["yaml"]
 
 [[projects]]
 name = "VisiData"
@@ -608,19 +608,19 @@ tags = ["csv"]
 name = "yaml-tools"
 url = "https://github.com/thecodingmachine/yaml-tools"
 descr = "A set of CLI tools to manipulate YAML files (merge, delete, etc...) with comment preservation, based on [ruamel.yaml](http://yaml.readthedocs.io/en/latest/)."
-tags = ["yaml-toml"]
+tags = ["yaml"]
 
 [[projects]]
 name = "yq (kislyuk)"
 url = "https://github.com/kislyuk/yq"
 descr = "[jq](#json) wrapper for YAML."
-tags = ["yaml-toml"]
+tags = ["yaml"]
 
 [[projects]]
 name = "yq (mikefarah)"
 url = "https://github.com/mikefarah/yq"
 descr = "Query, modify, and merge YAML. Convert to and from JSON."
-tags = ["yaml-toml"]
+tags = ["yaml"]
 
 [[projects]]
 name = "zsv"
