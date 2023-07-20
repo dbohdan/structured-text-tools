@@ -1,379 +1,301 @@
-## SQL-based tools
+# SQL-based tools
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Link</th>
-    <th>Documentation link</th>
-    <th>Programming language</th>
-    <th>Database</th>
-    <th>Column names from header row</th>
-    <th>Custom character encoding</th>
-    <th>Custom input field separator</th>
-    <th>Custom input record separator</th>
-    <th>Custom output field separator</th>
-    <th>Custom output record separator</th>
-    <th>JOINs</th>
-    <th>Use as library</th>
-    <th>Input formats</th>
-    <th>Output formats</th>
-    <th>Custom table names</th>
-    <th>Custom column names</th>
-    <th>Keep database file (for SQLite 3)</th>
-    <th>Skip input fields</th>
-    <th>Skip input records (lines)</th>
-    <th>Merge input fields</th>
-    <th>Database table customization</th>
-    <th>SQL dump</th>
-    <th>Other</th>
-  </tr>
-  <tr>
-    <td>AlaSQL CLI</td>
-    <td>https://github.com/agershun/alasql</td>
-    <td>https://github.com/agershun/alasql/wiki/AlaSQL-CLI</td>
-    <td>JavaScript</td>
-    <td>AlaSQL</td>
-    <td>yes, optional</td>
-    <td>no</td>
-    <td>yes, string</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>yes, JavaScript</td>
-    <td>lines, DSV, XLS, XLSX, HTML tables, JSON</td>
-    <td>lines, DSV, XLS, XLSX, HTML tables, JSON</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>n/a</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes, can create custom table then import into it</td>
-    <td>yes</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>csvq</td>
-    <td>https://github.com/mithrandie/csvq</td>
-    <td>https://mithrandie.github.io/csvq/reference</td>
-    <td>Go</td>
-    <td>custom SQL interpreter</td>
-    <td>yes, optional</td>
-    <td>yes, input and output</td>
-    <td>yes, character</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>yes, Go</td>
-    <td>CSV, TSV, LTSV, fixed-width, JSON</td>
-    <td>CSV, TSV, LTSV, fixed-width, JSON, Markdown-style table,
-    Org-mode, ASCII table</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>n/a</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes, ALTER TABLE</td>
-    <td>no</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>csvsql</td>
-    <td>https://github.com/wireservice/csvkit</td>
-    <td>http://csvkit.readthedocs.io/en/latest/</td>
-    <td>Python</td>
-    <td>Firebird/MS SQL/MySQL/Oracle/PostgreSQL/SQLite
-    3/Sybase</td>
-    <td>yes, optional</td>
-    <td>yes, input and output</td>
-    <td>yes, string</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>yes, Python</td>
-    <td>delimited without quotes, DSV, Excel, JSON, SQL,
-    fixed-width, DBF, and others (separate converters)</td>
-    <td>delimited without quotes, DSV, JSON, Markdown-style table,
-    SQL (separate converters)</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>yes (separate tool)</td>
-    <td>no</td>
-    <td>no?</td>
-    <td>yes, UNIQUE constraints, database schema name, automatic
-    column datatype or text</td>
-    <td>yes</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>fsql</td>
-    <td>https://metacpan.org/release/App-fsql</td>
-    <td>
-    https://metacpan.org/pod/distribution/App-fsql/bin/fsql</td>
-    <td>Perl</td>
-    <td>custom SQL interpreter</td>
-    <td>yes, always</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>yes, Perl</td>
-    <td>CSV, TSV, LTSV, Perl, JSON, YAML</td>
-    <td>CSV, TSV, LTSV, Perl, JSON, YAML</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>q</td>
-    <td>https://github.com/harelba/q</td>
-    <td>
-    https://github.com/harelba/q/blob/master/doc/USAGE.markdown</td>
-    <td>Python</td>
-    <td>SQLite 3</td>
-    <td>yes, optional</td>
-    <td>yes, input and output</td>
-    <td>yes, string</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>yes, Python</td>
-    <td>delimited without quotes, DSV</td>
-    <td>delimited without quotes, DSV, custom using Python
-    formatting string</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes, automatic column datatype or text</td>
-    <td>no</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>RBQL</td>
-    <td>https://github.com/mechatroner/RBQL</td>
-    <td>https://rbql.org/</td>
-    <td>JavaScript, Python</td>
-    <td>custom SQL interpreter</td>
-    <td>yes, optional</td>
-    <td>yes, input</td>
-    <td>yes, string</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>yes, JavaScript and Python</td>
-    <td>DSV</td>
-    <td>DSV</td>
-    <td>no</td>
-    <td>no</td>
-    <td>n/a</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>rows</td>
-    <td>https://github.com/turicas/rows</td>
-    <td>http://turicas.info/rows/command-line-interface.html</td>
-    <td>Python</td>
-    <td>SQLite 3</td>
-    <td>yes, always?</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes, Python</td>
-    <td>CSV, JSON, XLS, XLSX, ODS, and others</td>
-    <td>CSV, JSON, XLS, XLSX, ODS, and others</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Sqawk</td>
-    <td>https://github.com/dbohdan/sqawk</td>
-    <td>https://github.com/dbohdan/sqawk#options</td>
-    <td>Tcl</td>
-    <td>SQLite 3</td>
-    <td>yes, optional</td>
-    <td>no</td>
-    <td>yes, regexp, per-file</td>
-    <td>yes, regexp, per-file</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes, Tcl</td>
-    <td>delimited without quotes, DSV, Tcl</td>
-    <td>delimited without quotes, CSV, JSON, ASCII/Unicode table,
-    Tcl</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes, any</td>
-    <td>no</td>
-    <td>yes, any consecutive</td>
-    <td>yes, column datatypes</td>
-    <td>no</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>sqawk</td>
-    <td>https://github.com/tjunier/sqawk</td>
-    <td>https://github.com/tjunier/sqawk/blob/master/sqawk.1</td>
-    <td>C</td>
-    <td>SQLite 3</td>
-    <td>yes, optional</td>
-    <td>no</td>
-    <td>yes, string, per-file</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>DSV</td>
-    <td>CSV</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes, until regexp matches</td>
-    <td>no</td>
-    <td>yes, primary key, indexes, foreign key constraints,
-    automatic column datatype or text</td>
-    <td>yes</td>
-    <td>chunked mode (read and process only N lines at a time)</td>
-  </tr>
-  <tr>
-    <td>Squawk</td>
-    <td>https://github.com/samuel/squawk</td>
-    <td></td>
-    <td>Python</td>
-    <td>custom SQL interpreter</td>
-    <td>yes, always</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes, Python</td>
-    <td>CSV, Apache and Nginx log files</td>
-    <td>table, CSV, JSON</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>termsql</td>
-    <td>https://github.com/tobimensch/termsql</td>
-    <td>http://tobimensch.github.io/termsql/</td>
-    <td>Python</td>
-    <td>SQLite 3</td>
-    <td>yes, optional</td>
-    <td>no</td>
-    <td>yes, regexp</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>DSV, “vertical” DSV (lines as columns)</td>
-    <td>delimited without quotes, CSV, TSV, HTML, SQL, Tcl</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>yes, N first and M last</td>
-    <td>yes, Nth to last</td>
-    <td>yes, primary key</td>
-    <td>yes</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>trdsql</td>
-    <td>https://github.com/noborus/trdsql</td>
-    <td>https://github.com/noborus/trdsql#usage</td>
-    <td>Go</td>
-    <td>MySQL/PostgreSQL/SQLite 3</td>
-    <td>yes, optional</td>
-    <td>no</td>
-    <td>yes, string</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>CSV, LTSV, JSON</td>
-    <td>delimited without quotes, CSV, LTSV, JSON, ASCII table,
-    Markdown</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>textql</td>
-    <td>https://github.com/dinedal/textql</td>
-    <td>https://github.com/dinedal/textql#usage</td>
-    <td>Go</td>
-    <td>SQLite 3</td>
-    <td>yes, optional</td>
-    <td>no</td>
-    <td>yes, string</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>DSV</td>
-    <td>DSV</td>
-    <td>no</td>
-    <td>no</td>
-    <td>yes</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td>no</td>
-    <td></td>
-  </tr>
-</table>
+* [AlaSQL CLI](https://github.com/agershun/alasql)
+    * **Documentation link:** <https://github.com/agershun/alasql/wiki/AlaSQL-CLI>
+    * **Programming language:** JavaScript
+    * **Database:** AlaSQL
+    * **Column names from header row:** yes, optional
+    * **Custom character encoding:** no
+    * **Custom input field separator:** yes, string
+    * **Custom input record separator:** no
+    * **Custom output field separator:** no
+    * **Custom output record separator:** no
+    * **JOINs:** yes
+    * **Use as library:** yes, JavaScript
+    * **Input formats:** lines, DSV, XLS, XLSX, HTML tables, JSON
+    * **Output formats:** lines, DSV, XLS, XLSX, HTML tables, JSON
+    * **Custom table names:** yes
+    * **Custom column names:** yes
+    * **Keep database file (for SQLite 3):** n/a
+    * **Skip input fields:** no
+    * **Skip input records (lines):** no
+    * **Merge input fields:** no
+    * **Database table customization:** yes, can create custom table then import into it
+    * **SQL dump:** yes
+    * **Other:** 
+* [csvq](https://github.com/mithrandie/csvq)
+    * **Documentation link:** <https://mithrandie.github.io/csvq/reference>
+    * **Programming language:** Go
+    * **Database:** custom SQL interpreter
+    * **Column names from header row:** yes, optional
+    * **Custom character encoding:** yes, input and output
+    * **Custom input field separator:** yes, character
+    * **Custom input record separator:** no
+    * **Custom output field separator:** yes
+    * **Custom output record separator:** no
+    * **JOINs:** yes
+    * **Use as library:** yes, Go
+    * **Input formats:** CSV, TSV, LTSV, fixed-width, JSON
+    * **Output formats:** CSV, TSV, LTSV, fixed-width, JSON, Markdown-style table, Org-mode, ASCII table
+    * **Custom table names:** yes
+    * **Custom column names:** yes
+    * **Keep database file (for SQLite 3):** n/a
+    * **Skip input fields:** no
+    * **Skip input records (lines):** no
+    * **Merge input fields:** no
+    * **Database table customization:** yes, ALTER TABLE
+    * **SQL dump:** no
+    * **Other:** 
+* [csvsql](https://github.com/wireservice/csvkit)
+    * **Documentation link:** <http://csvkit.readthedocs.io/en/latest/>
+    * **Programming language:** Python
+    * **Database:** Firebird/MS SQL/MySQL/Oracle/PostgreSQL/SQLite 3/Sybase
+    * **Column names from header row:** yes, optional
+    * **Custom character encoding:** yes, input and output
+    * **Custom input field separator:** yes, string
+    * **Custom input record separator:** no
+    * **Custom output field separator:** yes
+    * **Custom output record separator:** no
+    * **JOINs:** yes
+    * **Use as library:** yes, Python
+    * **Input formats:** delimited without quotes, DSV, Excel, JSON, SQL, fixed-width, DBF, and others (separate converters)
+    * **Output formats:** delimited without quotes, DSV, JSON, Markdown-style table, SQL (separate converters)
+    * **Custom table names:** yes
+    * **Custom column names:** no
+    * **Keep database file (for SQLite 3):** yes
+    * **Skip input fields:** yes (separate tool)
+    * **Skip input records (lines):** no
+    * **Merge input fields:** no?
+    * **Database table customization:** yes, UNIQUE constraints, database schema name, automatic column datatype or text
+    * **SQL dump:** yes
+    * **Other:** 
+* [fsql](https://metacpan.org/release/App-fsql)
+    * **Documentation link:** <https://metacpan.org/pod/distribution/App-fsql/bin/fsql>
+    * **Programming language:** Perl
+    * **Database:** custom SQL interpreter
+    * **Column names from header row:** yes, always
+    * **Custom character encoding:** no
+    * **Custom input field separator:** no
+    * **Custom input record separator:** no
+    * **Custom output field separator:** no
+    * **Custom output record separator:** no
+    * **JOINs:** yes
+    * **Use as library:** yes, Perl
+    * **Input formats:** CSV, TSV, LTSV, Perl, JSON, YAML
+    * **Output formats:** CSV, TSV, LTSV, Perl, JSON, YAML
+    * **Custom table names:** yes
+    * **Custom column names:** no
+    * **Keep database file (for SQLite 3):** no
+    * **Skip input fields:** no
+    * **Skip input records (lines):** no
+    * **Merge input fields:** no
+    * **Database table customization:** no
+    * **SQL dump:** no
+    * **Other:** 
+* [q](https://github.com/harelba/q)
+    * **Documentation link:** <https://github.com/harelba/q/blob/master/doc/USAGE.markdown>
+    * **Programming language:** Python
+    * **Database:** SQLite 3
+    * **Column names from header row:** yes, optional
+    * **Custom character encoding:** yes, input and output
+    * **Custom input field separator:** yes, string
+    * **Custom input record separator:** no
+    * **Custom output field separator:** yes
+    * **Custom output record separator:** no
+    * **JOINs:** yes
+    * **Use as library:** yes, Python
+    * **Input formats:** delimited without quotes, DSV
+    * **Output formats:** delimited without quotes, DSV, custom using Python formatting string
+    * **Custom table names:** no
+    * **Custom column names:** no
+    * **Keep database file (for SQLite 3):** yes
+    * **Skip input fields:** no
+    * **Skip input records (lines):** no
+    * **Merge input fields:** no
+    * **Database table customization:** yes, automatic column datatype or text
+    * **SQL dump:** no
+    * **Other:** 
+* [RBQL](https://github.com/mechatroner/RBQL)
+    * **Documentation link:** <https://rbql.org/>
+    * **Programming language:** JavaScript, Python
+    * **Database:** custom SQL interpreter
+    * **Column names from header row:** yes, optional
+    * **Custom character encoding:** yes, input
+    * **Custom input field separator:** yes, string
+    * **Custom input record separator:** no
+    * **Custom output field separator:** yes
+    * **Custom output record separator:** no
+    * **JOINs:** yes
+    * **Use as library:** yes, JavaScript and Python
+    * **Input formats:** DSV
+    * **Output formats:** DSV
+    * **Custom table names:** no
+    * **Custom column names:** no
+    * **Keep database file (for SQLite 3):** n/a
+    * **Skip input fields:** no
+    * **Skip input records (lines):** no
+    * **Merge input fields:** no
+    * **Database table customization:** no
+    * **SQL dump:** no
+    * **Other:** 
+* [rows](https://github.com/turicas/rows)
+    * **Documentation link:** <http://turicas.info/rows/command-line-interface.html>
+    * **Programming language:** Python
+    * **Database:** SQLite 3
+    * **Column names from header row:** yes, always?
+    * **Custom character encoding:** no
+    * **Custom input field separator:** no
+    * **Custom input record separator:** no
+    * **Custom output field separator:** no
+    * **Custom output record separator:** no
+    * **JOINs:** no
+    * **Use as library:** yes, Python
+    * **Input formats:** CSV, JSON, XLS, XLSX, ODS, and others
+    * **Output formats:** CSV, JSON, XLS, XLSX, ODS, and others
+    * **Custom table names:** no
+    * **Custom column names:** no
+    * **Keep database file (for SQLite 3):** no
+    * **Skip input fields:** no
+    * **Skip input records (lines):** no
+    * **Merge input fields:** no
+    * **Database table customization:** no
+    * **SQL dump:** no
+    * **Other:** 
+* [Sqawk](https://github.com/dbohdan/sqawk)
+    * **Documentation link:** <https://github.com/dbohdan/sqawk#options>
+    * **Programming language:** Tcl
+    * **Database:** SQLite 3
+    * **Column names from header row:** yes, optional
+    * **Custom character encoding:** no
+    * **Custom input field separator:** yes, regexp, per-file
+    * **Custom input record separator:** yes, regexp, per-file
+    * **Custom output field separator:** yes
+    * **Custom output record separator:** yes
+    * **JOINs:** yes
+    * **Use as library:** yes, Tcl
+    * **Input formats:** delimited without quotes, DSV, Tcl
+    * **Output formats:** delimited without quotes, CSV, JSON, ASCII/Unicode table, Tcl
+    * **Custom table names:** yes
+    * **Custom column names:** yes
+    * **Keep database file (for SQLite 3):** yes
+    * **Skip input fields:** yes, any
+    * **Skip input records (lines):** no
+    * **Merge input fields:** yes, any consecutive
+    * **Database table customization:** yes, column datatypes
+    * **SQL dump:** no
+    * **Other:** 
+* [sqawk](https://github.com/tjunier/sqawk)
+    * **Documentation link:** <https://github.com/tjunier/sqawk/blob/master/sqawk.1>
+    * **Programming language:** C
+    * **Database:** SQLite 3
+    * **Column names from header row:** yes, optional
+    * **Custom character encoding:** no
+    * **Custom input field separator:** yes, string, per-file
+    * **Custom input record separator:** no
+    * **Custom output field separator:** no
+    * **Custom output record separator:** no
+    * **JOINs:** yes
+    * **Use as library:** no
+    * **Input formats:** DSV
+    * **Output formats:** CSV
+    * **Custom table names:** yes
+    * **Custom column names:** no
+    * **Keep database file (for SQLite 3):** yes
+    * **Skip input fields:** no
+    * **Skip input records (lines):** yes, until regexp matches
+    * **Merge input fields:** no
+    * **Database table customization:** yes, primary key, indexes, foreign key constraints, automatic column datatype or text
+    * **SQL dump:** yes
+    * **Other:** chunked mode (read and process only N lines at a time)
+* [Squawk](https://github.com/samuel/squawk)
+    * **Documentation link:** <>
+    * **Programming language:** Python
+    * **Database:** custom SQL interpreter
+    * **Column names from header row:** yes, always
+    * **Custom character encoding:** no
+    * **Custom input field separator:** no
+    * **Custom input record separator:** no
+    * **Custom output field separator:** no
+    * **Custom output record separator:** no
+    * **JOINs:** no
+    * **Use as library:** yes, Python
+    * **Input formats:** CSV, Apache and Nginx log files
+    * **Output formats:** table, CSV, JSON
+    * **Custom table names:** no
+    * **Custom column names:** no
+    * **Keep database file (for SQLite 3):** no
+    * **Skip input fields:** no
+    * **Skip input records (lines):** no
+    * **Merge input fields:** no
+    * **Database table customization:** no
+    * **SQL dump:** yes
+    * **Other:** 
+* [termsql](https://github.com/tobimensch/termsql)
+    * **Documentation link:** <http://tobimensch.github.io/termsql/>
+    * **Programming language:** Python
+    * **Database:** SQLite 3
+    * **Column names from header row:** yes, optional
+    * **Custom character encoding:** no
+    * **Custom input field separator:** yes, regexp
+    * **Custom input record separator:** no
+    * **Custom output field separator:** yes
+    * **Custom output record separator:** no
+    * **JOINs:** no
+    * **Use as library:** no
+    * **Input formats:** DSV, “vertical” DSV (lines as columns)
+    * **Output formats:** delimited without quotes, CSV, TSV, HTML, SQL, Tcl
+    * **Custom table names:** yes
+    * **Custom column names:** yes
+    * **Keep database file (for SQLite 3):** yes
+    * **Skip input fields:** no
+    * **Skip input records (lines):** yes, N first and M last
+    * **Merge input fields:** yes, Nth to last
+    * **Database table customization:** yes, primary key
+    * **SQL dump:** yes
+    * **Other:** 
+* [trdsql](https://github.com/noborus/trdsql)
+    * **Documentation link:** <https://github.com/noborus/trdsql#usage>
+    * **Programming language:** Go
+    * **Database:** MySQL/PostgreSQL/SQLite 3
+    * **Column names from header row:** yes, optional
+    * **Custom character encoding:** no
+    * **Custom input field separator:** yes, string
+    * **Custom input record separator:** no
+    * **Custom output field separator:** no
+    * **Custom output record separator:** no
+    * **JOINs:** yes
+    * **Use as library:** no
+    * **Input formats:** CSV, LTSV, JSON
+    * **Output formats:** delimited without quotes, CSV, LTSV, JSON, ASCII table, Markdown
+    * **Custom table names:** no
+    * **Custom column names:** no
+    * **Keep database file (for SQLite 3):** yes
+    * **Skip input fields:** no
+    * **Skip input records (lines):** no
+    * **Merge input fields:** no
+    * **Database table customization:** no
+    * **SQL dump:** no
+    * **Other:** 
+* [textql](https://github.com/dinedal/textql)
+    * **Documentation link:** <https://github.com/dinedal/textql#usage>
+    * **Programming language:** Go
+    * **Database:** SQLite 3
+    * **Column names from header row:** yes, optional
+    * **Custom character encoding:** no
+    * **Custom input field separator:** yes, string
+    * **Custom input record separator:** no
+    * **Custom output field separator:** no
+    * **Custom output record separator:** no
+    * **JOINs:** no
+    * **Use as library:** no
+    * **Input formats:** DSV
+    * **Output formats:** DSV
+    * **Custom table names:** no
+    * **Custom column names:** no
+    * **Keep database file (for SQLite 3):** yes
+    * **Skip input fields:** no
+    * **Skip input records (lines):** no
+    * **Merge input fields:** no
+    * **Database table customization:** no
+    * **SQL dump:** no
+    * **Other:** 
