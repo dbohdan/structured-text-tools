@@ -341,6 +341,12 @@ descr = "Process JSON and explore it interactively with a wrapper for `lodash.ch
 tags = ["tui", "json"]
 
 [[projects]]
+name = "madato"
+url = "https://github.com/inosion/madato"
+descr = "Convert ODS and XLSX spreadsheets to JSON, Markdown, and YAML."
+tags = ["json", "yaml"]
+ 
+[[projects]]
 name = "Mario"
 url = "https://github.com/python-mario/mario"
 descr = "Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code."
