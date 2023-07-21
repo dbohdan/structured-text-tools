@@ -1,3 +1,3 @@
-GNUmakefile linguist-vendored
-README.md.jinja2 linguist-vendored
+Makefile linguist-vendored
+*.md.jinja2 linguist-vendored
 render-template.py linguist-vendored
