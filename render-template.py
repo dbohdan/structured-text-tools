@@ -4,43 +4,56 @@
 #     Jinja2==3.*
 #     tomli==2.*
 
+from __future__ import annotations
+
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any, Iterator
+
 import click
 import jinja2 as j2
-import pathlib
 import tomli
-from typing import Iterator, TypedDict
 
 
-class Project(TypedDict):
+@dataclass
+class Project:
     name: str
     url: str
     tags: list[str]
-    descr: str | None
-    props: dict[str, str] | None
+    descr: str | None = None
+    props: dict[str, str] | None = None
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any]):
+        return cls(**d)
 
 
 def list_item(proj: Project) -> str:
-    item = [f"* [{proj['name']}]({proj['url']})"]
+    item = [f"* [{proj.name}]({proj.url})"]
 
-    if "descr" in proj:
-        item.append(f" **—** {proj['descr']}")
+    if proj.descr is not None:
+        item.append(f" **—** {proj.descr}")
 
-    if "props" in proj:
-        # Necessary for mypy.
-        assert proj["props"] is not None
-
+    if proj.props is not None:
         item.extend(
-            f"\n    * **{prop}:** {value}" for prop, value in proj["props"].items()
+            f"\n    * **{prop}:** {value}" for prop, value in proj.props.items()
         )
 
     return "".join(item)
 
 
 @click.command()
-@click.argument("template-name", type=click.Path(exists=True, path_type=pathlib.Path))
-@click.argument("data-path", type=click.Path(exists=True, path_type=pathlib.Path))
-def main(template_name: pathlib.Path, data_path: pathlib.Path) -> None:
+@click.argument("template-name", type=click.Path(exists=True, path_type=Path))
+@click.argument("data-path", type=click.Path(exists=True, path_type=Path))
+def main(template_name: Path, data_path: Path) -> None:
     data = tomli.loads(data_path.read_text())
+    projects = [Project.from_dict(d) for d in data["projects"]]
+
+    def proj_data(tag: str) -> Iterator[Project]:
+        return (proj for proj in projects if tag in proj.tags)
+
+    def projs_with_tag(tag: str) -> str:
+        return "\n".join(list_item(proj) for proj in proj_data(tag))
 
     env = j2.Environment(
         loader=j2.FileSystemLoader("."),
@@ -48,13 +61,6 @@ def main(template_name: pathlib.Path, data_path: pathlib.Path) -> None:
         trim_blocks=True,
         lstrip_blocks=True,
     )
-
-    def proj_data(tag: str) -> Iterator[Project]:
-        projects = data["projects"]
-        return (proj for proj in projects if tag in proj["tags"])
-
-    def projs_with_tag(tag: str) -> str:
-        return "\n".join(list_item(proj) for proj in proj_data(tag))
 
     env.globals["projs_with_tag"] = projs_with_tag
 
