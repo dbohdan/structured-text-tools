@@ -1,9 +1,8 @@
-[[projects]]
-name = "AlaSQL CLI"
+["AlaSQL CLI"]
 url = "https://github.com/agershun/alasql"
 tags = ["sql-based"]
 
-[projects.props]
+["AlaSQL CLI".props]
 "Documentation link" = "<https://github.com/agershun/alasql/wiki/AlaSQL-CLI>"
 "Programming language" = "JavaScript"
 Database = "AlaSQL"
@@ -27,12 +26,11 @@ JOINs = "yes"
 "SQL dump" = "yes"
 Other = ""
 
-[[projects]]
-name = "csvq"
+[csvq]
 url = "https://github.com/mithrandie/csvq"
 tags = ["sql-based"]
 
-[projects.props]
+[csvq.props]
 "Documentation link" = "<https://mithrandie.github.io/csvq/reference>"
 "Programming language" = "Go"
 Database = "custom SQL interpreter"
@@ -56,12 +54,11 @@ JOINs = "yes"
 "SQL dump" = "no"
 Other = ""
 
-[[projects]]
-name = "csvsql"
+[csvsql]
 url = "https://github.com/wireservice/csvkit"
 tags = ["sql-based"]
 
-[projects.props]
+[csvsql.props]
 "Documentation link" = "<http://csvkit.readthedocs.io/en/latest/>"
 "Programming language" = "Python"
 Database = "Firebird/MS SQL/MySQL/Oracle/PostgreSQL/SQLite 3/Sybase"
@@ -85,12 +82,11 @@ JOINs = "yes"
 "SQL dump" = "yes"
 Other = ""
 
-[[projects]]
-name = "fsql"
+[fsql]
 url = "https://metacpan.org/release/App-fsql"
 tags = ["sql-based"]
 
-[projects.props]
+[fsql.props]
 "Documentation link" = "<https://metacpan.org/pod/distribution/App-fsql/bin/fsql>"
 "Programming language" = "Perl"
 Database = "custom SQL interpreter"
@@ -114,12 +110,11 @@ JOINs = "yes"
 "SQL dump" = "no"
 Other = ""
 
-[[projects]]
-name = "q"
+[q]
 url = "https://github.com/harelba/q"
 tags = ["sql-based"]
 
-[projects.props]
+[q.props]
 "Documentation link" = "<https://github.com/harelba/q/blob/master/doc/USAGE.markdown>"
 "Programming language" = "Python"
 Database = "SQLite 3"
@@ -143,12 +138,11 @@ JOINs = "yes"
 "SQL dump" = "no"
 Other = ""
 
-[[projects]]
-name = "RBQL"
+[RBQL]
 url = "https://github.com/mechatroner/RBQL"
 tags = ["sql-based"]
 
-[projects.props]
+[RBQL.props]
 "Documentation link" = "<https://rbql.org/>"
 "Programming language" = "JavaScript, Python"
 Database = "custom SQL interpreter"
@@ -172,12 +166,11 @@ JOINs = "yes"
 "SQL dump" = "no"
 Other = ""
 
-[[projects]]
-name = "rows"
+[rows]
 url = "https://github.com/turicas/rows"
 tags = ["sql-based"]
 
-[projects.props]
+[rows.props]
 "Documentation link" = "<http://turicas.info/rows/command-line-interface.html>"
 "Programming language" = "Python"
 Database = "SQLite 3"
@@ -201,12 +194,11 @@ JOINs = "no"
 "SQL dump" = "no"
 Other = ""
 
-[[projects]]
-name = "Sqawk"
+[Sqawk]
 url = "https://github.com/dbohdan/sqawk"
 tags = ["sql-based"]
 
-[projects.props]
+[Sqawk.props]
 "Documentation link" = "<https://github.com/dbohdan/sqawk#options>"
 "Programming language" = "Tcl"
 Database = "SQLite 3"
@@ -230,12 +222,11 @@ JOINs = "yes"
 "SQL dump" = "no"
 Other = ""
 
-[[projects]]
-name = "sqawk"
+[sqawk]
 url = "https://github.com/tjunier/sqawk"
 tags = ["sql-based"]
 
-[projects.props]
+[sqawk.props]
 "Documentation link" = "<https://github.com/tjunier/sqawk/blob/master/sqawk.1>"
 "Programming language" = "C"
 Database = "SQLite 3"
@@ -259,12 +250,11 @@ JOINs = "yes"
 "SQL dump" = "yes"
 Other = "chunked mode (read and process only N lines at a time)"
 
-[[projects]]
-name = "Squawk"
+[Squawk]
 url = "https://github.com/samuel/squawk"
 tags = ["sql-based"]
 
-[projects.props]
+[Squawk.props]
 "Documentation link" = "<>"
 "Programming language" = "Python"
 Database = "custom SQL interpreter"
@@ -288,12 +278,11 @@ JOINs = "no"
 "SQL dump" = "yes"
 Other = ""
 
-[[projects]]
-name = "termsql"
+[termsql]
 url = "https://github.com/tobimensch/termsql"
 tags = ["sql-based"]
 
-[projects.props]
+[termsql.props]
 "Documentation link" = "<http://tobimensch.github.io/termsql/>"
 "Programming language" = "Python"
 Database = "SQLite 3"
@@ -317,12 +306,11 @@ JOINs = "no"
 "SQL dump" = "yes"
 Other = ""
 
-[[projects]]
-name = "trdsql"
+[trdsql]
 url = "https://github.com/noborus/trdsql"
 tags = ["sql-based"]
 
-[projects.props]
+[trdsql.props]
 "Documentation link" = "<https://github.com/noborus/trdsql#usage>"
 "Programming language" = "Go"
 Database = "MySQL/PostgreSQL/SQLite 3"
@@ -346,12 +334,11 @@ JOINs = "yes"
 "SQL dump" = "no"
 Other = ""
 
-[[projects]]
-name = "textql"
+[textql]
 url = "https://github.com/dinedal/textql"
 tags = ["sql-based"]
 
-[projects.props]
+[textql.props]
 "Documentation link" = "<https://github.com/dinedal/textql#usage>"
 "Programming language" = "Go"
 Database = "SQLite 3"

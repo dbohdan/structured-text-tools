@@ -24,8 +24,8 @@ class Project:
     props: dict[str, str] | None = None
 
     @classmethod
-    def from_dict(cls, d: dict[str, Any]):
-        return cls(**d)
+    def from_dict(cls, name: str, d: dict[str, Any]):
+        return cls(name=name, **d)
 
 
 def list_item(proj: Project) -> str:
@@ -47,7 +47,7 @@ def list_item(proj: Project) -> str:
 @click.argument("data-path", type=click.Path(exists=True, path_type=Path))
 def main(template_name: Path, data_path: Path) -> None:
     data = tomli.loads(data_path.read_text())
-    projects = [Project.from_dict(d) for d in data["projects"]]
+    projects = [Project.from_dict(name, d) for name, d in data.items()]
 
     def proj_data(tag: str) -> Iterator[Project]:
         return (proj for proj in projects if tag in proj.tags)

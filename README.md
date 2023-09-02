@@ -272,7 +272,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
     * **Platform:** FreeBSD, Linux, Windows
     * **License:** MIT
     * **Description:** Retrieve properties and sections as INI fragments. Retrieve properties' values as plain text. Set properties. Check for existence of properties and sections. Remove properties and sections. Outputs the updated INI file.
-* [Nushell](https://github.com/nushell/nushell)
+* [Nushell (`from ini`)](https://github.com/nushell/nushell)
     * **Platform:** Free/Net/OpenBSD, Linux, macOS, Windows
     * **License:** MIT
     * **Description:** Query and transform data with the Nushell language.
