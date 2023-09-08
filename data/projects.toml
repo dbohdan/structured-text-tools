@@ -95,7 +95,7 @@ tags = ["json"]
 
 [fastgron]
 url = "https://github.com/adamritter/fastgron"
-descr = "Convert JSON to and from GRON, a flat, greppable list of `path=value` statements. Much faster than the original gron."
+descr = "Convert JSON to and from GRON, a flat, greppable list of `path=value` statements. Much faster than the original gron on large files."
 tags = ["json"]
 
 [frawk]

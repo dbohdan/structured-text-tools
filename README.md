@@ -138,7 +138,7 @@ See the [big comparison list](sql-based.md). It covers
 * [clconf](https://github.com/pastdev/clconf) **—** Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library.
 * [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 * [emuto](http://kantord.github.io/emuto/) **—** CLI tool similar to jq. Create and manipulate JSON and other files. Can be compiled to JavaScript.
-* [fastgron](https://github.com/adamritter/fastgron) **—** Convert JSON to and from GRON, a flat, greppable list of `path=value` statements. Much faster than the original gron.
+* [fastgron](https://github.com/adamritter/fastgron) **—** Convert JSON to and from GRON, a flat, greppable list of `path=value` statements. Much faster than the original gron on large files.
 * [fx](https://github.com/antonmedv/fx) **—** Run arbitrary JavaScript on JSON input. Standalone binaries available.
 * [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
 * [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
