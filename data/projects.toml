@@ -518,6 +518,11 @@ url = "https://github.com/thecodingmachine/yaml-tools"
 descr = "A set of CLI tools to manipulate YAML files (merge, delete, etc...) with comment preservation, based on [ruamel.yaml](http://yaml.readthedocs.io/en/latest/)."
 tags = ["yaml"]
 
+[yamlpath]
+url = "https://github.com/wwkimball/yamlpath"
+descr = "Query, modify, diff, merge, and validate YAML and JSON with [YAML Paths](https://github.com/wwkimball/yamlpath/wiki/Segments-of-a-YAML-Path). Also a Python library."
+tags = ["json", "yaml"]
+
 ["yq (kislyuk)"]
 url = "https://github.com/kislyuk/yq"
 descr = "[jq](#json) wrapper for YAML."

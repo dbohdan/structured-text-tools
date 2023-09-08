@@ -178,6 +178,7 @@ See the [big comparison list](sql-based.md). It covers
 * [validjson](http://github.com/martinlindhe/validjson) **—** Validate or pretty-print JSON.
 * [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) **—** Convert XML to JSON. Can handle very large XML files.
 * [xmljson](https://github.com/engali94/XMLJson) **—** Convert multiple and large XML files to JSON. Written in Swift.
+* [yamlpath](https://github.com/wwkimball/yamlpath) **—** Query, modify, diff, merge, and validate YAML and JSON with [YAML Paths](https://github.com/wwkimball/yamlpath/wiki/Segments-of-a-YAML-Path). Also a Python library.
 
 
 ## TOML
@@ -234,6 +235,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 * [shyaml](https://github.com/0k/shyaml) **—** Query YAML. Can output null-terminated strings for use in shell scripts.
 * [validyaml](http://github.com/martinlindhe/validyaml) **—** Validate or pretty-print YAML.
 * [yaml-tools](https://github.com/thecodingmachine/yaml-tools) **—** A set of CLI tools to manipulate YAML files (merge, delete, etc...) with comment preservation, based on [ruamel.yaml](http://yaml.readthedocs.io/en/latest/).
+* [yamlpath](https://github.com/wwkimball/yamlpath) **—** Query, modify, diff, merge, and validate YAML and JSON with [YAML Paths](https://github.com/wwkimball/yamlpath/wiki/Segments-of-a-YAML-Path). Also a Python library.
 * [yq (kislyuk)](https://github.com/kislyuk/yq) **—** [jq](#json) wrapper for YAML.
 * [yq (mikefarah)](https://github.com/mikefarah/yq) **—** Query, modify, and merge YAML. Convert to and from JSON.
 
