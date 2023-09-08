@@ -168,6 +168,11 @@ url = "https://github.com/mgdm/htmlq"
 descr = "Query HTML with CSS selectors. Can remove elements in the output."
 tags = ["html"]
 
+[jaq]
+url = "https://github.com/01mf02/jaq"
+descr = "A Rust implementation of jq with minor changes to the language to make it more predictable."
+tags = ["json"]
+
 [JC]
 url = "https://github.com/kellyjonbrazil/jc"
 descr = "Convert the output of standard command line tools to JSON."
