@@ -93,6 +93,11 @@ url = "http://kantord.github.io/emuto/"
 descr = "CLI tool similar to jq. Create and manipulate JSON and other files. Can be compiled to JavaScript."
 tags = ["json"]
 
+[fastgron]
+url = "https://github.com/adamritter/fastgron"
+descr = "Convert JSON to and from GRON, a flat, greppable list of `path=value` statements. Much faster than the original gron."
+tags = ["json"]
+
 [frawk]
 url = "https://github.com/ezrosent/frawk"
 descr = "a Rust implementation of a language partially compatible with AWK that supports [parallelism](https://github.com/ezrosent/frawk/blob/master/info/parallelism.md) and CSV input and output. frawk is an awk-derived language with a CSV mode for input and for output."
@@ -125,7 +130,7 @@ tags = ["csv", "xml", "html", "yaml", "json"]
 
 [gron]
 url = "https://github.com/tomnomnom/gron"
-descr = "Convert JSON to and from flat, greppable lists of \"path=value\" statements."
+descr = "Convert JSON to and from GRON, a flat, greppable list of `path=value` statements."
 tags = ["json"]
 
 [Hawk]

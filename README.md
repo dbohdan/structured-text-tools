@@ -138,10 +138,11 @@ See the [big comparison list](sql-based.md). It covers
 * [clconf](https://github.com/pastdev/clconf) **—** Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library.
 * [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 * [emuto](http://kantord.github.io/emuto/) **—** CLI tool similar to jq. Create and manipulate JSON and other files. Can be compiled to JavaScript.
+* [fastgron](https://github.com/adamritter/fastgron) **—** Convert JSON to and from GRON, a flat, greppable list of `path=value` statements. Much faster than the original gron.
 * [fx](https://github.com/antonmedv/fx) **—** Run arbitrary JavaScript on JSON input. Standalone binaries available.
 * [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
 * [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
-* [gron](https://github.com/tomnomnom/gron) **—** Convert JSON to and from flat, greppable lists of "path=value" statements.
+* [gron](https://github.com/tomnomnom/gron) **—** Convert JSON to and from GRON, a flat, greppable list of `path=value` statements.
 * [JC](https://github.com/kellyjonbrazil/jc) **—** Convert the output of standard command line tools to JSON.
 * [jello](https://github.com/kellyjonbrazil/jello) **—** Query JSON and [JSON Lines](http://jsonlines.org/) with Python code. Output the result in a line-based format suitable for creating Bash arrays. Generate a grep-able schema.
 * [jet](https://github.com/borkdude/jet) **—** Convert between and query JSON, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format).
