@@ -59,7 +59,7 @@ AWK/awk is a programming language and a POSIX-standard command line tool. (You w
 * [csvquote](https://github.com/dbro/csvquote) **—** Transform CSV to and from a format processable with [awk-like](#awk-like) tools.
 * [GNU datamash](https://www.gnu.org/software/datamash/) **—** Perform statistical operations on text input.
 * [Hawk](https://github.com/gelisam/hawk) **—** Transform text from the command-line using Haskell expressions.
-* [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script eqivalent to its invocation. Supports TOML using [tomllib](https://docs.python.org/3.11/library/tomllib.html) in Python 3.11 or later.
+* [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html).
 * [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 * [vnlog](https://github.com/dkogan/vnlog/) **—** Process labelled tabular ASCII data using normal UNIX tools. Can plot data with gnuplot.
 
@@ -170,7 +170,7 @@ See the [big comparison list](sql-based.md). It covers
 * [madato](https://github.com/inosion/madato) **—** Convert ODS and XLSX spreadsheets to JSON, Markdown, and YAML.
 * [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 * [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
-* [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script eqivalent to its invocation. Supports TOML using [tomllib](https://docs.python.org/3.11/library/tomllib.html) in Python 3.11 or later.
+* [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html).
 * [qpyson](https://github.com/mpkocher/qpyson) **—** Query and manipulate JSON with Python.
 * [query-json](https://github.com/davesnx/query-json) **—** A faster jq implementation written in Reason Native (OCaml).
 * [quicktype](https://github.com/quicktype/quicktype) **—** Infer the underlying model of the JSON and output as types for various programming languages or JSON Schema. CLI and [Web UI](https://app.quicktype.io).
@@ -192,7 +192,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 * [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 * [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 * [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
-* [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script eqivalent to its invocation. Supports TOML using [tomllib](https://docs.python.org/3.11/library/tomllib.html) in Python 3.11 or later.
+* [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html).
 * [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
 * [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 * [taplo-cli](https://github.com/tamasfe/taplo) **—** Query, format, and validate (lint) TOML.

@@ -335,7 +335,7 @@ tags = ["html"]
 
 [pyp]
 url = "https://github.com/hauntsaninja/pyp"     
-descr = "Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script eqivalent to its invocation. Supports TOML using [tomllib](https://docs.python.org/3.11/library/tomllib.html) in Python 3.11 or later."
+descr = "Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html)."
 tags = ["awk-other", "json", "toml"]
 
 [qpyson]
