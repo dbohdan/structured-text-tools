@@ -333,6 +333,11 @@ url = "https://github.com/EricChiang/pup"
 descr = "Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json)."
 tags = ["html"]
 
+[pyp]
+url = "https://github.com/hauntsaninja/pyp"     
+descr = "Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script eqivalent to its invocation. Supports TOML using [tomllib](https://docs.python.org/3.11/library/tomllib.html) in Python 3.11 or later."
+tags = ["awk-other", "json", "toml"]
+
 [qpyson]
 url = "https://github.com/mpkocher/qpyson"
 descr = "Query and manipulate JSON with Python."
