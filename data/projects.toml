@@ -540,8 +540,8 @@ tags = ["json", "yaml"]
 
 ["yq (kislyuk)"]
 url = "https://github.com/kislyuk/yq"
-descr = "[jq](#json) wrapper for YAML."
-tags = ["yaml"]
+descr = "[jq](#json) wrapper for YAML, XML, and TOML."
+tags = ["toml", "xml", "yaml"]
 
 ["yq (mikefarah)"]
 url = "https://github.com/mikefarah/yq"

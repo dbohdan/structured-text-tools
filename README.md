@@ -197,6 +197,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 * [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 * [taplo-cli](https://github.com/tamasfe/taplo) **—** Query, format, and validate (lint) TOML.
 * [validtoml](http://github.com/martinlindhe/validtoml) **—** Validate TOML.
+* [yq (kislyuk)](https://github.com/kislyuk/yq) **—** [jq](#json) wrapper for YAML, XML, and TOML.
 
 
 ## XML
@@ -219,6 +220,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 * [xpe](https://github.com/charmparticle/xpe) **—** Query HTML and XML with XPath expressions.
 * [xq](https://github.com/kislyuk/yq) **—** [jq](#json) wrapper for XML documents.
 * [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html) **—** Transform XML documents using [XSLT](https://www.w3.org/TR/xslt) and [EXSLT](http://exslt.org).
+* [yq (kislyuk)](https://github.com/kislyuk/yq) **—** [jq](#json) wrapper for YAML, XML, and TOML.
 
 ### See also
 
@@ -242,7 +244,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 * [validyaml](http://github.com/martinlindhe/validyaml) **—** Validate or pretty-print YAML.
 * [yaml-tools](https://github.com/thecodingmachine/yaml-tools) **—** A set of CLI tools to manipulate YAML files (merge, delete, etc...) with comment preservation, based on [ruamel.yaml](http://yaml.readthedocs.io/en/latest/).
 * [yamlpath](https://github.com/wwkimball/yamlpath) **—** Query, modify, diff, merge, and validate YAML and JSON with [YAML Paths](https://github.com/wwkimball/yamlpath/wiki/Segments-of-a-YAML-Path). Also a Python library.
-* [yq (kislyuk)](https://github.com/kislyuk/yq) **—** [jq](#json) wrapper for YAML.
+* [yq (kislyuk)](https://github.com/kislyuk/yq) **—** [jq](#json) wrapper for YAML, XML, and TOML.
 * [yq (mikefarah)](https://github.com/mikefarah/yq) **—** Query, modify, and merge YAML. Convert to and from JSON.
 
 
