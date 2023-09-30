@@ -147,7 +147,7 @@ See the [big comparison list](sql-based.md). It covers
 * [jaq](https://github.com/01mf02/jaq) **—** A Rust implementation of jq with minor changes to the language to make it more predictable.
 * [JC](https://github.com/kellyjonbrazil/jc) **—** Convert the output of standard command line tools to JSON.
 * [jello](https://github.com/kellyjonbrazil/jello) **—** Query JSON and [JSON Lines](http://jsonlines.org/) with Python code. Output the result in a line-based format suitable for creating Bash arrays. Generate a grep-able schema.
-* [jet](https://github.com/borkdude/jet) **—** Convert between and query JSON, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format).
+* [jet](https://github.com/borkdude/jet) **—** Convert between JSON, YAML, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format). Transform them with Clojure code.
 * [jfq](https://github.com/blgm/jfq) **—** Query and transform JSON with the [JSONata](http://jsonata.org/) language.
 * [jj](https://github.com/tidwall/jj) **—** Query and modify values in JSON or JSON Lines with a key path.
 * [jl](https://github.com/chrisdone/jl) **—** Query and manipulate JSON using a tiny functional language.
@@ -232,6 +232,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 * [dy](https://github.com/sampointer/dy) **—** Construct YAML from a directory tree .
 * [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
 * [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
+* [jet](https://github.com/borkdude/jet) **—** Convert between JSON, YAML, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format). Transform them with Clojure code.
 * [madato](https://github.com/inosion/madato) **—** Convert ODS and XLSX spreadsheets to JSON, Markdown, and YAML.
 * [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 * [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.

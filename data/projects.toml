@@ -185,8 +185,8 @@ tags = ["json"]
 
 [jet]
 url = "https://github.com/borkdude/jet"
-descr = "Convert between and query JSON, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format)."
-tags = ["json"]
+descr = "Convert between JSON, YAML, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format). Transform them with Clojure code."
+tags = ["json", "yaml"]
 
 [jfq]
 url = "https://github.com/blgm/jfq"
