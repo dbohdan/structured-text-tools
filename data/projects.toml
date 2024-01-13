@@ -175,7 +175,7 @@ tags = ["json"]
 
 [JC]
 url = "https://github.com/kellyjonbrazil/jc"
-descr = "Convert the output of standard command line tools to JSON."
+descr = "Convert the output of standard command-line tools to JSON."
 tags = ["json"]
 
 [jello]

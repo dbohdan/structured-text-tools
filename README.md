@@ -1,6 +1,6 @@
 # Structured text tools
 
-The following is a list of text-based file formats and command line tools for manipulating each.
+The following is a list of text-based file formats and command-line tools for manipulating each.
 
 
 ## Contents
@@ -34,7 +34,7 @@ Tools that work with lines of fields separated by delimiters but do not necessar
 
 ### awk
 
-AWK/awk is a programming language and a POSIX-standard command line tool. (You will sometimes see "awk" used for the tool and "AWK" for the language. This document follows this convention. GNU Awk uses "Awk".) If you run Linux, macOS, or a BSD, you almost certainly have it installed. See below for Windows.
+AWK/awk is a programming language and a POSIX-standard command-line tool. (You will sometimes see "awk" used for the tool and "AWK" for the language. This document follows this convention. GNU Awk uses "Awk".) If you run Linux, macOS, or a BSD, you almost certainly have it installed. See below for Windows.
 
 * If you already know how to program, the nawk [man page](https://www.freebsd.org/cgi/man.cgi?query=nawk&sektion=1) is a great way to learn AWK quickly. What you learn from it will apply to other implementations on different platforms. Read it first if you feel overwhelmed by the sheer size of the [GNU Awk manual](https://www.gnu.org/software/gawk/manual/gawk.html).
 * [awk.info archive](https://web.archive.org/web/20160505033644/http://awk.info/) **—** an extensive resource on Awk.
@@ -146,7 +146,7 @@ See the [big comparison list](sql-based.md). It covers
 * [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
 * [gron](https://github.com/tomnomnom/gron) **—** Convert JSON to and from GRON, a flat, greppable list of `path=value` statements.
 * [jaq](https://github.com/01mf02/jaq) **—** A Rust implementation of jq with minor changes to the language to make it more predictable.
-* [JC](https://github.com/kellyjonbrazil/jc) **—** Convert the output of standard command line tools to JSON.
+* [JC](https://github.com/kellyjonbrazil/jc) **—** Convert the output of standard command-line tools to JSON.
 * [jello](https://github.com/kellyjonbrazil/jello) **—** Query JSON and [JSON Lines](http://jsonlines.org/) with Python code. Output the result in a line-based format suitable for creating Bash arrays. Generate a grep-able schema.
 * [jet](https://github.com/borkdude/jet) **—** Convert between JSON, YAML, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format). Transform them with Clojure code.
 * [jfq](https://github.com/blgm/jfq) **—** Query and transform JSON with the [JSONata](http://jsonata.org/) language.
