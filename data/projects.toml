@@ -368,6 +368,11 @@ url = "https://github.com/benbernard/RecordStream"
 descr = "Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources."
 tags = ["json"]
 
+[ReadStat]
+url = "https://github.com/WizardMac/ReadStat"
+descr = "ReadStat is a MIT licensed command-line tool and C library for reading and converting files from SAS(SAS7BDAT,XPORT), SPSS(POR,SAV,ZSAV), Stata(DTA). The files can be converted to CSV and XLS. There are bindings for Julia, Perl, Python, R and a dockerized version."
+tags = ["csv"]
+
 [Remarshal]
 url = "https://github.com/dbohdan/remarshal"
 descr = "Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML."
