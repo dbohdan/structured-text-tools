@@ -370,7 +370,8 @@ tags = ["json"]
 
 [ReadStat]
 url = "https://github.com/WizardMac/ReadStat"
-descr = "ReadStat is a MIT licensed command-line tool and C library for reading and converting files from SAS(SAS7BDAT,XPORT), SPSS(POR,SAV,ZSAV), Stata(DTA). The files can be converted to CSV and XLS. There are bindings for Julia, Perl, Python, R and a dockerized version."
+descr = "Convert statistics package datasets between SAS (SAS7BDAT, XPORT), SPSS (POR, SAV, ZSAV), and Stata (DTA). Convert those formats to CSV and XLSX. Can be used as a C library with bindings for Julia, Python, and R."
+
 tags = ["csv"]
 
 [Remarshal]

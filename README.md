@@ -89,6 +89,7 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 * [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
 * [pawk](https://github.com/alecthomas/pawk) **—** Process text with AWK-like patterns, but Python code.
 * [qsv](https://github.com/jqnatividad/qsv) **—** Index, slice, analyze, split, and join CSV files. A fork of xsv that adds subcommands and features.
+* [ReadStat](https://github.com/WizardMac/ReadStat) **—** Convert statistics package datasets between SAS (SAS7BDAT, XPORT), SPSS (POR, SAV, ZSAV), and Stata (DTA). Convert those formats to CSV and XLSX. Can be used as a C library with bindings for Julia, Python, and R.
 * [rows](https://github.com/turicas/rows) **—** A Python library with a [CLI](http://turicas.info/rows/cli/). Convert between a number of [file formats](http://turicas.info/rows/plugins/) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas.
 * [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 * [scrubcsv](https://github.com/faradayio/scrubcsv) **—** Remove bad lines from a CSV file and normalize the rest. Written in Rust.
