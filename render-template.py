@@ -1,8 +1,12 @@
 #! /usr/bin/env -S pipx run
-# Requirements:
-#     click==8.*
-#     Jinja2==3.*
-#     tomli==2.*
+# /// script
+# dependencies = [
+#   "click==8.*",
+#   "Jinja2==3.*",
+#   "tomli==2.*",
+# ]
+# requires-python = ">=3.8"
+# ///
 
 from __future__ import annotations
 
