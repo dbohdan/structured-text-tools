@@ -10,7 +10,8 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from itertools import starmap
 from pathlib import Path
 from typing import Any, Iterator
 
@@ -24,8 +25,8 @@ class Project:
     name: str
     url: str
     tags: list[str]
-    descr: str | None = None
-    props: dict[str, str] | None = None
+    descr: str = ""
+    props: dict[str, str] = field(default_factory=dict)
 
     @classmethod
     def from_dict(cls, name: str, d: dict[str, Any]):
@@ -35,10 +36,10 @@ class Project:
 def list_item(proj: Project) -> str:
     item = [f"* [{proj.name}]({proj.url})"]
 
-    if proj.descr is not None:
+    if proj.descr:
         item.append(f" **—** {proj.descr}")
 
-    if proj.props is not None:
+    if proj.props:
         item.extend(
             f"\n    * **{prop}:** {value}" for prop, value in proj.props.items()
         )
@@ -51,7 +52,7 @@ def list_item(proj: Project) -> str:
 @click.argument("data-path", type=click.Path(exists=True, path_type=Path))
 def main(template_name: Path, data_path: Path) -> None:
     data = tomli.loads(data_path.read_text())
-    projects = [Project.from_dict(name, d) for name, d in data.items()]
+    projects = list(starmap(Project.from_dict, data.items()))
 
     def proj_data(tag: str) -> Iterator[Project]:
         return (proj for proj in projects if tag in proj.tags)
