@@ -670,6 +670,17 @@ Syntax = "Extended JSON"
 "I/O" = "None"
 Description = "A functional configuration language. Has a standard formatting tool."
 
+[Pkl]
+url = "https://pkl-lang.org/index.html"
+tags = ["template"]
+
+[Pkl.props]
+"Output format" = "JSON, YAML, macOS property list, Java `.properties`"
+Turing-complete = "Yes?"
+Syntax = "Curly-brace"
+"I/O" = "None"
+Description = "A command-line tool, Java library, and build tool plugin. Can generate code for Go, Java, Kotlin, and Swift. [“Pkl vs. Other Config Languages”](https://pkl-lang.org/main/current/introduction/comparison.html#other-config-langs)."
+
 [rjsone]
 url = "https://github.com/wryun/rjsone"
 tags = ["template"]
