@@ -331,7 +331,7 @@ Listed below are restricted programming language interpreters and templating too
 * [Pkl](https://pkl-lang.org/)
     * **Output format:** JSON, YAML, macOS property list, Java `.properties`
     * **Turing-complete:** Yes
-    * **Syntax:** Curly-brace
+    * **Syntax:** Swift-inspired
     * **I/O:** The CLI can read environment variables and files, `GET` HTTP(S) URLs. It can import modules from files and HTTP(S) URLs.
     * **Description:** A command-line tool, Java library, and build tool plugin. Can generate code for Go, Java, Kotlin, and Swift. ["Pkl vs. Other Config Languages"](https://pkl-lang.org/main/current/introduction/comparison.html#other-config-langs).
 * [rjsone](https://github.com/wryun/rjsone)
