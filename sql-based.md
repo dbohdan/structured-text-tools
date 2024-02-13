@@ -299,3 +299,26 @@
     * **Database table customization:** no
     * **SQL dump:** no
     * **Other:** 
+* [Musoq](https://github.com/Puchaczov/Musoq)
+    * **Documentation link:** https://github.com/Puchaczov/Musoq
+    * **Programming language:** .NET
+    * **Database:** custom SQL interpreter
+    * **Column names from header row:** yes, optional
+    * **Custom character encoding:** no
+    * **Custom input field separator:** depends on the data source
+    * **Custom input record separator:** no
+    * **Custom output field separator:** no
+    * **Custom output record separator:** no
+    * **JOINs:** yes
+    * **Use as library:** yes
+    * **Input formats:** various
+    * **Output formats:** csv, json
+    * **Custom table names:** no
+    * **Custom column names:** no
+    * **Keep database file (for SQLite 3):** no
+    * **Skip input fields:** yes
+    * **Skip input records (lines):** no
+    * **Merge input fields:** yes
+    * **Database table customization:** no
+    * **SQL dump:** no
+    * **Other:** 

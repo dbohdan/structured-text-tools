@@ -362,11 +362,11 @@ JOINs = "no"
 "SQL dump" = "no"
 Other = ""
 
-[musoq]
+[Musoq]
 url = "https://github.com/Puchaczov/Musoq"
 tags = ["sql-based"]
 
-[textql.props]
+[Musoq.props]
 "Documentation link" = "https://github.com/Puchaczov/Musoq"
 "Programming language" = ".NET"
 Database = "custom SQL interpreter"
