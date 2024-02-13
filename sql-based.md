@@ -301,7 +301,7 @@
     * **Other:** 
 * [Musoq](https://github.com/Puchaczov/Musoq)
     * **Documentation link:** https://github.com/Puchaczov/Musoq
-    * **Programming language:** .NET
+    * **Programming language:** C#
     * **Database:** custom SQL interpreter
     * **Column names from header row:** yes, optional
     * **Custom character encoding:** no
