@@ -544,6 +544,11 @@ url = "https://github.com/BurntSushi/xsv"
 descr = "Index, slice, analyze, split, and join CSV files."
 tags = ["csv"]
 
+[yaml-diff-patch]
+url = "https://github.com/grantila/yaml-diff-patch"
+descr = "Patch YAML with [RFC 6902](https://datatracker.ietf.org/doc/html/rfc6902) JSON Patches. Generate a JSON Patch from two JSON documents or a YAML and a JSON document. Preserves style. Can be used as a TypeScript library."
+tags = ["json", "yaml"]
+
 [yaml-tools]
 url = "https://github.com/thecodingmachine/yaml-tools"
 descr = "A set of CLI tools to manipulate YAML files (merge, delete, etc...) with comment preservation, based on [ruamel.yaml](http://yaml.readthedocs.io/en/latest/)."

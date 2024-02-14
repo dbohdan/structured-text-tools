@@ -137,6 +137,7 @@ See the [big comparison list](sql-based.md). It covers
 
 ## JSON
 
+* [Cels](https://github.com/pacha/cels) **—** Patch JSON, TOML, and YAML with patches in the same format with some special values. Can be used as a Python library.
 * [clconf](https://github.com/pastdev/clconf) **—** Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library.
 * [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 * [emuto](http://kantord.github.io/emuto/) **—** CLI tool similar to jq. Create and manipulate JSON and other files. Can be compiled to JavaScript.
@@ -160,6 +161,7 @@ See the [big comparison list](sql-based.md). It covers
 * [jql](https://github.com/cube2222/jql) **—** Create and manipulate JSON with a Lisp-syntax DSL.
 * [jshon](http://kmkeen.com/jshon/) **—** Create and manipulate JSON using [getopt](https://en.wikipedia.org/wiki/Getopt)-style command-line options.
 * [json](https://github.com/trentm/json) **—** Run arbitrary JavaScript on JSON input.
+* [json-patch](https://github.com/evanphx/json-patch) **—** Apply [RFC 6902](https://tools.ietf.org/html/rfc6902) JSON Patches to JSON. The CLI tool is secondary to a Go library that also creates and applies [RFC 7386](https://tools.ietf.org/html/rfc7396) JSON merge patches.
 * [json-table](https://github.com/micha/json-table) **—** Convert nested JSON into CSV or TSV for processing in the shell.
 * [json.tool](https://docs.python.org/2/library/json.html) **—** Validate and pretty-print JSON. This module is part of the standard library of Python 2/3 and is likely to be available wherever Python is installed. ([Python 3 docs](https://docs.python.org/3/library/json.html).)
 * [json2](https://github.com/vi/json2) **—** Convert JSON to and from flat, greppable lists of "path=value" statements. Modeled after [xml2](#xml).
@@ -183,6 +185,7 @@ See the [big comparison list](sql-based.md). It covers
 * [validjson](http://github.com/martinlindhe/validjson) **—** Validate or pretty-print JSON.
 * [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) **—** Convert XML to JSON. Can handle very large XML files.
 * [xmljson](https://github.com/engali94/XMLJson) **—** Convert multiple and large XML files to JSON. Written in Swift.
+* [yaml-diff-patch](https://github.com/grantila/yaml-diff-patch) **—** Patch YAML with [RFC 6902](https://datatracker.ietf.org/doc/html/rfc6902) JSON Patches. Generate a JSON Patch from two JSON documents or a YAML and a JSON document. Preserves style. Can be used as a TypeScript library.
 * [yamlpath](https://github.com/wwkimball/yamlpath) **—** Query, modify, diff, merge, and validate YAML and JSON with [YAML Paths](https://github.com/wwkimball/yamlpath/wiki/Segments-of-a-YAML-Path). Also a Python library.
 
 
@@ -190,6 +193,7 @@ See the [big comparison list](sql-based.md). It covers
 
 With a format converter like Remarshal you can use [JSON](#json) tools to process TOML and YAML, but make sure you do not lose data in the conversion.
 
+* [Cels](https://github.com/pacha/cels) **—** Patch JSON, TOML, and YAML with patches in the same format with some special values. Can be used as a Python library.
 * [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 * [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 * [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
@@ -230,6 +234,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 
 ## YAML
 
+* [Cels](https://github.com/pacha/cels) **—** Patch JSON, TOML, and YAML with patches in the same format with some special values. Can be used as a Python library.
 * [clconf](https://github.com/pastdev/clconf) **—** Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library.
 * [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 * [dy](https://github.com/sampointer/dy) **—** Construct YAML from a directory tree .
@@ -243,6 +248,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 * [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 * [shyaml](https://github.com/0k/shyaml) **—** Query YAML. Can output null-terminated strings for use in shell scripts.
 * [validyaml](http://github.com/martinlindhe/validyaml) **—** Validate or pretty-print YAML.
+* [yaml-diff-patch](https://github.com/grantila/yaml-diff-patch) **—** Patch YAML with [RFC 6902](https://datatracker.ietf.org/doc/html/rfc6902) JSON Patches. Generate a JSON Patch from two JSON documents or a YAML and a JSON document. Preserves style. Can be used as a TypeScript library.
 * [yaml-tools](https://github.com/thecodingmachine/yaml-tools) **—** A set of CLI tools to manipulate YAML files (merge, delete, etc...) with comment preservation, based on [ruamel.yaml](http://yaml.readthedocs.io/en/latest/).
 * [yamlpath](https://github.com/wwkimball/yamlpath) **—** Query, modify, diff, merge, and validate YAML and JSON with [YAML Paths](https://github.com/wwkimball/yamlpath/wiki/Segments-of-a-YAML-Path). Also a Python library.
 * [yq (kislyuk)](https://github.com/kislyuk/yq) **—** [jq](#json) wrapper for YAML, XML, and TOML.
