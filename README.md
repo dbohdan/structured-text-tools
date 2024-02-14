@@ -108,6 +108,7 @@ See the [big comparison list](sql-based.md). It covers
 * csvq
 * csvsql
 * fsql
+* Musoq
 * q
 * RBQL
 * rows
