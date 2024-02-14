@@ -34,14 +34,14 @@ class Project:
 
 
 def list_item(proj: Project) -> str:
-    item = [f"* [{proj.name}]({proj.url})"]
+    item = [f"- [{proj.name}]({proj.url})"]
 
     if proj.descr:
         item.append(f" **—** {proj.descr}")
 
     if proj.props:
         item.extend(
-            f"\n    * **{prop}:** {value}" for prop, value in proj.props.items()
+            f"\n    - **{prop}:** {value}" for prop, value in proj.props.items()
         )
 
     return "".join(item)
