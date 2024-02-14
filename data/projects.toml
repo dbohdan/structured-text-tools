@@ -258,6 +258,11 @@ url = "https://github.com/trentm/json"
 descr = "Run arbitrary JavaScript on JSON input."
 tags = ["json"]
 
+[json-patch]
+url = "https://github.com/evanphx/json-patch"
+descr = "Apply [RFC 6902](https://tools.ietf.org/html/rfc6902) JSON Patches to JSON. The CLI tool is secondary to a Go library that also creates and applies [RFC 7386](https://tools.ietf.org/html/rfc7396) JSON merge patches."
+tags = ["json"]
+
 [json-table]
 url = "https://github.com/micha/json-table"
 descr = "Convert nested JSON into CSV or TSV for processing in the shell."
