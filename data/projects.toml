@@ -18,6 +18,11 @@ url = "https://frippery.org/busybox/"
 descr = "includes a full implementation of POSIX awk and other tools like `sed` in a single Windows executable."
 tags = ["awk"]
 
+[Cels]
+url = "https://github.com/pacha/cels"
+descr = "Patch JSON, TOML, and YAML with patches in the same format with some special values. Can be used as a Python library."
+tags = ["json", "toml", "yaml"]
+
 [clconf]
 url = "https://github.com/pastdev/clconf"
 descr = "Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library."
