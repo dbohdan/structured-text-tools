@@ -313,7 +313,7 @@ Listed below are restricted programming language interpreters and templating too
 
 - [CUE](https://github.com/cuelang/cue)
     - **Output format:** JSON
-    - **Turing-complete:** Yes?
+    - **Turing-complete:** No
     - **Syntax:** Extended JSON
     - **I/O:** ?
     - **Description:** A constraint language for JSON configuration data. Can generate and validates JSON.
