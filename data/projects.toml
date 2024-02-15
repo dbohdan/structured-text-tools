@@ -685,6 +685,17 @@ Syntax = "Extended JSON"
 "I/O" = "None"
 Description = "A functional configuration language. Has a standard formatting tool."
 
+[Nickel]
+url = "https://nickel-lang.org/"
+tags = ["template"]
+
+[Nickel.props]
+"Output format" = "JSON, TOML, YAML"
+Turing-complete = "Yes"
+Syntax = "Inspired by ML and JSON"
+"I/O" = "Limited input is to be implemented"
+Description = "A gradually-typed functional configuration language with contracts."
+
 [Pkl]
 url = "https://pkl-lang.org/"
 tags = ["template"]

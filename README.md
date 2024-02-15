@@ -335,6 +335,12 @@ Listed below are restricted programming language interpreters and templating too
     - **Syntax:** Extended JSON
     - **I/O:** None
     - **Description:** A functional configuration language. Has a standard formatting tool.
+- [Nickel](https://nickel-lang.org/)
+    - **Output format:** JSON, TOML, YAML
+    - **Turing-complete:** Yes
+    - **Syntax:** Inspired by ML and JSON
+    - **I/O:** Limited input is to be implemented
+    - **Description:** A gradually-typed functional configuration language with contracts.
 - [Pkl](https://pkl-lang.org/)
     - **Output format:** JSON, YAML, macOS property list, Java `.properties`
     - **Turing-complete:** Yes
