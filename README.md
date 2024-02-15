@@ -360,6 +360,10 @@ Listed below are restricted programming language interpreters and templating too
     - **I/O:** None?
     - **Description:** A templating tool for YAML built upon the [Starlark](https://github.com/bazelbuild/starlark) configuration language.
 
+### See also
+
+- [A comparison table of Nickel and other configuration languages](https://github.com/tweag/nickel/blob/master/RATIONALE.md#comparison-with-other-configuration-languages).
+
 
 ## Extra: interactive TUIs
 
