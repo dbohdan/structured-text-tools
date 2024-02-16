@@ -230,7 +230,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 
 ### See also
 
-- ["Grep and Sed Equivalent for XML Command Line Processing"](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on StackOverflow.
+- ["Grep and Sed Equivalent for XML Command Line Processing"](http://stackoverflow.com/questions/91791/grep-and-sed-equivalent-for-xml-command-line-processing) on Stack Overflow.
 
 
 ## YAML
