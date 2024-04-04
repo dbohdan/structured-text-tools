@@ -21,6 +21,7 @@ The following is a list of text-based file formats and command-line tools for ma
   - [INI](#ini)
   - [Multiple formats](#multiple-formats)
 - [Log files](#log-files)
+- [Multiformat-tools](#multiformat-tools)
 - [Templating for structured text](#templating-for-structured-text)
 - [Extra: interactive TUIs](#extra-interactive-tuis)
 - [Extra: CLIs for single-file databases](#extra-clis-for-single-file-databases)
@@ -79,6 +80,7 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 - [CSVtoTable](https://github.com/vividvilla/csvtotable) **—** Convert CSV to a searchable and sortable HTML table.
 - [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 - [eBay's TSV utilities](https://github.com/eBay/tsv-utils) **—** Filtering, statistics, sampling, joins and other operations on TSV files. High performance, especially good for large datasets. Written in D.
+- [emuto](http://kantord.github.io/emuto/) **—** CLI tool similar to jq. Create and manipulate CSV, TSV, and JSON. Can be compiled to JavaScript.
 - [frawk](https://github.com/ezrosent/frawk) **—** a Rust implementation of a language partially compatible with AWK that supports [parallelism](https://github.com/ezrosent/frawk/blob/master/info/parallelism.md) and CSV input and output. frawk is an awk-derived language with a CSV mode for input and for output.
 - [GoAWK](https://github.com/benhoyt/goawk) **—** a cross-platform implementation of awk with added support for CSV. The project provides binaries for many platforms, including Windows. GoAWK is an awk implementation that adds a CSV mode for input and for output.
 - [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
@@ -141,7 +143,7 @@ See the [big comparison list](sql-based.md). It covers
 - [Cels](https://github.com/pacha/cels) **—** Patch JSON, TOML, and YAML with patches in the same format with some special values. Can be used as a Python library.
 - [clconf](https://github.com/pastdev/clconf) **—** Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library.
 - [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
-- [emuto](http://kantord.github.io/emuto/) **—** CLI tool similar to jq. Create and manipulate JSON and other files. Can be compiled to JavaScript.
+- [emuto](http://kantord.github.io/emuto/) **—** CLI tool similar to jq. Create and manipulate CSV, TSV, and JSON. Can be compiled to JavaScript.
 - [fastgron](https://github.com/adamritter/fastgron) **—** Convert JSON to and from GRON, a flat, greppable list of `path=value` statements. Much faster than the original gron on large files.
 - [fx](https://github.com/antonmedv/fx) **—** Run arbitrary JavaScript on JSON input. Standalone binaries available.
 - [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
@@ -208,6 +210,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 
 ## XML
 
+- [csvfix](https://github.com/jheusser/csvfix) **—** A multitool. Compare, filter, normalize, split, and validate CSV files. Reorder, remove, split, and merge fields. Convert data between fixed-width, multi-line, XML, and DSV format. Generate SQL statements. (Unofficial mirror.)
 - [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 - [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
 - [hred](https://github.com/danburzo/hred) **—** Query XML and HTML with a query language based on CSS selectors.
@@ -238,7 +241,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 - [Cels](https://github.com/pacha/cels) **—** Patch JSON, TOML, and YAML with patches in the same format with some special values. Can be used as a Python library.
 - [clconf](https://github.com/pastdev/clconf) **—** Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library.
 - [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
-- [dy](https://github.com/sampointer/dy) **—** Construct YAML from a directory tree .
+- [dy](https://github.com/sampointer/dy) **—** Construct YAML from a directory tree.
 - [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
 - [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
 - [jet](https://github.com/borkdude/jet) **—** Convert between JSON, YAML, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format). Transform them with Clojure code.
@@ -305,6 +308,52 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 
 - [lnav](https://lnav.org) **—** Query and watch log files. Has batch and interactive mode. Supported formats include the Common Log Format, CUPS page_log, syslog, strace, and generic timestamped messages. Can perform SQL queries.
 - [Squawk](https://github.com/samuel/squawk) **—** Query Apache and Nginx log files. See the [SQL-based tool comparison](sql-based.md).
+
+
+## Multiformat tools
+
+Tools that support multiple input formats.
+Programs that convert between two formats in both directions are excluded.
+We only count JSON support that is separate from YAML.
+
+- [Augeas](http://augeas.net) **—** Query and modify [a number of file formats](http://augeas.net/stock_lenses.html). Not all of the formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed.
+- [Cels](https://github.com/pacha/cels) **—** Patch JSON, TOML, and YAML with patches in the same format with some special values. Can be used as a Python library.
+- [clconf](https://github.com/pastdev/clconf) **—** Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library.
+- [csvfix](https://github.com/jheusser/csvfix) **—** A multitool. Compare, filter, normalize, split, and validate CSV files. Reorder, remove, split, and merge fields. Convert data between fixed-width, multi-line, XML, and DSV format. Generate SQL statements. (Unofficial mirror.)
+- [csvtk](https://github.com/shenwei356/csvtk) **—** Search, sample, cut, join, transpose, and sort CSV/TSV files. Rename columns. Replace fields and generate new fiends from existing fields. Plot data as vector or raster histograms and box, line, and scatter plots. Convert CSV to Markdown. Convert XLSX to CSV. Split XLSX sheets.
+- [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
+- [Elektra](http://libelektra.org) **—** Query and modify [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses), but has better support for generic formats such as JSON and INI.
+- [emuto](http://kantord.github.io/emuto/) **—** CLI tool similar to jq. Create and manipulate CSV, TSV, and JSON. Can be compiled to JavaScript.
+- [frawk](https://github.com/ezrosent/frawk) **—** a Rust implementation of a language partially compatible with AWK that supports [parallelism](https://github.com/ezrosent/frawk/blob/master/info/parallelism.md) and CSV input and output. frawk is an awk-derived language with a CSV mode for input and for output.
+- [GoAWK](https://github.com/benhoyt/goawk) **—** a cross-platform implementation of awk with added support for CSV. The project provides binaries for many platforms, including Windows. GoAWK is an awk implementation that adds a CSV mode for input and for output.
+- [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
+- [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
+- [hred](https://github.com/danburzo/hred) **—** Query XML and HTML with a query language based on CSS selectors.
+- [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) **—** A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained.
+- [jet](https://github.com/borkdude/jet) **—** Convert between JSON, YAML, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format). Transform them with Clojure code.
+- [jp (sgreben)](https://github.com/sgreben/jp) **—** Plot JSON and CSV data in the terminal. Supports different kinds of plots: bar charts, line charts, scatter plots, histograms, and heatmaps.
+- [lnav](https://lnav.org) **—** Query and watch log files. Has batch and interactive mode. Supported formats include the Common Log Format, CUPS page_log, syslog, strace, and generic timestamped messages. Can perform SQL queries.
+- [madato](https://github.com/inosion/madato) **—** Convert ODS and XLSX spreadsheets to JSON, Markdown, and YAML.
+- [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
+- [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
+- [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html).
+- [RecordStream](https://github.com/benbernard/RecordStream) **—** Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources.
+- [ReadStat](https://github.com/WizardMac/ReadStat) **—** Convert statistics package datasets between SAS (SAS7BDAT, XPORT), SPSS (POR, SAV, ZSAV), and Stata (DTA). Convert those formats to CSV and XLSX. Can be used as a C library with bindings for Julia, Python, and R.
+- [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
+- [rows](https://github.com/turicas/rows) **—** A Python library with a [CLI](http://turicas.info/rows/cli/). Convert between a number of [file formats](http://turicas.info/rows/plugins/) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas.
+- [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
+- [Saxon](http://saxon.sourceforge.net/) **—** Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl).
+- [Skeem](https://github.com/daq-tools/skeem) **—** Infer SQL DDL statements from tabular data. Supports CSV, JSON, JSON Lines, ODS, XLSX, and other formats.
+- [tidy-html5](http://www.html-tidy.org/) **—** Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML.
+- [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
+- [Xidel](http://www.videlibri.de/xidel.html) **—** Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors.
+- [xml2](https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/) **—** Convert XML and HTML to and from flat, greppable lists of "path=value" statements. [Source code mirror](https://github.com/clone/xml2).
+- [xmljson](https://github.com/engali94/XMLJson) **—** Convert multiple and large XML files to JSON. Written in Swift.
+- [xpe](https://github.com/charmparticle/xpe) **—** Query HTML and XML with XPath expressions.
+- [yaml-diff-patch](https://github.com/grantila/yaml-diff-patch) **—** Patch YAML with [RFC 6902](https://datatracker.ietf.org/doc/html/rfc6902) JSON Patches. Generate a JSON Patch from two JSON documents or a YAML and a JSON document. Preserves style. Can be used as a TypeScript library.
+- [yamlpath](https://github.com/wwkimball/yamlpath) **—** Query, modify, diff, merge, and validate YAML and JSON with [YAML Paths](https://github.com/wwkimball/yamlpath/wiki/Segments-of-a-YAML-Path). Also a Python library.
+- [yq (kislyuk)](https://github.com/kislyuk/yq) **—** [jq](#json) wrapper for YAML, XML, and TOML.
+- [zsv](https://github.com/liquidaty/zsv) **—** Slice, combine, reformat, flatten/unflatten CSV (TSV, DSV) files. Query them with SQL and jq filters. Convert between them, JSON, and SQLite 3. Also a C library.
 
 
 ## Templating for structured text

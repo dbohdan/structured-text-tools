@@ -6,7 +6,7 @@ tags = ["awk"]
 [Augeas]
 url = "http://augeas.net"
 descr = "Query and modify [a number of file formats](http://augeas.net/stock_lenses.html). Not all of the formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed."
-tags = ["config"]
+tags = ["config", "multiformat"]
 
 ["awk.info archive"]
 url = "https://web.archive.org/web/20160505033644/http://awk.info/"
@@ -21,12 +21,12 @@ tags = ["awk"]
 [Cels]
 url = "https://github.com/pacha/cels"
 descr = "Patch JSON, TOML, and YAML with patches in the same format with some special values. Can be used as a Python library."
-tags = ["json", "toml", "yaml"]
+tags = ["json", "toml", "yaml", "multiformat"]
 
 [clconf]
 url = "https://github.com/pastdev/clconf"
 descr = "Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library."
-tags = ["yaml", "json"]
+tags = ["yaml", "json", "multiformat"]
 
 [csv-nix-tools]
 url = "https://github.com/mslusarz/csv-nix-tools"
@@ -51,7 +51,7 @@ tags = ["csv"]
 [csvfix]
 url = "https://github.com/jheusser/csvfix"
 descr = "A multitool. Compare, filter, normalize, split, and validate CSV files. Reorder, remove, split, and merge fields. Convert data between fixed-width, multi-line, XML, and DSV format. Generate SQL statements. (Unofficial mirror.)"
-tags = ["csv"]
+tags = ["csv", "xml", "multiformat"]
 
 [csvkit]
 url = "https://github.com/wireservice/csvkit"
@@ -66,7 +66,7 @@ tags = ["csv", "awk-other"]
 [csvtk]
 url = "https://github.com/shenwei356/csvtk"
 descr = "Search, sample, cut, join, transpose, and sort CSV/TSV files. Rename columns. Replace fields and generate new fiends from existing fields. Plot data as vector or raster histograms and box, line, and scatter plots. Convert CSV to Markdown. Convert XLSX to CSV. Split XLSX sheets."
-tags = ["csv"]
+tags = ["csv", "multiformat"]
 
 [CSVtoTable]
 url = "https://github.com/vividvilla/csvtotable"
@@ -76,11 +76,11 @@ tags = ["csv"]
 [dasel]
 url = "https://github.com/TomWright/dasel"
 descr = "Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases."
-tags = ["csv", "xml", "yaml", "toml", "json"]
+tags = ["csv", "xml", "yaml", "toml", "json", "multiformat"]
 
 [dy]
 url = "https://github.com/sampointer/dy"
-descr = "Construct YAML from a directory tree ."
+descr = "Construct YAML from a directory tree."
 tags = ["yaml"]
 
 ["eBay's TSV utilities"]
@@ -91,12 +91,12 @@ tags = ["csv"]
 [Elektra]
 url = "http://libelektra.org"
 descr = "Query and modify [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses), but has better support for generic formats such as JSON and INI."
-tags = ["config"]
+tags = ["config", "multiformat"]
 
 [emuto]
 url = "http://kantord.github.io/emuto/"
-descr = "CLI tool similar to jq. Create and manipulate JSON and other files. Can be compiled to JavaScript."
-tags = ["json"]
+descr = "CLI tool similar to jq. Create and manipulate CSV, TSV, and JSON. Can be compiled to JavaScript."
+tags = ["csv", "json", "multiformat"]
 
 [fastgron]
 url = "https://github.com/adamritter/fastgron"
@@ -106,7 +106,7 @@ tags = ["json"]
 [frawk]
 url = "https://github.com/ezrosent/frawk"
 descr = "a Rust implementation of a language partially compatible with AWK that supports [parallelism](https://github.com/ezrosent/frawk/blob/master/info/parallelism.md) and CSV input and output. frawk is an awk-derived language with a CSV mode for input and for output."
-tags = ["csv", "awk"]
+tags = ["csv", "awk", "multiformat"]
 
 [fx]
 url = "https://github.com/antonmedv/fx"
@@ -121,17 +121,17 @@ tags = ["awk-other"]
 [GoAWK]
 url = "https://github.com/benhoyt/goawk"
 descr = "a cross-platform implementation of awk with added support for CSV. The project provides binaries for many platforms, including Windows. GoAWK is an awk implementation that adds a CSV mode for input and for output."
-tags = ["csv", "awk"]
+tags = ["csv", "awk", "multiformat"]
 
 [gojq]
 url = "https://github.com/itchyny/gojq"
 descr = "A pure Go implementation of jq. Supports YAML input and output."
-tags = ["yaml", "json"]
+tags = ["yaml", "json", "multiformat"]
 
 [Graphtage]
 url = "https://github.com/trailofbits/graphtage"
 descr = "Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library."
-tags = ["csv", "xml", "html", "yaml", "json"]
+tags = ["csv", "xml", "html", "yaml", "json", "multiformat"]
 
 [gron]
 url = "https://github.com/tomnomnom/gron"
@@ -161,12 +161,12 @@ tags = ["hosts"]
 [hred]
 url = "https://github.com/danburzo/hred"
 descr = "Query XML and HTML with a query language based on CSS selectors."
-tags = ["xml", "html"]
+tags = ["xml", "html", "multiformat"]
 
 [html-xml-utils]
 url = "https://www.w3.org/Tools/HTML-XML-utils/README"
 descr = "A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained."
-tags = ["xml", "html"]
+tags = ["xml", "html", "multiformat"]
 
 [htmlq]
 url = "https://github.com/mgdm/htmlq"
@@ -191,7 +191,7 @@ tags = ["json"]
 [jet]
 url = "https://github.com/borkdude/jet"
 descr = "Convert between JSON, YAML, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format). Transform them with Clojure code."
-tags = ["json", "yaml"]
+tags = ["json", "yaml", "multiformat"]
 
 [jfq]
 url = "https://github.com/blgm/jfq"
@@ -231,7 +231,7 @@ tags = ["json"]
 ["jp (sgreben)"]
 url = "https://github.com/sgreben/jp"
 descr = "Plot JSON and CSV data in the terminal. Supports different kinds of plots: bar charts, line charts, scatter plots, histograms, and heatmaps."
-tags = ["csv", "json"]
+tags = ["csv", "json", "multiformat"]
 
 [jplot]
 url = "https://github.com/rs/jplot"
@@ -301,7 +301,7 @@ tags = ["json"]
 [lnav]
 url = "https://lnav.org"
 descr = "Query and watch log files. Has batch and interactive mode. Supported formats include the Common Log Format, CUPS page_log, syslog, strace, and generic timestamped messages. Can perform SQL queries."
-tags = ["log"]
+tags = ["log", "multiformat"]
 
 [lobar]
 url = "https://github.com/sodiumjoe/lobar"
@@ -311,12 +311,12 @@ tags = ["tui", "json"]
 [madato]
 url = "https://github.com/inosion/madato"
 descr = "Convert ODS and XLSX spreadsheets to JSON, Markdown, and YAML."
-tags = ["json", "yaml"]
+tags = ["json", "yaml", "multiformat"]
 
 [Mario]
 url = "https://github.com/python-mario/mario"
 descr = "Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code."
-tags = ["csv", "xml", "yaml", "toml", "json"]
+tags = ["csv", "xml", "yaml", "toml", "json", "multiformat"]
 
 ["MCMD (M-Command)"]
 url = "https://github.com/nysol/mcmd"
@@ -331,7 +331,7 @@ tags = ["csv"]
 [Nushell]
 url = "https://github.com/nushell/nushell"
 descr = "A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats."
-tags = ["csv", "json", "toml", "xml", "yaml"]
+tags = ["csv", "json", "toml", "xml", "yaml", "multiformat"]
 
 [pawk]
 url = "https://github.com/alecthomas/pawk"
@@ -346,7 +346,7 @@ tags = ["html"]
 [pyp]
 url = "https://github.com/hauntsaninja/pyp"     
 descr = "Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html)."
-tags = ["awk-other", "json", "toml"]
+tags = ["awk-other", "json", "toml", "multiformat"]
 
 [qpyson]
 url = "https://github.com/mpkocher/qpyson"
@@ -376,33 +376,32 @@ tags = ["json"]
 [RecordStream]
 url = "https://github.com/benbernard/RecordStream"
 descr = "Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources."
-tags = ["json"]
+tags = ["json", "multiformat"]
 
 [ReadStat]
 url = "https://github.com/WizardMac/ReadStat"
 descr = "Convert statistics package datasets between SAS (SAS7BDAT, XPORT), SPSS (POR, SAV, ZSAV), and Stata (DTA). Convert those formats to CSV and XLSX. Can be used as a C library with bindings for Julia, Python, and R."
-
-tags = ["csv"]
+tags = ["csv", "multiformat"]
 
 [Remarshal]
 url = "https://github.com/dbohdan/remarshal"
 descr = "Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML."
-tags = ["json", "yaml", "toml"]
+tags = ["json", "yaml", "toml", "multiformat"]
 
 [rows]
 url = "https://github.com/turicas/rows"
 descr = "A Python library with a [CLI](http://turicas.info/rows/cli/). Convert between a number of [file formats](http://turicas.info/rows/plugins/) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas."
-tags = ["csv"]
+tags = ["csv", "multiformat"]
 
 [rq]
 url = "https://github.com/dflemstr/rq"
 descr = "Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text."
-tags = ["csv", "yaml", "toml", "json", "awk-other"]
+tags = ["csv", "yaml", "toml", "json", "awk-other", "multiformat"]
 
 [Saxon]
 url = "http://saxon.sourceforge.net/"
 descr = "Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl)."
-tags = ["xml", "html"]
+tags = ["xml", "html", "multiformat"]
 
 [sc-im]
 url = "https://github.com/andmarti1424/sc-im"
@@ -422,7 +421,7 @@ tags = ["yaml"]
 [Skeem]
 url = "https://github.com/daq-tools/skeem"
 descr = "Infer SQL DDL statements from tabular data. Supports CSV, JSON, JSON Lines, ODS, XLSX, and other formats."
-tags = ["csv", "json"]
+tags = ["csv", "json", "multiformat"]
 
 [sml2]
 url = "https://github.com/JFLarvoire/libxml2"
@@ -457,7 +456,7 @@ tags = ["toml"]
 [tidy-html5]
 url = "http://www.html-tidy.org/"
 descr = "Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML."
-tags = ["xml", "html"]
+tags = ["xml", "html", "multiformat"]
 
 [tq]
 url = "https://github.com/plainas/tq"
@@ -487,7 +486,7 @@ tags = ["yaml"]
 [VisiData]
 url = "https://github.com/saulpw/visidata"
 descr = "Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/)."
-tags = ["tui"]
+tags = ["tui", "multiformat"]
 
 [vnlog]
 url = "https://github.com/dkogan/vnlog/"
@@ -497,7 +496,7 @@ tags = ["awk-other"]
 [Xidel]
 url = "http://www.videlibri.de/xidel.html"
 descr = "Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors."
-tags = ["xml", "html"]
+tags = ["xml", "html", "multiformat"]
 
 [xml-to-json-fast]
 url = "https://github.com/sinelaw/xml-to-json-fast"
@@ -507,12 +506,12 @@ tags = ["json", "xml"]
 [xml2]
 url = "https://web.archive.org/web/20160719191401/http://ofb.net/~egnor/xml2/"
 descr = "Convert XML and HTML to and from flat, greppable lists of \"path=value\" statements. [Source code mirror](https://github.com/clone/xml2)."
-tags = ["xml", "html"]
+tags = ["xml", "html", "multiformat"]
 
 [xmljson]
 url = "https://github.com/engali94/XMLJson"
 descr = "Convert multiple and large XML files to JSON. Written in Swift."
-tags = ["json", "xml"]
+tags = ["json", "xml", "multiformat"]
 
 [XMLLint]
 url = "http://xmlsoft.org/xmllint.html"
@@ -527,7 +526,7 @@ tags = ["xml"]
 [xpe]
 url = "https://github.com/charmparticle/xpe"
 descr = "Query HTML and XML with XPath expressions."
-tags = ["xml", "html"]
+tags = ["xml", "html", "multiformat"]
 
 [xq]
 url = "https://github.com/kislyuk/yq"
@@ -547,7 +546,7 @@ tags = ["csv"]
 [yaml-diff-patch]
 url = "https://github.com/grantila/yaml-diff-patch"
 descr = "Patch YAML with [RFC 6902](https://datatracker.ietf.org/doc/html/rfc6902) JSON Patches. Generate a JSON Patch from two JSON documents or a YAML and a JSON document. Preserves style. Can be used as a TypeScript library."
-tags = ["json", "yaml"]
+tags = ["json", "yaml", "multiformat"]
 
 [yaml-tools]
 url = "https://github.com/thecodingmachine/yaml-tools"
@@ -557,12 +556,12 @@ tags = ["yaml"]
 [yamlpath]
 url = "https://github.com/wwkimball/yamlpath"
 descr = "Query, modify, diff, merge, and validate YAML and JSON with [YAML Paths](https://github.com/wwkimball/yamlpath/wiki/Segments-of-a-YAML-Path). Also a Python library."
-tags = ["json", "yaml"]
+tags = ["json", "yaml", "multiformat"]
 
 ["yq (kislyuk)"]
 url = "https://github.com/kislyuk/yq"
 descr = "[jq](#json) wrapper for YAML, XML, and TOML."
-tags = ["toml", "xml", "yaml"]
+tags = ["toml", "xml", "yaml", "multiformat"]
 
 ["yq (mikefarah)"]
 url = "https://github.com/mikefarah/yq"
@@ -572,7 +571,7 @@ tags = ["yaml"]
 [zsv]
 url = "https://github.com/liquidaty/zsv"
 descr = "Slice, combine, reformat, flatten/unflatten CSV (TSV, DSV) files. Query them with SQL and jq filters. Convert between them, JSON, and SQLite 3. Also a C library."
-tags = ["csv"]
+tags = ["csv", "multiformat"]
 
 # INI
 
