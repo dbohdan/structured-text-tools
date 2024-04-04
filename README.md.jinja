@@ -21,7 +21,7 @@ The following is a list of text-based file formats and command-line tools for ma
   - [INI](#ini)
   - [Multiple formats](#multiple-formats)
 - [Log files](#log-files)
-- [Multiformat-tools](#multiformat-tools)
+- [Multiformat tools](#multiformat-tools)
 - [Templating for structured text](#templating-for-structured-text)
 - [Extra: interactive TUIs](#extra-interactive-tuis)
 - [Extra: CLIs for single-file databases](#extra-clis-for-single-file-databases)
