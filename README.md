@@ -313,7 +313,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 ## Multiformat tools
 
 Tools that support multiple input formats.
-Programs that convert between two formats in both directions are excluded.
+Programs that convert between only two formats in both directions are excluded.
 We only count JSON support that is separate from YAML.
 
 - [Augeas](http://augeas.net) **—** Query and modify [a number of file formats](http://augeas.net/stock_lenses.html). Not all of the formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed.
