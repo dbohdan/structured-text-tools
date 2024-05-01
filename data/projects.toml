@@ -103,6 +103,11 @@ url = "https://github.com/adamritter/fastgron"
 descr = "Convert JSON to and from GRON, a flat, greppable list of `path=value` statements. Much faster than the original gron on large files."
 tags = ["json"]
 
+[ffs]
+url = "https://github.com/mgree/ffs"
+descr = "Mount JSON, TOML, and YAML as a Unix filesystem."
+tags = ["json", "toml", "yaml", "multiformat"]
+
 [frawk]
 url = "https://github.com/ezrosent/frawk"
 descr = "a Rust implementation of a language partially compatible with AWK that supports [parallelism](https://github.com/ezrosent/frawk/blob/master/info/parallelism.md) and CSV input and output. frawk is an awk-derived language with a CSV mode for input and for output."

@@ -145,6 +145,7 @@ See the [big comparison list](sql-based.md). It covers
 - [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 - [emuto](http://kantord.github.io/emuto/) **—** CLI tool similar to jq. Create and manipulate CSV, TSV, and JSON. Can be compiled to JavaScript.
 - [fastgron](https://github.com/adamritter/fastgron) **—** Convert JSON to and from GRON, a flat, greppable list of `path=value` statements. Much faster than the original gron on large files.
+- [ffs](https://github.com/mgree/ffs) **—** Mount JSON, TOML, and YAML as a Unix filesystem.
 - [fx](https://github.com/antonmedv/fx) **—** Run arbitrary JavaScript on JSON input. Standalone binaries available.
 - [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
 - [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
@@ -198,6 +199,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 
 - [Cels](https://github.com/pacha/cels) **—** Patch JSON, TOML, and YAML with patches in the same format with some special values. Can be used as a Python library.
 - [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
+- [ffs](https://github.com/mgree/ffs) **—** Mount JSON, TOML, and YAML as a Unix filesystem.
 - [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 - [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
 - [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html).
@@ -242,6 +244,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 - [clconf](https://github.com/pastdev/clconf) **—** Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library.
 - [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 - [dy](https://github.com/sampointer/dy) **—** Construct YAML from a directory tree.
+- [ffs](https://github.com/mgree/ffs) **—** Mount JSON, TOML, and YAML as a Unix filesystem.
 - [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
 - [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.
 - [jet](https://github.com/borkdude/jet) **—** Convert between JSON, YAML, Clojure's [edn](https://github.com/edn-format/edn), and [Transit](https://github.com/cognitect/transit-format). Transform them with Clojure code.
@@ -324,6 +327,7 @@ We only count JSON support that is separate from YAML.
 - [dasel](https://github.com/TomWright/dasel) **—** Query and update data structures from the command line. Comparable to jq/yq but supports CSV, JSON, TOML, YAML, and XML. Static binaries available for releases.
 - [Elektra](http://libelektra.org) **—** Query and modify [configuration files](https://github.com/ElektraInitiative/libelektra/tree/master/src/plugins). Shares Augeas' limitations when it comes to application-specific configuration files (it uses the same lenses), but has better support for generic formats such as JSON and INI.
 - [emuto](http://kantord.github.io/emuto/) **—** CLI tool similar to jq. Create and manipulate CSV, TSV, and JSON. Can be compiled to JavaScript.
+- [ffs](https://github.com/mgree/ffs) **—** Mount JSON, TOML, and YAML as a Unix filesystem.
 - [frawk](https://github.com/ezrosent/frawk) **—** a Rust implementation of a language partially compatible with AWK that supports [parallelism](https://github.com/ezrosent/frawk/blob/master/info/parallelism.md) and CSV input and output. frawk is an awk-derived language with a CSV mode for input and for output.
 - [GoAWK](https://github.com/benhoyt/goawk) **—** a cross-platform implementation of awk with added support for CSV. The project provides binaries for many platforms, including Windows. GoAWK is an awk implementation that adds a CSV mode for input and for output.
 - [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
