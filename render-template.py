@@ -33,20 +33,6 @@ class Project:
         return cls(name=name, **d)
 
 
-def list_item(proj: Project) -> str:
-    item = [f"- [{proj.name}]({proj.url})"]
-
-    if proj.descr:
-        item.append(f" **—** {proj.descr}")
-
-    if proj.props:
-        item.extend(
-            f"\n    - **{prop}:** {value}" for prop, value in proj.props.items()
-        )
-
-    return "".join(item)
-
-
 @click.command()
 @click.argument("template-name", type=click.Path(exists=True, path_type=Path))
 @click.argument("data-path", type=click.Path(exists=True, path_type=Path))
@@ -54,17 +40,14 @@ def main(template_name: Path, data_path: Path) -> None:
     data = tomli.loads(data_path.read_text())
     projects = list(starmap(Project.from_dict, data.items()))
 
-    def proj_data(tag: str) -> Iterator[Project]:
-        return (proj for proj in projects if tag in proj.tags)
-
-    def projs_with_tag(tag: str) -> str:
-        return "\n".join(list_item(proj) for proj in proj_data(tag))
+    def projs_with_tag(tag: str) -> list[Project]:
+        return [proj for proj in projects if tag in proj.tags]
 
     env = j2.Environment(
         loader=j2.FileSystemLoader("."),
         autoescape=j2.select_autoescape(),
-        trim_blocks=True,
         lstrip_blocks=True,
+        trim_blocks=True,
     )
 
     env.globals["projs_with_tag"] = projs_with_tag

@@ -1,3 +1,5 @@
+{% from "macros.md.jinja" import items -%}
+
 # Structured text tools
 
 The following is a list of text-based file formats and command-line tools for manipulating each.
@@ -57,14 +59,14 @@ AWK/awk is a programming language and a POSIX-standard command-line tool. (You w
 
 ### Other tools
 
-{{ projs_with_tag("awk-other") }}
+{{ items("awk-other") }}
 
 
 ## CSV
 
 CSV, TSV, and other delimiter-separated value formats. Tools belong on this list if they support [field quoting](https://en.wikipedia.org/wiki/Comma-separated_values#Basic_rules).
 
-{{ projs_with_tag("csv") }}
+{{ items("csv") }}
 
 ### SQL-based tools
 
@@ -88,24 +90,24 @@ See the [big comparison list](sql-based.md). It covers
 
 ## HTML
 
-{{ projs_with_tag("html") }}
+{{ items("html") }}
 
 
 ## JSON
 
-{{ projs_with_tag("json") }}
+{{ items("json") }}
 
 
 ## TOML
 
 With a format converter like Remarshal you can use [JSON](#json) tools to process TOML and YAML, but make sure you do not lose data in the conversion.
 
-{{ projs_with_tag("toml") }}
+{{ items("toml") }}
 
 
 ## XML
 
-{{ projs_with_tag("xml") }}
+{{ items("xml") }}
 
 ### See also
 
@@ -114,27 +116,27 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 
 ## YAML
 
-{{ projs_with_tag("yaml") }}
+{{ items("yaml") }}
 
 
 ## Configuration files
 
 ### /etc/hosts
 
-{{ projs_with_tag("hosts") }}
+{{ items("hosts") }}
 
 ### INI
 
-{{ projs_with_tag("ini") }}
+{{ items("ini") }}
 
 ### Multiple formats
 
-{{ projs_with_tag("config") }}
+{{ items("config") }}
 
 
 ## Log files
 
-{{ projs_with_tag("log") }}
+{{ items("log") }}
 
 
 ## Multiformat tools
@@ -143,14 +145,14 @@ Tools that support multiple input formats.
 Programs that convert between only two formats in both directions are excluded.
 We only count JSON support that is separate from YAML.
 
-{{ projs_with_tag("multiformat") }}
+{{ items("multiformat") }}
 
 
 ## Templating for structured text
 
 Listed below are restricted programming language interpreters and templating tools that produce structured text output. They are generally intended to remove repetition in configuration files. They are distinct from unstructed templating tools like the `jinja2` CLI program, which should not be added to this table.
 
-{{ projs_with_tag("template") }}
+{{ items("template") }}
 
 ### See also
 
@@ -159,12 +161,12 @@ Listed below are restricted programming language interpreters and templating too
 
 ## Extra: interactive TUIs
 
-{{ projs_with_tag("tui") }}
+{{ items("tui") }}
 
 
 ## Extra: CLIs for single-file databases
 
-{{ projs_with_tag("single-file-db") }}
+{{ items("single-file-db") }}
 
 
 ## License

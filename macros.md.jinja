@@ -1,0 +1,19 @@
+{% macro item(proj) %}
+- [{{ proj.name }}]({{ proj.url }}){% if proj.descr %} **—** {{ proj.descr }}{% endif %}
+{% if proj.props %}
+
+{% for prop, value in proj.props.items() %}
+    - **{{ prop }}:** {{ value }}{% if not loop.last %}
+
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endmacro %}
+
+{% macro items(tag) %}
+{% for proj in projs_with_tag(tag) %}
+{{ item(proj) }}{% if not loop.last %}
+
+{% endif %}
+{% endfor %}
+{% endmacro %}
