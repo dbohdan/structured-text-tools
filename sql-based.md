@@ -16,7 +16,7 @@
     - **Output formats:** lines, DSV, XLS, XLSX, HTML tables, JSON
     - **Custom table names:** yes
     - **Custom column names:** yes
-    - **Keep database file (for SQLite 3):** n/a
+    - **Keep database file:** n/a
     - **Skip input fields:** no
     - **Skip input records (lines):** no
     - **Merge input fields:** no
@@ -39,7 +39,7 @@
     - **Output formats:** CSV, TSV, LTSV, fixed-width, JSON, Markdown-style table, Org-mode, ASCII table
     - **Custom table names:** yes
     - **Custom column names:** yes
-    - **Keep database file (for SQLite 3):** n/a
+    - **Keep database file:** n/a
     - **Skip input fields:** no
     - **Skip input records (lines):** no
     - **Merge input fields:** no
@@ -62,11 +62,34 @@
     - **Output formats:** delimited without quotes, DSV, JSON, Markdown-style table, SQL (separate converters)
     - **Custom table names:** yes
     - **Custom column names:** no
-    - **Keep database file (for SQLite 3):** yes
+    - **Keep database file:** yes
     - **Skip input fields:** yes (separate tool)
     - **Skip input records (lines):** no
     - **Merge input fields:** no?
     - **Database table customization:** yes, UNIQUE constraints, database schema name, automatic column datatype or text
+    - **SQL dump:** yes
+    - **Other:** 
+- [DuckDB](https://github.com/duckdb/duckdb)
+    - **Documentation link:** <https://duckdb.org/docs/>
+    - **Programming language:** C++
+    - **Database:** DuckDB
+    - **Column names from header row:** yes, optional
+    - **Custom character encoding:** no, only UTF-8
+    - **Custom input field separator:** yes, string
+    - **Custom input record separator:** no
+    - **Custom output field separator:** yes
+    - **Custom output record separator:** no
+    - **JOINs:** yes
+    - **Use as library:** yes, C, C++, JavaScript, Python, and other languages
+    - **Input formats:** DSV, Excel, JSON, SQL, Parquet
+    - **Output formats:** DSV, Excel, JSON, SQL, Parquet
+    - **Custom table names:** yes
+    - **Custom column names:** yes
+    - **Keep database file:** yes
+    - **Skip input fields:** yes
+    - **Skip input records (lines):** yes
+    - **Merge input fields:** no
+    - **Database table customization:** yes, `CREATE TABLE`
     - **SQL dump:** yes
     - **Other:** 
 - [fsql](https://metacpan.org/release/App-fsql)
@@ -85,7 +108,7 @@
     - **Output formats:** CSV, TSV, LTSV, Perl, JSON, YAML
     - **Custom table names:** yes
     - **Custom column names:** no
-    - **Keep database file (for SQLite 3):** no
+    - **Keep database file:** no
     - **Skip input fields:** no
     - **Skip input records (lines):** no
     - **Merge input fields:** no
@@ -108,7 +131,7 @@
     - **Output formats:** delimited without quotes, DSV, custom using Python formatting string
     - **Custom table names:** no
     - **Custom column names:** no
-    - **Keep database file (for SQLite 3):** yes
+    - **Keep database file:** yes
     - **Skip input fields:** no
     - **Skip input records (lines):** no
     - **Merge input fields:** no
@@ -131,7 +154,7 @@
     - **Output formats:** DSV
     - **Custom table names:** no
     - **Custom column names:** no
-    - **Keep database file (for SQLite 3):** n/a
+    - **Keep database file:** n/a
     - **Skip input fields:** no
     - **Skip input records (lines):** no
     - **Merge input fields:** no
@@ -154,7 +177,7 @@
     - **Output formats:** CSV, JSON, XLS, XLSX, ODS, and others
     - **Custom table names:** no
     - **Custom column names:** no
-    - **Keep database file (for SQLite 3):** no
+    - **Keep database file:** no
     - **Skip input fields:** no
     - **Skip input records (lines):** no
     - **Merge input fields:** no
@@ -177,7 +200,7 @@
     - **Output formats:** delimited without quotes, CSV, JSON, ASCII/Unicode table, Tcl
     - **Custom table names:** yes
     - **Custom column names:** yes
-    - **Keep database file (for SQLite 3):** yes
+    - **Keep database file:** yes
     - **Skip input fields:** yes, any
     - **Skip input records (lines):** no
     - **Merge input fields:** yes, any consecutive
@@ -200,7 +223,7 @@
     - **Output formats:** CSV
     - **Custom table names:** yes
     - **Custom column names:** no
-    - **Keep database file (for SQLite 3):** yes
+    - **Keep database file:** yes
     - **Skip input fields:** no
     - **Skip input records (lines):** yes, until regexp matches
     - **Merge input fields:** no
@@ -223,7 +246,7 @@
     - **Output formats:** table, CSV, JSON
     - **Custom table names:** no
     - **Custom column names:** no
-    - **Keep database file (for SQLite 3):** no
+    - **Keep database file:** no
     - **Skip input fields:** no
     - **Skip input records (lines):** no
     - **Merge input fields:** no
@@ -246,7 +269,7 @@
     - **Output formats:** delimited without quotes, CSV, TSV, HTML, SQL, Tcl
     - **Custom table names:** yes
     - **Custom column names:** yes
-    - **Keep database file (for SQLite 3):** yes
+    - **Keep database file:** yes
     - **Skip input fields:** no
     - **Skip input records (lines):** yes, N first and M last
     - **Merge input fields:** yes, Nth to last
@@ -269,7 +292,7 @@
     - **Output formats:** delimited without quotes, CSV, LTSV, JSON, ASCII table, Markdown
     - **Custom table names:** no
     - **Custom column names:** no
-    - **Keep database file (for SQLite 3):** yes
+    - **Keep database file:** yes
     - **Skip input fields:** no
     - **Skip input records (lines):** no
     - **Merge input fields:** no
@@ -292,7 +315,7 @@
     - **Output formats:** DSV
     - **Custom table names:** no
     - **Custom column names:** no
-    - **Keep database file (for SQLite 3):** yes
+    - **Keep database file:** yes
     - **Skip input fields:** no
     - **Skip input records (lines):** no
     - **Merge input fields:** no
@@ -315,7 +338,7 @@
     - **Output formats:** CSV, JSON
     - **Custom table names:** no
     - **Custom column names:** no
-    - **Keep database file (for SQLite 3):** no
+    - **Keep database file:** no
     - **Skip input fields:** yes
     - **Skip input records (lines):** no
     - **Merge input fields:** yes
