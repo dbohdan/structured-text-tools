@@ -420,6 +420,7 @@ Listed below are restricted programming language interpreters and templating too
 
 ## Extra: interactive TUIs
 
+- [argrelay](https://argrelay.org) **—** A CLI framework with structured data search via arguments for custom tools. Index arbitrary data and interact with a stand-by server directly in **the standard shell**: validate against input schemas, `Tab`-complete contextually, `Alt+Shift+Q`-query the interrogation progress, `Enter`-invoke domain logic.
 - [jid](https://github.com/simeji/jid) **—** Explore JSON interactively with filtering queries like jq.
 - [jiq](https://github.com/fiatjaf/jiq) **—** Explore JSON interactively with jq. Requires jq.
 - [lobar](https://github.com/sodiumjoe/lobar) **—** Process JSON and explore it interactively with a wrapper for `lodash.chain()`. An alternative to jq with JavaScript syntax.

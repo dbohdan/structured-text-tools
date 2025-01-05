@@ -3,6 +3,11 @@ url = "https://www.thegeekstuff.com/2011/06/awk-nawk-gawk/"
 descr = "A comparison of features present in different implementations."
 tags = ["awk"]
 
+[argrelay]
+url = "https://argrelay.org"
+descr = "A CLI framework with structured data search via arguments for custom tools. Index arbitrary data and interact with a stand-by server directly in **the standard shell**: validate against input schemas, `Tab`-complete contextually, `Alt+Shift+Q`-query the interrogation progress, `Enter`-invoke domain logic."
+tags = ["tui"]
+
 [Augeas]
 url = "http://augeas.net"
 descr = "Query and modify [a number of file formats](http://augeas.net/stock_lenses.html). Not all of the formats are equally well supported by Augeas and for some only a limited subset of all valid files can be parsed."
