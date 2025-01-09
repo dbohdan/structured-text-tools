@@ -4,8 +4,8 @@ descr = "A comparison of features present in different implementations."
 tags = ["awk"]
 
 [argrelay]
-url = "https://argrelay.org"
-descr = "A CLI framework with structured data search via arguments for custom tools. Index arbitrary data and interact with a stand-by server directly in **the standard shell**: validate against input schemas, `Tab`-complete contextually, `Alt+Shift+Q`-query the interrogation progress, `Enter`-invoke domain logic."
+url = "https://github.com/argrelay/argrelay"
+descr = "Implement tab completion for commands in Bash based on search of indexed data through a background server."
 tags = ["tui"]
 
 [Augeas]
@@ -354,7 +354,7 @@ descr = "Query HTML pages with CSS selectors. Static binaries available for rele
 tags = ["html"]
 
 [pyp]
-url = "https://github.com/hauntsaninja/pyp"     
+url = "https://github.com/hauntsaninja/pyp"
 descr = "Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html)."
 tags = ["awk-other", "json", "toml", "multiformat"]
 
