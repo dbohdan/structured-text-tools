@@ -648,6 +648,15 @@ Platform = "Free/Net/OpenBSD, Linux, macOS, Windows"
 License = "MIT"
 Description = "Query and transform data with the Nushell language."
 
+# .env
+
+[dotenvx]
+url = "https://github.com/dotenvx/dotenvx"
+Platform = "POSIX, Windows"
+License = "BSD-3-Clause"
+Description = "A CLI tool to manipulate, parse, and inject .env files as environment variables."
+tags = ["env"]
+
 # Templating for structured text
 
 [CUE]
