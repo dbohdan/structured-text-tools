@@ -17,6 +17,7 @@ The following is a list of text-based file formats and command-line tools for ma
 - [XML](#xml)
 - [YAML](#yaml)
 - [Configuration files](#configuration-files)
+  - [.env](#env)
   - [/etc/hosts](#etchosts)
   - [INI](#ini)
   - [Multiple formats](#multiple-formats)
@@ -263,6 +264,13 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 
 
 ## Configuration files
+
+### .env
+
+- [dotenvx](https://github.com/dotenvx/dotenvx)
+    - **Platform:** POSIX, Windows
+    - **License:** BSD-3-Clause
+    - **Description:** A CLI tool to manipulate, parse, and inject `.env` files as environment variables.
 
 ### /etc/hosts
 
