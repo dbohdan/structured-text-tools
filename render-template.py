@@ -1,4 +1,4 @@
-#! /usr/bin/env -S pipx run
+#! /usr/bin/env -S uv run --script --quiet
 # /// script
 # dependencies = [
 #   "click==8.*",
