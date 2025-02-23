@@ -13,6 +13,7 @@ The following is a list of text-based file formats and command-line tools for ma
 - [CSV](#csv)
 - [HTML](#html)
 - [JSON](#json)
+- [Markdown](#markdown)
 - [TOML](#toml)
 - [XML](#xml)
 - [YAML](#yaml)
@@ -192,6 +193,11 @@ See the [big comparison list](sql-based.md). It covers
 - [xmljson](https://github.com/engali94/XMLJson) **—** Convert multiple and large XML files to JSON. Written in Swift.
 - [yaml-diff-patch](https://github.com/grantila/yaml-diff-patch) **—** Patch YAML with [RFC 6902](https://datatracker.ietf.org/doc/html/rfc6902) JSON Patches. Generate a JSON Patch from two JSON documents or a YAML and a JSON document. Preserves style. Can be used as a TypeScript library.
 - [yamlpath](https://github.com/wwkimball/yamlpath) **—** Query, modify, diff, merge, and validate YAML and JSON with [YAML Paths](https://github.com/wwkimball/yamlpath/wiki/Segments-of-a-YAML-Path). Also a Python library.
+
+
+## Markdown
+
+- [mdq](https://github.com/yshavit/mdq) **—** Select elements from Markdown documents using a syntax inspired by Markdown and jq. Match content with regular expressions. Output Markdown or JSON.
 
 
 ## TOML
