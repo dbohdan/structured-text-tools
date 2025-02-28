@@ -348,6 +348,11 @@ url = "https://github.com/nushell/nushell"
 descr = "A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats."
 tags = ["csv", "json", "toml", "xml", "yaml", "multiformat"]
 
+[otree]
+url = "https://github.com/fioncat/otree"
+descr = "Expore JSON, TOML, and YAML using a TUI tree widget."
+tags = ["tui"]
+
 [pawk]
 url = "https://github.com/alecthomas/pawk"
 descr = "Process text with AWK-like patterns, but Python code."

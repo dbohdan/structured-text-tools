@@ -449,6 +449,7 @@ Listed below are restricted programming language interpreters and templating too
 - [jid](https://github.com/simeji/jid) **—** Explore JSON interactively with filtering queries like jq.
 - [jiq](https://github.com/fiatjaf/jiq) **—** Explore JSON interactively with jq. Requires jq.
 - [lobar](https://github.com/sodiumjoe/lobar) **—** Process JSON and explore it interactively with a wrapper for `lodash.chain()`. An alternative to jq with JavaScript syntax.
+- [otree](https://github.com/fioncat/otree) **—** Expore JSON, TOML, and YAML using a TUI tree widget.
 - [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.
 - [sc-im](https://github.com/andmarti1424/sc-im) **—** A Vim-like spreadsheet calculator for CSV and TSV files.
 - [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
