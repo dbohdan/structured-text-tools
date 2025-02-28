@@ -91,7 +91,7 @@
     - **Merge input fields:** no
     - **Database table customization:** yes, `CREATE TABLE`
     - **SQL dump:** yes
-    - **Other:** 
+    - **Other:** ["DuckDB as the New jq"](https://www.pgrs.net/2024/03/21/duckdb-as-the-new-jq/), Paul Gross (2024).
 - [fsql](https://metacpan.org/release/App-fsql)
     - **Documentation link:** <https://metacpan.org/pod/distribution/App-fsql/bin/fsql>
     - **Programming language:** Perl
