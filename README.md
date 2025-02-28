@@ -92,6 +92,7 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 - [Miller](https://github.com/johnkerl/miller) **—** `sed`, `awk`, `cut`, `join` and `sort` for name-indexed data such as CSV and tabular JSON.
 - [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
 - [pawk](https://github.com/alecthomas/pawk) **—** Process text with AWK-like patterns, but Python code.
+- [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.
 - [qsv](https://github.com/jqnatividad/qsv) **—** Index, slice, analyze, split, and join CSV files. A fork of xsv that adds subcommands and features.
 - [ReadStat](https://github.com/WizardMac/ReadStat) **—** Convert statistics package datasets between SAS (SAS7BDAT, XPORT), SPSS (POR, SAV, ZSAV), and Stata (DTA). Convert those formats to CSV and XLSX. Can be used as a C library with bindings for Julia, Python, and R.
 - [rows](https://github.com/turicas/rows) **—** A Python library with a [CLI](http://turicas.info/rows/cli/). Convert between a number of [file formats](http://turicas.info/rows/plugins/) for tabular data: CSV, XLS, XLSX, ODS, and others. Query the data (via SQLite). Combine tables. Generate schemas.
@@ -131,6 +132,7 @@ See the [big comparison list](sql-based.md). It covers
 - [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) **—** A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained.
 - [htmlq](https://github.com/mgdm/htmlq) **—** Query HTML with CSS selectors. Can remove elements in the output.
 - [pup](https://github.com/EricChiang/pup) **—** Query HTML pages with CSS selectors. Static binaries available for releases. Inspired by [jq](#json).
+- [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.
 - [Saxon](http://saxon.sourceforge.net/) **—** Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl).
 - [Temme](https://github.com/shinima/temme) **—** Query HTML with CSS-like selectors to extract JSON. Temme extends CSS selectors with value capture patterns.
 - [tidy-html5](http://www.html-tidy.org/) **—** Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML.
@@ -181,6 +183,7 @@ See the [big comparison list](sql-based.md). It covers
 - [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
 - [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html).
 - [qpyson](https://github.com/mpkocher/qpyson) **—** Query and manipulate JSON with Python.
+- [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.
 - [query-json](https://github.com/davesnx/query-json) **—** A faster jq implementation written in Reason Native (OCaml).
 - [quicktype](https://github.com/quicktype/quicktype) **—** Infer the underlying model of the JSON and output as types for various programming languages or JSON Schema. CLI and [Web UI](https://app.quicktype.io).
 - [ramda-cli](https://github.com/raine/ramda-cli) **—** Manipulate JSON with the [Ramda](https://ramdajs.com/) functional library, and either LiveScript or JavaScript syntax.
@@ -210,6 +213,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 - [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 - [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
 - [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html).
+- [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.
 - [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
 - [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 - [taplo-cli](https://github.com/tamasfe/taplo) **—** Query, format, and validate (lint) TOML.
@@ -226,6 +230,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 - [html-xml-utils](https://www.w3.org/Tools/HTML-XML-utils/README) **—** A number of simple utilities (like `hxcopy`, `hxpipe`, `hxunent`, `hxselect`) for manipulating HTML and XML files from [W3C](https://www.w3.org/). Written in C, quite old-fashioned, but still relevant and maintained.
 - [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 - [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
+- [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.
 - [Saxon](http://saxon.sourceforge.net/) **—** Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl).
 - [sml2](https://github.com/JFLarvoire/libxml2) **—** Convert between XML and [SML](https://htmlpreview.github.io/?https://github.com/JFLarvoire/libxml2/blob/master/SML_presentation.htm), a simplified XML representation.
 - [tidy-html5](http://www.html-tidy.org/) **—** Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML.
@@ -258,6 +263,7 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
 - [madato](https://github.com/inosion/madato) **—** Convert ODS and XLSX spreadsheets to JSON, Markdown, and YAML.
 - [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 - [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
+- [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.
 - [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
 - [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 - [shyaml](https://github.com/0k/shyaml) **—** Query YAML. Can output null-terminated strings for use in shell scripts.
@@ -314,6 +320,10 @@ With a format converter like Remarshal you can use [JSON](#json) tools to proces
     - **Platform:** Free/Net/OpenBSD, Linux, macOS, Windows
     - **License:** MIT
     - **Description:** Query and transform data with the Nushell language.
+- [qq (INI)](https://github.com/JFryy/qq)
+    - **Platform:** Free/Net/OpenBSD, Linux, macOS, Windows
+    - **License:** MIT
+    - **Description:** Query and transform data with jq. Based on gojq.
 
 ### Multiple formats
 
@@ -355,6 +365,7 @@ We only count JSON support that is separate from YAML.
 - [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 - [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
 - [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html).
+- [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.
 - [RecordStream](https://github.com/benbernard/RecordStream) **—** Create, manipulate, and output a stream of records, or JSON objects. Can retrieve records from an SQL database, MongoDB, Atom feeds, XML, and other sources.
 - [ReadStat](https://github.com/WizardMac/ReadStat) **—** Convert statistics package datasets between SAS (SAS7BDAT, XPORT), SPSS (POR, SAV, ZSAV), and Stata (DTA). Convert those formats to CSV and XLSX. Can be used as a C library with bindings for Julia, Python, and R.
 - [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
@@ -438,6 +449,7 @@ Listed below are restricted programming language interpreters and templating too
 - [jid](https://github.com/simeji/jid) **—** Explore JSON interactively with filtering queries like jq.
 - [jiq](https://github.com/fiatjaf/jiq) **—** Explore JSON interactively with jq. Requires jq.
 - [lobar](https://github.com/sodiumjoe/lobar) **—** Process JSON and explore it interactively with a wrapper for `lodash.chain()`. An alternative to jq with JavaScript syntax.
+- [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.
 - [sc-im](https://github.com/andmarti1424/sc-im) **—** A Vim-like spreadsheet calculator for CSV and TSV files.
 - [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
 

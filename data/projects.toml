@@ -368,6 +368,11 @@ url = "https://github.com/mpkocher/qpyson"
 descr = "Query and manipulate JSON with Python."
 tags = ["json"]
 
+[qq]
+url = "https://github.com/JFryy/qq"
+descr = "Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library."
+tags = ["csv", "html", "json", "toml", "xml", "yaml", "multiformat", "tui"]
+
 [qsv]
 url = "https://github.com/jqnatividad/qsv"
 descr = "Index, slice, analyze, split, and join CSV files. A fork of xsv that adds subcommands and features."
@@ -663,6 +668,15 @@ tags = ["ini"]
 Platform = "Free/Net/OpenBSD, Linux, macOS, Windows"
 License = "MIT"
 Description = "Query and transform data with the Nushell language."
+
+["qq (INI)"]
+url = "https://github.com/JFryy/qq"
+tags = ["ini"]
+
+["qq (INI)".props]
+Platform = "Free/Net/OpenBSD, Linux, macOS, Windows"
+License = "MIT"
+Description = "Query and transform data with jq. Based on gojq."
 
 # Templating for structured text
 
