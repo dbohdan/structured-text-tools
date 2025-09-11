@@ -463,6 +463,11 @@ url = "http://tkatchev.bitbucket.io/tab/"
 descr = "A non-Turing-complete statically typed programming language for data processing. An alternative to awk."
 tags = ["csv"]
 
+[tabiew]
+url = "https://github.com/shshemi/tabiew"
+descr = "A TUI to view and query tabular files (CSV, Parquet, JSON, JSONL, Arrow, FWF, Sqlite, and Excel)"
+tags = ["tui"]
+
 [teip]
 url = "https://github.com/greymd/teip"
 descr = "Select fields, character ranges, or regular expression matches from standard input. Replace them with the output of a command."

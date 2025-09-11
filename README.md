@@ -452,6 +452,7 @@ Listed below are restricted programming language interpreters and templating too
 - [otree](https://github.com/fioncat/otree) **—** Expore JSON, TOML, and YAML using a TUI tree widget.
 - [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.
 - [sc-im](https://github.com/andmarti1424/sc-im) **—** A Vim-like spreadsheet calculator for CSV and TSV files.
+- [tabiew](https://github.com/shshemi/tabiew) **—** A TUI to view and query tabular files (CSV, Parquet, JSON, JSONL, Arrow, FWF, Sqlite, and Excel)
 - [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
 
 
