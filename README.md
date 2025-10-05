@@ -49,13 +49,13 @@ AWK/awk is a programming language and a POSIX-standard command-line tool. (You w
 
 ### POSIX commands
 
-- `comm` **—** Select the lines common to two sorted files or the lines contained in only one of them. (Manual: `man 1 comm` on your system, [GNU](https://linux.die.net/man/1/comm), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=comm&sektion=1).)
-- `cut` **—** Select portions of each line in one or more files. (Manual: `man 1 cut`, [GNU](https://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1).)
-- `grep` **—** Select the lines that match or do not match a pattern from one or more files. (Manual: `man 1 grep`, [GNU](https://linux.die.net/man/1/grep), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=grep&sektion=1).)
-- `join` **—** Take two files sorted by a common field and join their lines on the value of that field. Lines with values that do not appear in the other file are discarded. (Manual: `man 1 join`, [GNU](https://linux.die.net/man/1/join), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=join&sektion=1).)
-- `paste` **—** Combine several consecutive lines in a text file into one. (Manual: `man 1 paste`, [GNU](https://linux.die.net/man/1/paste), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=paste&sektion=1).)
-- `sort` **—** Sort lines by key fields. (Manual: `man 1 sort`, [GNU](https://linux.die.net/man/1/sort), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=sort&sektion=1).)
-- `uniq` **—** Find or remove repeated lines. (Manual: `man 1 uniq`, [GNU](https://linux.die.net/man/1/uniq), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=uniq&sektion=1).)
+- `comm` **—** Select the lines common to two sorted files or the lines contained in only one of them. (Manual: `man 1 comm` on your system, [GNU](https://linux.die.net/man/1/comm), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=comm&sektion=1), [POSIX](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/comm.html).)
+- `cut` **—** Select portions of each line in one or more files. (Manual: `man 1 cut`, [GNU](https://linux.die.net/man/1/cut), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=cut&sektion=1), [POSIX](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/cut.html).)
+- `grep` **—** Select the lines that match or do not match a pattern from one or more files. (Manual: `man 1 grep`, [GNU](https://linux.die.net/man/1/grep), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=grep&sektion=1), [POSIX](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/grep.html).)
+- `join` **—** Take two files sorted by a common field and join their lines on the value of that field. Lines with values that do not appear in the other file are discarded. (Manual: `man 1 join`, [GNU](https://linux.die.net/man/1/join), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=join&sektion=1), [POSIX](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/join.html).)
+- `paste` **—** Combine several consecutive lines in a text file into one. (Manual: `man 1 paste`, [GNU](https://linux.die.net/man/1/paste), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=paste&sektion=1), [POSIX](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/paste.html).)
+- `sort` **—** Sort lines by key fields. (Manual: `man 1 sort`, [GNU](https://linux.die.net/man/1/sort), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=sort&sektion=1), [POSIX](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/sort.html).)
+- `uniq` **—** Find or remove repeated lines. (Manual: `man 1 uniq`, [GNU](https://linux.die.net/man/1/uniq), [FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=uniq&sektion=1), [POSIX](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/uniq.html).)
 
 ### Other tools
 
