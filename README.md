@@ -389,7 +389,7 @@ We only count JSON support that is separate from YAML.
 
 Listed below are restricted programming language interpreters and templating tools that produce structured text output. They are generally intended to remove repetition in configuration files. They are distinct from unstructed templating tools like the `jinja2` CLI program, which should not be added to this table.
 
-- [CUE](https://github.com/cuelang/cue)
+- [CUE](https://github.com/cue-lang/cue)
     - **Output format:** JSON
     - **Turing-complete:** No
     - **Syntax:** Extended JSON

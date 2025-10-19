@@ -691,7 +691,7 @@ Description = "Query and transform data with jq. Based on gojq."
 # Templating for structured text
 
 [CUE]
-url = "https://github.com/cuelang/cue"
+url = "https://github.com/cue-lang/cue"
 tags = ["template"]
 
 [CUE.props]
