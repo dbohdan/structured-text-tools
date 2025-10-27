@@ -181,6 +181,7 @@ See the [big comparison list](sql-based.md). It covers
 - [madato](https://github.com/inosion/madato) **—** Convert ODS and XLSX spreadsheets to JSON, Markdown, and YAML.
 - [Mario](https://github.com/python-mario/mario) **—** Manipulate and convert between CSV, JSON, YAML, TOML, and XML with Python code.
 - [Nushell](https://github.com/nushell/nushell) **—** A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats.
+- [OjG](https://github.com/ohler55/ojg) **—** Query JSON using [JSONPath](https://en.wikipedia.org/wiki/JSONPath) with the `oj` command. Can be used as a Go library.
 - [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html).
 - [qpyson](https://github.com/mpkocher/qpyson) **—** Query and manipulate JSON with Python.
 - [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.

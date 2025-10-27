@@ -348,6 +348,11 @@ url = "https://github.com/nushell/nushell"
 descr = "A command shell. Can natively [load data](https://www.nushell.sh/book/loading_data.html) from CSV, INI, JSON, TOML, TSV, XML, YAML, and other formats."
 tags = ["csv", "json", "toml", "xml", "yaml", "multiformat"]
 
+[OjG]
+url = "https://github.com/ohler55/ojg"
+descr = "Query JSON using [JSONPath](https://en.wikipedia.org/wiki/JSONPath) with the `oj` command. Can be used as a Go library."
+tags = ["json"]
+
 [otree]
 url = "https://github.com/fioncat/otree"
 descr = "Expore JSON, TOML, and YAML using a TUI tree widget."
