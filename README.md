@@ -449,6 +449,7 @@ Listed below are restricted programming language interpreters and templating too
 - [argrelay](https://github.com/argrelay/argrelay) **—** Implement tab completion for commands in Bash based on search of indexed data through a background server.
 - [jid](https://github.com/simeji/jid) **—** Explore JSON interactively with filtering queries like jq.
 - [jiq](https://github.com/fiatjaf/jiq) **—** Explore JSON interactively with jq. Requires jq.
+- [jless](https://github.com/PaulJuliusMartinez/jless) **—** Explore and search JSON, JSON Lines, and YAML.
 - [lobar](https://github.com/sodiumjoe/lobar) **—** Process JSON and explore it interactively with a wrapper for `lodash.chain()`. An alternative to jq with JavaScript syntax.
 - [otree](https://github.com/fioncat/otree) **—** Expore JSON, TOML, and YAML using a TUI tree widget.
 - [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.

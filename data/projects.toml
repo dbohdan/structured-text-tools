@@ -228,6 +228,11 @@ url = "https://github.com/chrisdone/jl"
 descr = "Query and manipulate JSON using a tiny functional language."
 tags = ["json"]
 
+[jless]
+url = "https://github.com/PaulJuliusMartinez/jless"
+descr = "Explore and search JSON, JSON Lines, and YAML."
+tags = ["tui"]
+
 [jo]
 url = "https://github.com/jpmens/jo"
 descr = "Create JSON objects from the shell."
