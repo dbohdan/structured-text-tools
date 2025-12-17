@@ -63,6 +63,11 @@ url = "https://github.com/wireservice/csvkit"
 descr = "csvkit is a suite of command-line tools for converting to and working with CSV: convert, clean, cut, grep, join, sort, stack, format, render, query, analyze, etc."
 tags = ["csv"]
 
+[csvprintf]
+url = "https://github.com/archiecobbs/csvprintf"
+descr = "Create text output from CSV input with printf(1)-style format specifiers. Convert CSV to JSON, XML, and shell variable assignments."
+tags = ["csv"]
+
 [csvquote]
 url = "https://github.com/dbro/csvquote"
 descr = "Transform CSV to and from a format processable with [awk-like](#awk-like) tools."

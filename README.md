@@ -77,6 +77,7 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 - [csvfaker](https://github.com/pereorga/csvfaker) **—** Generate CSV files with fake data. Supports different types of fake data in different locales: names, cities, jobs, email addresses, and others.
 - [csvfix](https://github.com/jheusser/csvfix) **—** A multitool. Compare, filter, normalize, split, and validate CSV files. Reorder, remove, split, and merge fields. Convert data between fixed-width, multi-line, XML, and DSV format. Generate SQL statements. (Unofficial mirror.)
 - [csvkit](https://github.com/wireservice/csvkit) **—** csvkit is a suite of command-line tools for converting to and working with CSV: convert, clean, cut, grep, join, sort, stack, format, render, query, analyze, etc.
+- [csvprintf](https://github.com/archiecobbs/csvprintf) **—** Create text output from CSV input with printf(1)-style format specifiers. Convert CSV to JSON, XML, and shell variable assignments.
 - [csvquote](https://github.com/dbro/csvquote) **—** Transform CSV to and from a format processable with [awk-like](#awk-like) tools.
 - [csvtk](https://github.com/shenwei356/csvtk) **—** Search, sample, cut, join, transpose, and sort CSV/TSV files. Rename columns. Replace fields and generate new fiends from existing fields. Plot data as vector or raster histograms and box, line, and scatter plots. Convert CSV to Markdown. Convert XLSX to CSV. Split XLSX sheets.
 - [CSVtoTable](https://github.com/vividvilla/csvtotable) **—** Convert CSV to a searchable and sortable HTML table.
