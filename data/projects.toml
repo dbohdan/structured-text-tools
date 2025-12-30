@@ -510,8 +510,8 @@ tags = ["html"]
 
 [treemd]
 url = "https://github.com/Epistates/treemd"
-descr = "View Markdown. Extract elements using a jq-like query language."
-tags = ["markdown"]
+descr = "View Markdown with tree-based structural navigation. Extract elements using a jq-like query language."
+tags = ["markdown", "tui"]
 
 [tv]
 url = "https://github.com/codechenx/tv"

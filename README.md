@@ -203,7 +203,7 @@ See the [big comparison list](sql-based.md). It covers
 ## Markdown
 
 - [mdq](https://github.com/yshavit/mdq) **—** Select elements from Markdown documents using a syntax inspired by Markdown and jq. Match content with regular expressions. Output Markdown or JSON.
-- [treemd](https://github.com/Epistates/treemd) **—** View Markdown. Extract elements using a jq-like query language.
+- [treemd](https://github.com/Epistates/treemd) **—** View Markdown with tree-based structural navigation. Extract elements using a jq-like query language.
 
 
 ## TOML
@@ -457,6 +457,7 @@ Listed below are restricted programming language interpreters and templating too
 - [qq](https://github.com/JFryy/qq) **—** Query and manipulate data in a number of formats: CSV, GRON, HCL, HTML, INI, JSON, Proto definition language, Terraform, TOML, XML, YAML, and lines of text. Expore data interactively. Uses gojq as a library.
 - [sc-im](https://github.com/andmarti1424/sc-im) **—** A Vim-like spreadsheet calculator for CSV and TSV files.
 - [tabiew](https://github.com/shshemi/tabiew) **—** A TUI to view and query tabular files (CSV, Parquet, JSON, JSONL, Arrow, FWF, Sqlite, and Excel)
+- [treemd](https://github.com/Epistates/treemd) **—** View Markdown with tree-based structural navigation. Extract elements using a jq-like query language.
 - [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
 
 
