@@ -203,6 +203,7 @@ See the [big comparison list](sql-based.md). It covers
 ## Markdown
 
 - [mdq](https://github.com/yshavit/mdq) **—** Select elements from Markdown documents using a syntax inspired by Markdown and jq. Match content with regular expressions. Output Markdown or JSON.
+- [treemd](https://github.com/Epistates/treemd) **—** View Markdown. Extract elements using a jq-like query language.
 
 
 ## TOML

@@ -508,6 +508,11 @@ url = "https://github.com/plainas/tq"
 descr = "Query HTML with CSS selectors."
 tags = ["html"]
 
+[treemd]
+url = "https://github.com/Epistates/treemd"
+descr = "View Markdown. Extract elements using a jq-like query language."
+tags = ["markdown"]
+
 [tv]
 url = "https://github.com/codechenx/tv"
 descr = "View delimited files in the terminal."
