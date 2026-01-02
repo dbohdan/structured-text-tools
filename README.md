@@ -151,6 +151,7 @@ See the [big comparison list](sql-based.md). It covers
 - [emuto](http://kantord.github.io/emuto/) **—** CLI tool similar to jq. Create and manipulate CSV, TSV, and JSON. Can be compiled to JavaScript.
 - [fastgron](https://github.com/adamritter/fastgron) **—** Convert JSON to and from GRON, a flat, greppable list of `path=value` statements. Much faster than the original gron on large files.
 - [ffs](https://github.com/mgree/ffs) **—** Mount JSON, TOML, and YAML as a Unix filesystem.
+- [FracturedJson](https://github.com/j-brooke/FracturedJson) **—** Format JSON data in ways that are easy for humans to read but fairly compact. Supports JSON with comments.
 - [fx](https://github.com/antonmedv/fx) **—** Run arbitrary JavaScript on JSON input. Standalone binaries available.
 - [gojq](https://github.com/itchyny/gojq) **—** A pure Go implementation of jq. Supports YAML input and output.
 - [Graphtage](https://github.com/trailofbits/graphtage) **—** Compare and merge tree-like structures semantically. Supports JSON, JSON5, XML, HTML, YAML, and CSV. Can be used as a Python library.

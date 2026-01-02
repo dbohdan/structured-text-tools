@@ -118,6 +118,11 @@ url = "https://github.com/mgree/ffs"
 descr = "Mount JSON, TOML, and YAML as a Unix filesystem."
 tags = ["json", "toml", "yaml", "multiformat"]
 
+[FracturedJson]
+url = "https://github.com/j-brooke/FracturedJson"
+descr = "Format JSON data in ways that are easy for humans to read but fairly compact. Supports JSON with comments."
+tags = ["json"]
+
 [frawk]
 url = "https://github.com/ezrosent/frawk"
 descr = "A Rust implementation of a language partially compatible with AWK that supports [parallelism](https://github.com/ezrosent/frawk/blob/master/info/parallelism.md) and CSV input and output. frawk is an awk-derived language with a CSV mode for input and for output."
