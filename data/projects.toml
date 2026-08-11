@@ -33,6 +33,11 @@ url = "https://github.com/pastdev/clconf"
 descr = "Merge multiple config files and extract values from them using path string. Supports JSON and YAML. Can be used as a Go library."
 tags = ["yaml", "json", "multiformat"]
 
+[csv-cleanroom]
+url = "https://github.com/sdxiaomage/csv-cleanroom-action"
+descr = "Clean, validate, deduplicate, enrich with lookup joins, and reconcile CSV files. Generate cleaned data, row-level exceptions, and JSON summaries under explicit resource limits."
+tags = ["csv"]
+
 [csv-nix-tools]
 url = "https://github.com/mslusarz/csv-nix-tools"
 descr = "List \\*nix system information such as environment variables, files, processes, network connections, users as CSV. Manipulate and pretty-print CSV. Execute CSV rows as commands."
