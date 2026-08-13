@@ -71,6 +71,7 @@ AWK/awk is a programming language and a POSIX-standard command-line tool. (You w
 
 CSV, TSV, and other delimiter-separated value formats. Tools belong on this list if they support [field quoting](https://en.wikipedia.org/wiki/Comma-separated_values#Basic_rules).
 
+- [csv-cleanroom](https://github.com/sdxiaomage/csv-cleanroom-action) **—** Clean, validate, deduplicate, enrich with lookup joins, and reconcile CSV files. Generate cleaned data, row-level exceptions, and JSON summaries under explicit resource limits.
 - [csv-nix-tools](https://github.com/mslusarz/csv-nix-tools) **—** List \*nix system information such as environment variables, files, processes, network connections, users as CSV. Manipulate and pretty-print CSV. Execute CSV rows as commands.
 - [csv2html](https://github.com/dbohdan/csv2html) **—** Convert CSV to HTML tables.
 - [csv2md](https://github.com/pstaender/csv2md) **—** Convert CSV to Markdown tables.
