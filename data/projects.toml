@@ -38,6 +38,11 @@ url = "https://github.com/mslusarz/csv-nix-tools"
 descr = "List \\*nix system information such as environment variables, files, processes, network connections, users as CSV. Manipulate and pretty-print CSV. Execute CSV rows as commands."
 tags = ["csv"]
 
+["CSV Preflight"]
+url = "https://github.com/softpeanut/csv-preflight"
+descr = "Validate CSV encoding and structure from the command line. Detect delimiter, header, row-width, and duplicate-record problems. Write normalized CSV and an issue report. Runs as a single Node.js file."
+tags = ["csv"]
+
 [csv2html]
 url = "https://github.com/dbohdan/csv2html"
 descr = "Convert CSV to HTML tables."
