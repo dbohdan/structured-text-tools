@@ -398,12 +398,12 @@ We only count JSON support that is separate from YAML.
 
 Listed below are restricted programming language interpreters and templating tools that produce structured text output. They are generally intended to remove repetition in configuration files. They are distinct from unstructed templating tools like the `jinja2` CLI program, which should not be added to this table.
 
-- [CUE](https://github.com/cue-lang/cue)
-    - **Output format:** JSON
+- [CUE](https://cuelang.org/)
+    - **Output format:** JSON, YAML, TOML, CUE, plain text
     - **Turing-complete:** No
     - **Syntax:** Extended JSON
-    - **I/O:** ?
-    - **Description:** A constraint language for JSON configuration data. Can generate and validates JSON.
+    - **I/O:** Evaluation is hermetic by default. Commands run with `cue cmd` can read and write files, make HTTP requests, and run programs.
+    - **Description:** A data constraint, validation, templating, and transformation language with a CLI tool and a Go API. Can read and write [multiple formats](https://cuelang.org/docs/integration/).
 - [Dhall](https://dhall-lang.org/)
     - **Output format:** JSON, YAML
     - **Turing-complete:** No
