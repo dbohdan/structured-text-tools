@@ -585,7 +585,7 @@ tags = ["json", "xml", "multiformat"]
 
 [XMLLint]
 url = "http://xmlsoft.org/xmllint.html"
-descr = "Query (including XSLT), validate and reformat XML documents."
+descr = "Query XML with XPath, validate and reformat XML documents."
 tags = ["xml"]
 
 [XMLStarlet]
@@ -782,7 +782,7 @@ tags = ["template"]
 "Output format" = "JSON, TOML, YAML"
 Turing-complete = "Yes"
 Syntax = "Inspired by ML and JSON"
-"I/O" = "Limited input is to be implemented"
+"I/O" = "Can import files. The CLI can read environment variables through customization arguments."
 Description = "A gradually-typed functional configuration language with contracts."
 
 [Pkl]
