@@ -585,7 +585,7 @@ tags = ["json", "xml", "multiformat"]
 
 [XMLLint]
 url = "http://xmlsoft.org/xmllint.html"
-descr = "Query (including XSLT), validate and reformat XML documents."
+descr = "Query XML with XPath, validate and reformat XML documents."
 tags = ["xml"]
 
 [XMLStarlet]
