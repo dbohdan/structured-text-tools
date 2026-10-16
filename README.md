@@ -426,7 +426,7 @@ Listed below are restricted programming language interpreters and templating too
     - **Output format:** JSON, TOML, YAML
     - **Turing-complete:** Yes
     - **Syntax:** Inspired by ML and JSON
-    - **I/O:** Limited input is to be implemented
+    - **I/O:** Can import files. The CLI can read environment variables through customization arguments.
     - **Description:** A gradually-typed functional configuration language with contracts.
 - [Pkl](https://pkl-lang.org/)
     - **Output format:** JSON, YAML, macOS property list, Java `.properties`
