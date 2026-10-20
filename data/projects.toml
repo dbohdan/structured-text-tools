@@ -568,6 +568,11 @@ url = "http://www.videlibri.de/xidel.html"
 descr = "Query or modify XML and HTML pages with XPath, XQuery 3, and CSS selectors."
 tags = ["xml", "html", "multiformat"]
 
+[xled]
+url = "https://github.com/excelano/xled"
+descr = "Edit CSV and other tabular data with awk's field model and sed's `s///` substitution over Excel-style column, row, and cell ranges, previewing changes before writing. Written in Rust."
+tags = ["csv", "awk-other"]
+
 [xml-to-json-fast]
 url = "https://github.com/sinelaw/xml-to-json-fast"
 descr = "Convert XML to JSON. Can handle very large XML files."
@@ -602,6 +607,16 @@ tags = ["xml", "html", "multiformat"]
 url = "https://github.com/kislyuk/yq"
 descr = "[jq](#json) wrapper for XML documents."
 tags = ["xml"]
+
+[xray]
+url = "https://github.com/excelano/xray"
+descr = "Profile an unfamiliar CSV or DSV in a single pass, reporting its shape, the real type and contents of each column, and the problems that will bite you before you clean or query it. Read-only. Written in Rust."
+tags = ["csv"]
+
+[xshape]
+url = "https://github.com/excelano/xshape"
+descr = "Reshape the geometry of a table without changing, filtering, or aggregating values: pivot long to wide, unpivot wide to long, split or merge columns, explode delimited cells into rows, and transpose. Written in Rust."
+tags = ["csv"]
 
 [xsltproc]
 url = "http://xmlsoft.org/XSLT/xsltproc2.html"

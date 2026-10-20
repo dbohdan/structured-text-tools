@@ -65,6 +65,7 @@ AWK/awk is a programming language and a POSIX-standard command-line tool. (You w
 - [pyp](https://github.com/hauntsaninja/pyp) **—** Transform input (as text lines or as a whole) using Python code with automatic module imports. Can generate a Python script equivalent to its invocation. In Python 3.11 or later supports TOML through [tomllib](https://docs.python.org/3.11/library/tomllib.html).
 - [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 - [vnlog](https://github.com/dkogan/vnlog/) **—** Process labelled tabular ASCII data using normal UNIX tools. Can plot data with gnuplot.
+- [xled](https://github.com/excelano/xled) **—** Edit CSV and other tabular data with awk's field model and sed's `s///` substitution over Excel-style column, row, and cell ranges, previewing changes before writing. Written in Rust.
 
 
 ## CSV
@@ -105,6 +106,9 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 - [tv](https://github.com/codechenx/tv) **—** View delimited files in the terminal.
 - [undatum](https://github.com/datacoon/undatum) **—** Convert, validate, query, and document tabular/record data across CSV, JSON Lines, Parquet, BSON, Excel, and many other formats. Streaming I/O and DuckDB SQL. Install with `pipx install undatum` or `uv tool install undatum`.
 - [xan](https://github.com/medialab/xan) **—** Preview, filter, slice, aggregate, sort, and join CSV files.
+- [xled](https://github.com/excelano/xled) **—** Edit CSV and other tabular data with awk's field model and sed's `s///` substitution over Excel-style column, row, and cell ranges, previewing changes before writing. Written in Rust.
+- [xray](https://github.com/excelano/xray) **—** Profile an unfamiliar CSV or DSV in a single pass, reporting its shape, the real type and contents of each column, and the problems that will bite you before you clean or query it. Read-only. Written in Rust.
+- [xshape](https://github.com/excelano/xshape) **—** Reshape the geometry of a table without changing, filtering, or aggregating values: pivot long to wide, unpivot wide to long, split or merge columns, explode delimited cells into rows, and transpose. Written in Rust.
 - [xsv](https://github.com/BurntSushi/xsv) **—** Index, slice, analyze, split, and join CSV files.
 - [zsv](https://github.com/liquidaty/zsv) **—** Slice, combine, reformat, flatten/unflatten CSV (TSV, DSV) files. Query them with SQL and jq filters. Convert between them, JSON, and SQLite 3. Also a C library.
 
