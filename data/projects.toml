@@ -3,6 +3,11 @@ url = "https://www.thegeekstuff.com/2011/06/awk-nawk-gawk/"
 descr = "A comparison of features present in different implementations."
 tags = ["awk"]
 
+["Agentrix JSONL Guard"]
+url = "https://github.com/pauloflp/Agentrix/tree/main/products/agentrix-jsonl-guard"
+descr = "Validate JSON Lines and NDJSON files with per-line diagnostics and optional object-only records. Requires Node.js 20+; reads local files up to 20 MiB."
+tags = ["json"]
+
 [argrelay]
 url = "https://github.com/argrelay/argrelay"
 descr = "Implement tab completion for commands in Bash based on search of indexed data through a background server."
