@@ -202,6 +202,7 @@ See the [big comparison list](sql-based.md). It covers
 - [xmljson](https://github.com/engali94/XMLJson) **—** Convert multiple and large XML files to JSON. Written in Swift.
 - [yaml-diff-patch](https://github.com/grantila/yaml-diff-patch) **—** Patch YAML with [RFC 6902](https://datatracker.ietf.org/doc/html/rfc6902) JSON Patches. Generate a JSON Patch from two JSON documents or a YAML and a JSON document. Preserves style. Can be used as a TypeScript library.
 - [yamlpath](https://github.com/wwkimball/yamlpath) **—** Query, modify, diff, merge, and validate YAML and JSON with [YAML Paths](https://github.com/wwkimball/yamlpath/wiki/Segments-of-a-YAML-Path). Also a Python library.
+- [zog](https://github.com/aikoschurmann/zog) **—** Filter, extract fields from, and aggregate [JSON Lines](https://jsonlines.org/) with a SQL-like query language. A SIMD prefilter skips lines that cannot match; a validating parser decides the rest exactly. Standalone binaries available.
 
 
 ## Markdown

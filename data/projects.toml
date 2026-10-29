@@ -638,6 +638,11 @@ url = "https://github.com/mikefarah/yq"
 descr = "Query, modify, and merge YAML. Convert to and from JSON."
 tags = ["yaml"]
 
+[zog]
+url = "https://github.com/aikoschurmann/zog"
+descr = "Filter, extract fields from, and aggregate [JSON Lines](https://jsonlines.org/) with a SQL-like query language. A SIMD prefilter skips lines that cannot match; a validating parser decides the rest exactly. Standalone binaries available."
+tags = ["json"]
+
 [zsv]
 url = "https://github.com/liquidaty/zsv"
 descr = "Slice, combine, reformat, flatten/unflatten CSV (TSV, DSV) files. Query them with SQL and jq filters. Convert between them, JSON, and SQLite 3. Also a C library."
