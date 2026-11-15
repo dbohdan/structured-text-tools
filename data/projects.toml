@@ -478,6 +478,11 @@ url = "https://github.com/JFLarvoire/libxml2"
 descr = "Convert between XML and [SML](https://htmlpreview.github.io/?https://github.com/JFLarvoire/libxml2/blob/master/SML_presentation.htm), a simplified XML representation."
 tags = ["xml"]
 
+[sqrail]
+url = "https://github.com/yhay81/sqrail"
+descr = "Run one bounded, read-only DuckDB SQL query over explicitly bound CSV, TSV, JSON, JSON Lines, and Parquet files, writing streaming JSON Lines to stdout or an atomic non-overwriting output file. Prebuilt binaries for Linux, macOS, and Windows. See the [SQL-based tool comparison](sql-based.md)."
+tags = ["csv", "json", "multiformat"]
+
 [Squawk]
 url = "https://github.com/samuel/squawk"
 descr = "Query Apache and Nginx log files. See the [SQL-based tool comparison](sql-based.md)."
