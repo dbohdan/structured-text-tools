@@ -230,6 +230,29 @@
     - **Database table customization:** yes, primary key, indexes, foreign key constraints, automatic column datatype or text
     - **SQL dump:** yes
     - **Other:** chunked mode (read and process only N lines at a time)
+- [sqrail](https://github.com/yhay81/sqrail)
+    - **Documentation link:** <https://sqrail.yhay81.com/docs/>
+    - **Programming language:** C++
+    - **Database:** DuckDB
+    - **Column names from header row:** yes
+    - **Custom character encoding:** no, only UTF-8
+    - **Custom input field separator:** no, selected by file extension (`.csv` or `.tsv`/`.tab`)
+    - **Custom input record separator:** no
+    - **Custom output field separator:** no, selected by file extension
+    - **Custom output record separator:** no
+    - **JOINs:** yes
+    - **Use as library:** no
+    - **Input formats:** CSV, TSV, JSON, JSON Lines, Parquet (including `.gz`/`.zst` text and Hive-partitioned Parquet directories)
+    - **Output formats:** CSV, TSV, JSON, JSON Lines, Parquet
+    - **Custom table names:** yes, `-t NAME=PATH`
+    - **Custom column names:** yes, via SQL aliases
+    - **Keep database file:** no
+    - **Skip input fields:** yes, via SQL projection
+    - **Skip input records (lines):** yes, via SQL
+    - **Merge input fields:** no
+    - **Database table customization:** no, read-only temporary views
+    - **SQL dump:** no
+    - **Other:** explicit resource limits (`--memory`, `--threads`, `--timeout`, `--max-rows`, `--max-output-bytes`, `--spill`); atomic non-overwriting `-o` file output
 - [Squawk](https://github.com/samuel/squawk)
     - **Documentation link:** <>
     - **Programming language:** Python

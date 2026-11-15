@@ -100,6 +100,7 @@ CSV, TSV, and other delimiter-separated value formats. Tools belong on this list
 - [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 - [scrubcsv](https://github.com/faradayio/scrubcsv) **—** Remove bad lines from a CSV file and normalize the rest. Written in Rust.
 - [Skeem](https://github.com/daq-tools/skeem) **—** Infer SQL DDL statements from tabular data. Supports CSV, JSON, JSON Lines, ODS, XLSX, and other formats.
+- [sqrail](https://github.com/yhay81/sqrail) **—** Run one bounded, read-only DuckDB SQL query over explicitly bound CSV, TSV, JSON, JSON Lines, and Parquet files, writing streaming JSON Lines to stdout or an atomic non-overwriting output file. Prebuilt binaries for Linux, macOS, and Windows. See the [SQL-based tool comparison](sql-based.md).
 - [tab](http://tkatchev.bitbucket.io/tab/) **—** A non-Turing-complete statically typed programming language for data processing. An alternative to awk.
 - [teip](https://github.com/greymd/teip) **—** Select fields, character ranges, or regular expression matches from standard input. Replace them with the output of a command.
 - [tv](https://github.com/codechenx/tv) **—** View delimited files in the terminal.
@@ -122,6 +123,7 @@ See the [big comparison list](sql-based.md). It covers
 - rows
 - Sqawk (dbohdan)
 - sqawk (tjunier)
+- sqrail
 - Squawk
 - termsql
 - trdsql
@@ -196,6 +198,7 @@ See the [big comparison list](sql-based.md). It covers
 - [Remarshal](https://github.com/dbohdan/remarshal) **—** Convert between CBOR, JSON, MessagePack, TOML, and YAML. Validate each of the formats. Pretty-print JSON, TOML, and YAML.
 - [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 - [Skeem](https://github.com/daq-tools/skeem) **—** Infer SQL DDL statements from tabular data. Supports CSV, JSON, JSON Lines, ODS, XLSX, and other formats.
+- [sqrail](https://github.com/yhay81/sqrail) **—** Run one bounded, read-only DuckDB SQL query over explicitly bound CSV, TSV, JSON, JSON Lines, and Parquet files, writing streaming JSON Lines to stdout or an atomic non-overwriting output file. Prebuilt binaries for Linux, macOS, and Windows. See the [SQL-based tool comparison](sql-based.md).
 - [undatum](https://github.com/datacoon/undatum) **—** Convert, validate, query, and document tabular/record data across CSV, JSON Lines, Parquet, BSON, Excel, and many other formats. Streaming I/O and DuckDB SQL. Install with `pipx install undatum` or `uv tool install undatum`.
 - [validjson](http://github.com/martinlindhe/validjson) **—** Validate or pretty-print JSON.
 - [xml-to-json-fast](https://github.com/sinelaw/xml-to-json-fast) **—** Convert XML to JSON. Can handle very large XML files.
@@ -381,6 +384,7 @@ We only count JSON support that is separate from YAML.
 - [rq](https://github.com/dflemstr/rq) **—** Convert between Apache Avro, CBOR, CSV, JSON, MessagePack, Protocol Buffers, TOML, YAML, and awk-style plain text.
 - [Saxon](http://saxon.sourceforge.net/) **—** Query XML and HTML data with [XPath](https://devhints.io/xpath). [Documentation](http://www.saxonica.com/documentation/#!using-xsl).
 - [Skeem](https://github.com/daq-tools/skeem) **—** Infer SQL DDL statements from tabular data. Supports CSV, JSON, JSON Lines, ODS, XLSX, and other formats.
+- [sqrail](https://github.com/yhay81/sqrail) **—** Run one bounded, read-only DuckDB SQL query over explicitly bound CSV, TSV, JSON, JSON Lines, and Parquet files, writing streaming JSON Lines to stdout or an atomic non-overwriting output file. Prebuilt binaries for Linux, macOS, and Windows. See the [SQL-based tool comparison](sql-based.md).
 - [tidy-html5](http://www.html-tidy.org/) **—** Validate, fix, and reformat HTML(5), XHTML, and XML documents. Convert HTML to XHTML.
 - [undatum](https://github.com/datacoon/undatum) **—** Convert, validate, query, and document tabular/record data across CSV, JSON Lines, Parquet, BSON, Excel, and many other formats. Streaming I/O and DuckDB SQL. Install with `pipx install undatum` or `uv tool install undatum`.
 - [VisiData](https://github.com/saulpw/visidata) **—** Explore interactively data in TSV, CSV, XLS, XLSX, HDF5, JSON, and [other formats](http://visidata.org/man/#loaders). [Introduction](https://jsvine.github.io/intro-to-visidata/).
